@@ -1,0 +1,2043 @@
+fileFormatVersion: 2
+guid: 52977b31eb03c834895c1decb74a4881
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5449172964068501403
+    second: Blue Charged attack 2 48x48_0
+  - first:
+      213: -135799284551319936
+    second: Blue Charged attack 2 48x48_1
+  - first:
+      213: 4357633963258187146
+    second: Blue Charged attack 2 48x48_2
+  - first:
+      213: 2171681307560827789
+    second: Blue Charged attack 2 48x48_3
+  - first:
+      213: 870147933213867878
+    second: Blue Charged attack 2 48x48_4
+  - first:
+      213: 4845051268629214554
+    second: Blue Charged attack 2 48x48_5
+  - first:
+      213: 3987406882142569654
+    second: Blue Charged attack 2 48x48_6
+  - first:
+      213: -3491446370537409339
+    second: Blue Charged attack 2 48x48_7
+  - first:
+      213: -2362981216767845690
+    second: Blue Charged attack 2 48x48_8
+  - first:
+      213: -5974223568583419960
+    second: Blue Charged attack 2 48x48_9
+  - first:
+      213: 3279302118872260954
+    second: Blue Charged attack 2 48x48_10
+  - first:
+      213: -4771277129854165781
+    second: Blue Charged attack 2 48x48_11
+  - first:
+      213: -5424852428265796096
+    second: Blue Charged attack 2 48x48_12
+  - first:
+      213: -7870209143004168862
+    second: Blue Charged attack 2 48x48_13
+  - first:
+      213: 899549343113196572
+    second: Blue Charged attack 2 48x48_14
+  - first:
+      213: 1196814648289648397
+    second: Blue Charged attack 2 48x48_15
+  - first:
+      213: 611994447203982122
+    second: Blue Charged attack 2 48x48_16
+  - first:
+      213: -8916842367116391102
+    second: Blue Charged attack 2 48x48_17
+  - first:
+      213: -473626093092564256
+    second: Blue Charged attack 2 48x48_18
+  - first:
+      213: 8776229923815042007
+    second: Blue Charged attack 2 48x48_19
+  - first:
+      213: 5197491613359890704
+    second: Blue Charged attack 2 48x48_20
+  - first:
+      213: -3353496951997142369
+    second: Blue Charged attack 2 48x48_21
+  - first:
+      213: -4432275975613073128
+    second: Blue Charged attack 2 48x48_22
+  - first:
+      213: -3647376122501242095
+    second: Blue Charged attack 2 48x48_23
+  - first:
+      213: -619875789450572384
+    second: Blue Charged attack 2 48x48_24
+  - first:
+      213: 1099260620989791413
+    second: Blue Charged attack 2 48x48_25
+  - first:
+      213: -7005438674166594998
+    second: Blue Charged attack 2 48x48_26
+  - first:
+      213: 430806940962874064
+    second: Blue Charged attack 2 48x48_27
+  - first:
+      213: 6184398703498496662
+    second: Blue Charged attack 2 48x48_28
+  - first:
+      213: -4189593441057333930
+    second: Blue Charged attack 2 48x48_29
+  - first:
+      213: 4538499223431428415
+    second: Blue Charged attack 2 48x48_30
+  - first:
+      213: -818787660135335092
+    second: Blue Charged attack 2 48x48_31
+  - first:
+      213: -4067823853853360778
+    second: Blue Charged attack 2 48x48_32
+  - first:
+      213: -2216646390737498665
+    second: Blue Charged attack 2 48x48_33
+  - first:
+      213: -781920288372264980
+    second: Blue Charged attack 2 48x48_34
+  - first:
+      213: -8984264186302021164
+    second: Blue Charged attack 2 48x48_35
+  - first:
+      213: -4548112046028937781
+    second: Blue Charged attack 2 48x48_36
+  - first:
+      213: -890201583793386470
+    second: Blue Charged attack 2 48x48_37
+  - first:
+      213: 746153826610612807
+    second: Blue Charged attack 2 48x48_38
+  - first:
+      213: -2744280867873494244
+    second: Blue Charged attack 2 48x48_39
+  - first:
+      213: -1647436947041939261
+    second: Blue Charged attack 2 48x48_40
+  - first:
+      213: 6049420807102929407
+    second: Blue Charged attack 2 48x48_41
+  - first:
+      213: -4439711557001896607
+    second: Blue Charged attack 2 48x48_42
+  - first:
+      213: 4388918812223914823
+    second: Blue Charged attack 2 48x48_43
+  - first:
+      213: 2422108017338471817
+    second: Blue Charged attack 2 48x48_44
+  - first:
+      213: -5366705659012938752
+    second: Blue Charged attack 2 48x48_45
+  - first:
+      213: -301323714080458670
+    second: Blue Charged attack 2 48x48_46
+  - first:
+      213: -4142114282785899326
+    second: Blue Charged attack 2 48x48_47
+  - first:
+      213: 6991492285900890301
+    second: Blue Charged attack 2 48x48_48
+  - first:
+      213: -6473653103302432270
+    second: Blue Charged attack 2 48x48_49
+  - first:
+      213: 1703531958285572586
+    second: Blue Charged attack 2 48x48_50
+  - first:
+      213: 552874881065995074
+    second: Blue Charged attack 2 48x48_51
+  - first:
+      213: 6122264462867212035
+    second: Blue Charged attack 2 48x48_52
+  - first:
+      213: -6276546108786889802
+    second: Blue Charged attack 2 48x48_53
+  - first:
+      213: 9132137153245915694
+    second: Blue Charged attack 2 48x48_54
+  - first:
+      213: -7901345262913557400
+    second: Blue Charged attack 2 48x48_55
+  - first:
+      213: 342850897377681600
+    second: Blue Charged attack 2 48x48_56
+  - first:
+      213: -4918447648651404007
+    second: Blue Charged attack 2 48x48_57
+  - first:
+      213: -4960707385503239346
+    second: Blue Charged attack 2 48x48_58
+  - first:
+      213: -5110360568296309483
+    second: Blue Charged attack 2 48x48_59
+  - first:
+      213: -4811296043264541237
+    second: Blue Charged attack 2 48x48_60
+  - first:
+      213: -3298105134171596348
+    second: Blue Charged attack 2 48x48_61
+  - first:
+      213: -6462261394392989277
+    second: Blue Charged attack 2 48x48_62
+  - first:
+      213: -4065791068201454720
+    second: Blue Charged attack 2 48x48_63
+  - first:
+      213: -8490991714742483074
+    second: Blue Charged attack 2 48x48_64
+  - first:
+      213: -6025120999305223651
+    second: Blue Charged attack 2 48x48_65
+  - first:
+      213: -83904689907780279
+    second: Blue Charged attack 2 48x48_66
+  - first:
+      213: 4925307305624862154
+    second: Blue Charged attack 2 48x48_67
+  - first:
+      213: -3105927885791534242
+    second: Blue Charged attack 2 48x48_68
+  - first:
+      213: 8455967321000719919
+    second: Blue Charged attack 2 48x48_69
+  - first:
+      213: -1917690546080708935
+    second: Blue Charged attack 2 48x48_70
+  - first:
+      213: -3723772373757709606
+    second: Blue Charged attack 2 48x48_71
+  - first:
+      213: 7261479676752477811
+    second: Blue Charged attack 2 48x48_72
+  - first:
+      213: 2503453038293068624
+    second: Blue Charged attack 2 48x48_73
+  - first:
+      213: -8147978652249520622
+    second: Blue Charged attack 2 48x48_74
+  - first:
+      213: 6707379399261607905
+    second: Blue Charged attack 2 48x48_75
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 155
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9727fa90f95f9b40800000000000000
+      internalID: 5449172964068501403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 156
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ef09b254b8d1ef0800000000000000
+      internalID: -135799284551319936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 156
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d8e29700d697c30800000000000000
+      internalID: 4357633963258187146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_3
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 156
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8bd486a4ac532e10800000000000000
+      internalID: 2171681307560827789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_4
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 156
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66fb04d5fe2631c00800000000000000
+      internalID: 870147933213867878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_5
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 154
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55333965741d3340800000000000000
+      internalID: 4845051268629214554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_6
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 153
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b44e01ee6d165730800000000000000
+      internalID: 3987406882142569654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_7
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 151
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c47ac34604eb8fc0800000000000000
+      internalID: -3491446370537409339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 149
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cad1ab5a11053fd0800000000000000
+      internalID: -2362981216767845690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_9
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 150
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c791d1315b471da0800000000000000
+      internalID: -5974223568583419960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_10
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 149
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51219217eb628d20800000000000000
+      internalID: 3279302118872260954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_11
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 150
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: becd81ecab409cdb0800000000000000
+      internalID: -4771277129854165781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_12
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 149
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e4d46657d07b4b0800000000000000
+      internalID: -5424852428265796096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_13
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 150
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d743b8b7667c290800000000000000
+      internalID: -7870209143004168862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_14
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 150
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14b23e8c57db7c00800000000000000
+      internalID: 899549343113196572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_15
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 151
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0fd945e490fb9010800000000000000
+      internalID: 1196814648289648397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_16
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 159
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2bda1e05bd3e7800800000000000000
+      internalID: 611994447203982122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_17
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 159
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24dcfdd4c13014480800000000000000
+      internalID: -8916842367116391102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_18
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 159
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e29cd4e3975d69f0800000000000000
+      internalID: -473626093092564256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_19
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 111
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db26240e9e6bc970800000000000000
+      internalID: 8776229923815042007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_20
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 111
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0116369b513312840800000000000000
+      internalID: 5197491613359890704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_21
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 111
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9aeadc2a4cf571d0800000000000000
+      internalID: -3353496951997142369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_22
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 111
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819b51fbb746d72c0800000000000000
+      internalID: -4432275975613073128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_23
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 111
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1136210cdbae16dc0800000000000000
+      internalID: -3647376122501242095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_24
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 111
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad0fe4f042c567f0800000000000000
+      internalID: -619875789450572384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_25
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 111
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bcfbade5bb514f00800000000000000
+      internalID: 1099260620989791413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_26
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 111
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42448a64aea7ce90800000000000000
+      internalID: -7005438674166594998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_27
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 111
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d26dda51a88af500800000000000000
+      internalID: 430806940962874064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_28
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 101
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a0a6fbad563d550800000000000000
+      internalID: 6184398703498496662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_29
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 101
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d987876f29bd5c0800000000000000
+      internalID: -4189593441057333930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_30
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 102
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39340a6ffcfbfe30800000000000000
+      internalID: 4538499223431428415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_31
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 101
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4bf82316f413a4f0800000000000000
+      internalID: -818787660135335092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_32
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 102
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67db536d1cf2c87c0800000000000000
+      internalID: -4067823853853360778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_33
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 101
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd80771ad3ec31e0800000000000000
+      internalID: -2216646390737498665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_34
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 102
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef66e8f3af0625f0800000000000000
+      internalID: -781920288372264980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_35
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 102
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1443fb25b715380800000000000000
+      internalID: -8984264186302021164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_36
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 102
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc525c9e03cd1e0c0800000000000000
+      internalID: -4548112046028937781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_37
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 103
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c4183406e55a3f0800000000000000
+      internalID: -890201583793386470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_38
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 54
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74a8ce6b3feda5a00800000000000000
+      internalID: 746153826610612807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_39
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 55
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1bef7a271b5ae9d0800000000000000
+      internalID: -2744280867873494244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_40
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 55
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c016bd33d02329e0800000000000000
+      internalID: -1647436947041939261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_41
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 55
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff91a304c2cd3f350800000000000000
+      internalID: 6049420807102929407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_42
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 54
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d94bb8cd9f262c0800000000000000
+      internalID: -4439711557001896607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_43
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 52
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743c2aef76298ec30800000000000000
+      internalID: 4388918812223914823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_44
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 51
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985d51da86e0d9120800000000000000
+      internalID: 2422108017338471817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_45
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 49
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004847c13a1a585b0800000000000000
+      internalID: -5366705659012938752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_46
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 47
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25835d3bdab71dbf0800000000000000
+      internalID: -301323714080458670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_47
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 56
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc797371014486c0800000000000000
+      internalID: -4142114282785899326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_48
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 53
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0a1070135c60160800000000000000
+      internalID: 6991492285900890301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_49
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 54
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9ad8a2dc6f826a0800000000000000
+      internalID: -6473653103302432270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_50
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 53
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae913255a4924a710800000000000000
+      internalID: 1703531958285572586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_51
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 54
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24bcc2b66c43ca700800000000000000
+      internalID: 552874881065995074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_52
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 56
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307a2328717a6f450800000000000000
+      internalID: 6122264462867212035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_53
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 63
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bba561919a35e8a0800000000000000
+      internalID: -6276546108786889802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_54
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 63
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2aae535b5edbbe70800000000000000
+      internalID: 9132137153245915694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_55
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 63
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c6254b858c85290800000000000000
+      internalID: -7901345262913557400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_56
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 63
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0ee1d131d02c400800000000000000
+      internalID: 342850897377681600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_57
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 15
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d17cf2ce92ebbb0800000000000000
+      internalID: -4918447648651404007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_58
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 15
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e433c647ae6082bb0800000000000000
+      internalID: -4960707385503239346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_59
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 15
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51df884932a5419b0800000000000000
+      internalID: -5110360568296309483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_60
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 15
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd79ff6db7da3db0800000000000000
+      internalID: -4811296043264541237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_61
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 15
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c95fc5cad6ca32d0800000000000000
+      internalID: -3298105134171596348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_62
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 15
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a14c75108f6156a0800000000000000
+      internalID: -6462261394392989277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_63
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 15
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08375e0a0986397c0800000000000000
+      internalID: -4065791068201454720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_64
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 15
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e774dfbc500f92a80800000000000000
+      internalID: -8490991714742483074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_65
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 15
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d126aa3af58726ca0800000000000000
+      internalID: -6025120999305223651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_66
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 15
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945be0b0129e5def0800000000000000
+      internalID: -83904689907780279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_67
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 5
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acdf76926e43a5440800000000000000
+      internalID: 4925307305624862154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_68
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 6
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e536a653b0785e4d0800000000000000
+      internalID: -3105927885791534242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_69
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 5
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f263f801a71a95570800000000000000
+      internalID: 8455967321000719919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_70
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 6
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b60cb3db9ef265e0800000000000000
+      internalID: -1917690546080708935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_71
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 15
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad232c561c0825cc0800000000000000
+      internalID: -3723772373757709606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_72
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 13
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ebc840b45f5c460800000000000000
+      internalID: 7261479676752477811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_73
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 12
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ba453464d0eb220800000000000000
+      internalID: 2503453038293068624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_74
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 11
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 216833be5909cee80800000000000000
+      internalID: -8147978652249520622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Charged attack 2 48x48_75
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 11
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7d2c2c606651d50800000000000000
+      internalID: 6707379399261607905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
