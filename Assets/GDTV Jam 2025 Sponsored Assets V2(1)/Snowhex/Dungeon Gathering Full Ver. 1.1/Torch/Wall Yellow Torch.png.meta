@@ -560,7 +560,24 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wall Yellow Torch_0: -8782524354084611860
+      Wall Yellow Torch_1: -8572375705647637963
+      Wall Yellow Torch_10: 7062742487297944335
+      Wall Yellow Torch_11: 5822384403658902364
+      Wall Yellow Torch_12: 8184781783914296531
+      Wall Yellow Torch_13: 3060725418954978765
+      Wall Yellow Torch_14: -5758800649634333161
+      Wall Yellow Torch_15: -4399709786537186478
+      Wall Yellow Torch_16: -4368169011396704700
+      Wall Yellow Torch_2: -4763488619853321428
+      Wall Yellow Torch_3: -3997062772649283893
+      Wall Yellow Torch_4: -8761042098748908239
+      Wall Yellow Torch_5: -5140530670134441883
+      Wall Yellow Torch_6: -1531823599055779159
+      Wall Yellow Torch_7: -3713458410489487914
+      Wall Yellow Torch_8: 4548969028170713314
+      Wall Yellow Torch_9: 7408695062441319514
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

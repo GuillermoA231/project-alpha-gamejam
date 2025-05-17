@@ -335,7 +335,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Grate 2.2 break (no particles) 24x24_0: 6455768660186175602
+      Grate 2.2 break (no particles) 24x24_1: -969688898699081065
+      Grate 2.2 break (no particles) 24x24_2: -2892397323848846079
+      Grate 2.2 break (no particles) 24x24_3: 3896906436257551208
+      Grate 2.2 break (no particles) 24x24_4: 1160526225915020919
+      Grate 2.2 break (no particles) 24x24_5: -4766344941953353857
+      Grate 2.2 break (no particles) 24x24_6: -1503072917335869162
+      Grate 2.2 break (no particles) 24x24_7: -6281150770746663391
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

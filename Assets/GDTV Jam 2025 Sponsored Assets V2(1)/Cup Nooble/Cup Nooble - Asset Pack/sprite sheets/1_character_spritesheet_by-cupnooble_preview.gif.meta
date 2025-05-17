@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      1_character_spritesheet_by-cupnooble_preview_0: 1038167234920902623
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

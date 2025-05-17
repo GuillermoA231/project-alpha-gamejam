@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      T_ATB_FaceCard_Wince_0: 8569611948197326242
+      T_ATB_FaceCard_Wince_1: 4384513342164958421
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

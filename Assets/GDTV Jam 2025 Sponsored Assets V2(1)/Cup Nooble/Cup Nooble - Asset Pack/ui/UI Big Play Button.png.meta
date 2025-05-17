@@ -235,7 +235,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      UI Big Play Button_0: -7635131891296033614
+      UI Big Play Button_1: 4039400600653599922
+      UI Big Play Button_2: -8580378784410186006
+      UI Big Play Button_3: -2875451725827336238
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

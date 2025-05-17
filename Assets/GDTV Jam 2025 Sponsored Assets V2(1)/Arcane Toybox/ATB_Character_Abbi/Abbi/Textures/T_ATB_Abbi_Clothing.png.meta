@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      T_ATB_Abbi_Clothing_0: 1483312409684433663
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

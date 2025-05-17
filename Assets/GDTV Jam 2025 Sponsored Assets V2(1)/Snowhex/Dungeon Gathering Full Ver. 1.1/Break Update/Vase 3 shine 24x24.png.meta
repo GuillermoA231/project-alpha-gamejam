@@ -535,7 +535,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Vase 3 shine 24x24_0: 1725281123798556342
+      Vase 3 shine 24x24_1: 3218428802410854725
+      Vase 3 shine 24x24_10: 7378323608352252161
+      Vase 3 shine 24x24_11: 2433749280593499110
+      Vase 3 shine 24x24_12: 3631044967400582609
+      Vase 3 shine 24x24_13: -6201994366718872239
+      Vase 3 shine 24x24_14: 2973688798134959924
+      Vase 3 shine 24x24_15: -5471183497044333311
+      Vase 3 shine 24x24_2: -8534667361986501561
+      Vase 3 shine 24x24_3: -3309562614107422723
+      Vase 3 shine 24x24_4: -3529174259020973120
+      Vase 3 shine 24x24_5: 4553857959581937370
+      Vase 3 shine 24x24_6: 4520094154465285793
+      Vase 3 shine 24x24_7: -1930440512270098992
+      Vase 3 shine 24x24_8: 7683985283986008792
+      Vase 3 shine 24x24_9: 3622386132306318396
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

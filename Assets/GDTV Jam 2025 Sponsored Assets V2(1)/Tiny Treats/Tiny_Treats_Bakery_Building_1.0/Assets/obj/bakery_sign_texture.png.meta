@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bakery_sign_texture_0: -7092195125087321736
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

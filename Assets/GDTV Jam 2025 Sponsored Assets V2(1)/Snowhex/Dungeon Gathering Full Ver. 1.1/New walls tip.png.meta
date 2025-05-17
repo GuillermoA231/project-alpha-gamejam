@@ -235,7 +235,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      New walls tip_0: 3302318926136480934
+      New walls tip_1: -6595440383565693957
+      New walls tip_2: 8935762104508535714
+      New walls tip_3: -8854671920107331801
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -335,7 +335,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Torch Red R_0: -2461311261478089647
+      Torch Red R_1: -2148295192083847549
+      Torch Red R_2: -6006154466084031849
+      Torch Red R_3: -6697158177301157520
+      Torch Red R_4: -7023346759466345445
+      Torch Red R_5: -3957477435863649855
+      Torch Red R_6: -280613384481536754
+      Torch Red R_7: -5710863439817356985
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

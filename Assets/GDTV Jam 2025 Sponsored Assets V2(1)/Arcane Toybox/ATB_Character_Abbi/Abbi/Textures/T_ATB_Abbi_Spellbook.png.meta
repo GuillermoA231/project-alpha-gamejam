@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      T_ATB_Abbi_Spellbook_0: 8223554226915741929
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

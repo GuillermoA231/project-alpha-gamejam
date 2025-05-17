@@ -335,7 +335,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Blue Asha Raising 2 (Idle) 32x32_0: -7051110712216382355
+      Blue Asha Raising 2 (Idle) 32x32_1: -5228582752906048285
+      Blue Asha Raising 2 (Idle) 32x32_2: -6071178441274211364
+      Blue Asha Raising 2 (Idle) 32x32_3: -3558777469323926715
+      Blue Asha Raising 2 (Idle) 32x32_4: 6099648362628727483
+      Blue Asha Raising 2 (Idle) 32x32_5: 6621578169148046861
+      Blue Asha Raising 2 (Idle) 32x32_6: 1713774181851421968
+      Blue Asha Raising 2 (Idle) 32x32_7: -3204164238100648524
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1010,7 +1010,42 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Basic_Grass_Biom_things_0: 8407099408872834079
+      Basic_Grass_Biom_things_1: -4483405589367954294
+      Basic_Grass_Biom_things_10: -6670602494816968044
+      Basic_Grass_Biom_things_11: -8012251555257809038
+      Basic_Grass_Biom_things_12: 7268384422062842137
+      Basic_Grass_Biom_things_13: 3335431313823277835
+      Basic_Grass_Biom_things_14: 1885927974880641005
+      Basic_Grass_Biom_things_15: 8535626180064015413
+      Basic_Grass_Biom_things_16: -2921803470163051551
+      Basic_Grass_Biom_things_17: -4589374451575535494
+      Basic_Grass_Biom_things_18: 1864594044337740870
+      Basic_Grass_Biom_things_19: 91600111087901135
+      Basic_Grass_Biom_things_2: -5349162287720021793
+      Basic_Grass_Biom_things_20: 3599093014651263459
+      Basic_Grass_Biom_things_21: 7916597692037867068
+      Basic_Grass_Biom_things_22: -5031486422384086316
+      Basic_Grass_Biom_things_23: -156893179128996210
+      Basic_Grass_Biom_things_24: 1807493274958205077
+      Basic_Grass_Biom_things_25: 4343652473070856246
+      Basic_Grass_Biom_things_26: 6170355760825025116
+      Basic_Grass_Biom_things_27: 4843801229222195905
+      Basic_Grass_Biom_things_28: 4234501361853811480
+      Basic_Grass_Biom_things_29: 5529813397668788036
+      Basic_Grass_Biom_things_3: 3904590873319227916
+      Basic_Grass_Biom_things_30: 8034090694681843622
+      Basic_Grass_Biom_things_31: 3458278394240470359
+      Basic_Grass_Biom_things_32: -8199537052879894385
+      Basic_Grass_Biom_things_33: 8695683358697833278
+      Basic_Grass_Biom_things_34: -4416082339687184195
+      Basic_Grass_Biom_things_4: 6553798187587934576
+      Basic_Grass_Biom_things_5: -3361698288007970698
+      Basic_Grass_Biom_things_6: 7676768948492145327
+      Basic_Grass_Biom_things_7: -2476217457421026210
+      Basic_Grass_Biom_things_8: 8507885531282197233
+      Basic_Grass_Biom_things_9: 1833829121678256577
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

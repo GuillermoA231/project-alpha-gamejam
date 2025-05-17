@@ -1085,7 +1085,45 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Gate sheet all_0: -829482922748365909
+      Gate sheet all_1: 7220074513519642699
+      Gate sheet all_10: -605201580927808382
+      Gate sheet all_11: -7286080300553289578
+      Gate sheet all_12: -273131000277674678
+      Gate sheet all_13: -90604708866497787
+      Gate sheet all_14: 1183455443566713776
+      Gate sheet all_15: -3751334874842315150
+      Gate sheet all_16: -620892748306569535
+      Gate sheet all_17: 815597363881670570
+      Gate sheet all_18: 5297869075313535674
+      Gate sheet all_19: 7850552939423003334
+      Gate sheet all_2: -5431854302202779459
+      Gate sheet all_20: 1730209617826302850
+      Gate sheet all_21: 1872374232360805268
+      Gate sheet all_22: -5414013056012223272
+      Gate sheet all_23: 2496199282558560956
+      Gate sheet all_24: -8058977253694312772
+      Gate sheet all_25: 2942419875468954494
+      Gate sheet all_26: -3712338710919005594
+      Gate sheet all_27: -4443554377732929398
+      Gate sheet all_28: 1573204872874537732
+      Gate sheet all_29: -7574037659708373840
+      Gate sheet all_3: 7037594677074371614
+      Gate sheet all_30: 754536277112954368
+      Gate sheet all_31: -7837507523788133428
+      Gate sheet all_32: 3741359449136765659
+      Gate sheet all_33: -4220237571411973268
+      Gate sheet all_34: 6483540521169850988
+      Gate sheet all_35: -2284654830638782103
+      Gate sheet all_36: -5923248767579437894
+      Gate sheet all_37: 3236691542636967841
+      Gate sheet all_4: 5516249998594606192
+      Gate sheet all_5: 7124866202152873708
+      Gate sheet all_6: 1841170974437111213
+      Gate sheet all_7: 9083355307821312669
+      Gate sheet all_8: -1196517586374651579
+      Gate sheet all_9: 5394855278333296928
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

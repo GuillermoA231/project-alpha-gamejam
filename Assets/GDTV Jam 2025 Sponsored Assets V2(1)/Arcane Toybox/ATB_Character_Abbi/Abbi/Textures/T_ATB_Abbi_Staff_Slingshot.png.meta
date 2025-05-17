@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      T_ATB_Abbi_Staff_Slingshot_0: 4240815941310835535
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

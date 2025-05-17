@@ -460,7 +460,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Icons Gif_0: 3629839195101395565
+      Icons Gif_1: 6068462356988847323
+      Icons Gif_10: 3356247932874333365
+      Icons Gif_11: -6478279267914287554
+      Icons Gif_12: -2033227686680932938
+      Icons Gif_2: 9193362324370419622
+      Icons Gif_3: -275040686383504460
+      Icons Gif_4: -5090737967910014605
+      Icons Gif_5: 7033956557480477182
+      Icons Gif_6: 4068745946262086925
+      Icons Gif_7: 3454022101668773449
+      Icons Gif_8: 8341950085016633377
+      Icons Gif_9: -1467978764313220367
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

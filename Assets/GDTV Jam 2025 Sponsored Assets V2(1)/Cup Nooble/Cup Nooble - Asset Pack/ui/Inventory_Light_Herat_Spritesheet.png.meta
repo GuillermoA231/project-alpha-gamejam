@@ -585,7 +585,25 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Inventory_Light_Herat_Spritesheet_0: -5309686240534045190
+      Inventory_Light_Herat_Spritesheet_1: -7151305907003446486
+      Inventory_Light_Herat_Spritesheet_10: 1385332256137943426
+      Inventory_Light_Herat_Spritesheet_11: 280084371181562090
+      Inventory_Light_Herat_Spritesheet_12: 5902868739944080173
+      Inventory_Light_Herat_Spritesheet_13: 5184599671776477901
+      Inventory_Light_Herat_Spritesheet_14: 2083309552163087692
+      Inventory_Light_Herat_Spritesheet_15: 628875345614244943
+      Inventory_Light_Herat_Spritesheet_16: -4461502635021010955
+      Inventory_Light_Herat_Spritesheet_17: -7071203617576828381
+      Inventory_Light_Herat_Spritesheet_2: 4244905124775150366
+      Inventory_Light_Herat_Spritesheet_3: 6316795257648763340
+      Inventory_Light_Herat_Spritesheet_4: -98835944865485623
+      Inventory_Light_Herat_Spritesheet_5: -3216486301823370485
+      Inventory_Light_Herat_Spritesheet_6: 2908513542965118872
+      Inventory_Light_Herat_Spritesheet_7: -8742406830129796814
+      Inventory_Light_Herat_Spritesheet_8: -3565978459519954814
+      Inventory_Light_Herat_Spritesheet_9: -7613032403634768356
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

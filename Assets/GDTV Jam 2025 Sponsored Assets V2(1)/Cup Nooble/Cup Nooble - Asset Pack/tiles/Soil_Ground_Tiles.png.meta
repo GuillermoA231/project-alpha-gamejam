@@ -335,7 +335,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Soil_Ground_Tiles_0: -6869351115043516772
+      Soil_Ground_Tiles_1: -8512339620013895911
+      Soil_Ground_Tiles_2: 8742054404995918048
+      Soil_Ground_Tiles_3: -4672600500942308001
+      Soil_Ground_Tiles_4: -1724181921436282670
+      Soil_Ground_Tiles_5: -7822470487335170329
+      Soil_Ground_Tiles_6: -6569903564900516984
+      Soil_Ground_Tiles_7: -2812105430960975897
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
