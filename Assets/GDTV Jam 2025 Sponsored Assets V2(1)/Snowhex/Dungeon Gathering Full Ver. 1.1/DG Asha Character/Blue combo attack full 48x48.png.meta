@@ -1,0 +1,2043 @@
+fileFormatVersion: 2
+guid: 2bbb409ec4494c94f85285c94b55b2b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2372305079452148223
+    second: Blue combo attack full 48x48_0
+  - first:
+      213: 4257934444121551897
+    second: Blue combo attack full 48x48_1
+  - first:
+      213: -8222074848455985683
+    second: Blue combo attack full 48x48_2
+  - first:
+      213: -7547661941397818609
+    second: Blue combo attack full 48x48_3
+  - first:
+      213: 6937207779317400403
+    second: Blue combo attack full 48x48_4
+  - first:
+      213: -7120333967576917778
+    second: Blue combo attack full 48x48_5
+  - first:
+      213: -4281811846887899122
+    second: Blue combo attack full 48x48_6
+  - first:
+      213: 1341978008863974427
+    second: Blue combo attack full 48x48_7
+  - first:
+      213: 5061245155894677122
+    second: Blue combo attack full 48x48_8
+  - first:
+      213: -7220423364542216989
+    second: Blue combo attack full 48x48_9
+  - first:
+      213: 194951068484288826
+    second: Blue combo attack full 48x48_10
+  - first:
+      213: 1474638820876657815
+    second: Blue combo attack full 48x48_11
+  - first:
+      213: -6643405724378535206
+    second: Blue combo attack full 48x48_12
+  - first:
+      213: -4904355330179816461
+    second: Blue combo attack full 48x48_13
+  - first:
+      213: 5090562119673188978
+    second: Blue combo attack full 48x48_14
+  - first:
+      213: -4479259740450596308
+    second: Blue combo attack full 48x48_15
+  - first:
+      213: -1289516764603099461
+    second: Blue combo attack full 48x48_16
+  - first:
+      213: -9029352233502205368
+    second: Blue combo attack full 48x48_17
+  - first:
+      213: -8679648453321574853
+    second: Blue combo attack full 48x48_18
+  - first:
+      213: -3393041457850754290
+    second: Blue combo attack full 48x48_19
+  - first:
+      213: 4745492136697198909
+    second: Blue combo attack full 48x48_20
+  - first:
+      213: -1923035184779030344
+    second: Blue combo attack full 48x48_21
+  - first:
+      213: -5050227602468967110
+    second: Blue combo attack full 48x48_22
+  - first:
+      213: 5391962297515288533
+    second: Blue combo attack full 48x48_23
+  - first:
+      213: 2053296964918957823
+    second: Blue combo attack full 48x48_24
+  - first:
+      213: 3622199397569360952
+    second: Blue combo attack full 48x48_25
+  - first:
+      213: 3711935377527736864
+    second: Blue combo attack full 48x48_26
+  - first:
+      213: -4978395979759666816
+    second: Blue combo attack full 48x48_27
+  - first:
+      213: 4218464486033483347
+    second: Blue combo attack full 48x48_28
+  - first:
+      213: 5336333876533003932
+    second: Blue combo attack full 48x48_29
+  - first:
+      213: 3431939552456241502
+    second: Blue combo attack full 48x48_30
+  - first:
+      213: -4056844381899937278
+    second: Blue combo attack full 48x48_31
+  - first:
+      213: -9135112569127472578
+    second: Blue combo attack full 48x48_32
+  - first:
+      213: 209384012666521156
+    second: Blue combo attack full 48x48_33
+  - first:
+      213: -6322086863925333588
+    second: Blue combo attack full 48x48_34
+  - first:
+      213: -4232627411986186909
+    second: Blue combo attack full 48x48_35
+  - first:
+      213: 4136278466914949263
+    second: Blue combo attack full 48x48_36
+  - first:
+      213: -8112278636331502736
+    second: Blue combo attack full 48x48_37
+  - first:
+      213: -9003268684038377878
+    second: Blue combo attack full 48x48_38
+  - first:
+      213: 7517756011360021985
+    second: Blue combo attack full 48x48_39
+  - first:
+      213: -3002409765304925471
+    second: Blue combo attack full 48x48_40
+  - first:
+      213: -3589889271330963023
+    second: Blue combo attack full 48x48_41
+  - first:
+      213: -4989532146559924979
+    second: Blue combo attack full 48x48_42
+  - first:
+      213: 3352338651464833715
+    second: Blue combo attack full 48x48_43
+  - first:
+      213: 7845948275597142111
+    second: Blue combo attack full 48x48_44
+  - first:
+      213: 6178811797468348840
+    second: Blue combo attack full 48x48_45
+  - first:
+      213: -8738955144944597467
+    second: Blue combo attack full 48x48_46
+  - first:
+      213: 5027280956427182640
+    second: Blue combo attack full 48x48_47
+  - first:
+      213: 155596636676032382
+    second: Blue combo attack full 48x48_48
+  - first:
+      213: 5001169370025435054
+    second: Blue combo attack full 48x48_49
+  - first:
+      213: 8781308534559599631
+    second: Blue combo attack full 48x48_50
+  - first:
+      213: 6817222830716011876
+    second: Blue combo attack full 48x48_51
+  - first:
+      213: -995886787310656555
+    second: Blue combo attack full 48x48_52
+  - first:
+      213: -6917258325587264571
+    second: Blue combo attack full 48x48_53
+  - first:
+      213: 3124225580345934456
+    second: Blue combo attack full 48x48_54
+  - first:
+      213: 5739873226544599270
+    second: Blue combo attack full 48x48_55
+  - first:
+      213: -2680928277485790023
+    second: Blue combo attack full 48x48_56
+  - first:
+      213: -6509585811675816280
+    second: Blue combo attack full 48x48_57
+  - first:
+      213: -2712708323063860609
+    second: Blue combo attack full 48x48_58
+  - first:
+      213: -1814174678328777284
+    second: Blue combo attack full 48x48_59
+  - first:
+      213: -932532269838511721
+    second: Blue combo attack full 48x48_60
+  - first:
+      213: -669849530968280051
+    second: Blue combo attack full 48x48_61
+  - first:
+      213: -8717552497180772891
+    second: Blue combo attack full 48x48_62
+  - first:
+      213: 3452891363218276289
+    second: Blue combo attack full 48x48_63
+  - first:
+      213: -8235775781690881711
+    second: Blue combo attack full 48x48_64
+  - first:
+      213: 2996928265191714487
+    second: Blue combo attack full 48x48_65
+  - first:
+      213: -8816485088086405823
+    second: Blue combo attack full 48x48_66
+  - first:
+      213: -7343999731160516923
+    second: Blue combo attack full 48x48_67
+  - first:
+      213: -8450318229408818920
+    second: Blue combo attack full 48x48_68
+  - first:
+      213: -5482964148508646503
+    second: Blue combo attack full 48x48_69
+  - first:
+      213: 5313082650932838501
+    second: Blue combo attack full 48x48_70
+  - first:
+      213: -7823506182760694483
+    second: Blue combo attack full 48x48_71
+  - first:
+      213: 1525154417673755569
+    second: Blue combo attack full 48x48_72
+  - first:
+      213: -1477839213384386066
+    second: Blue combo attack full 48x48_73
+  - first:
+      213: 3612345346175488878
+    second: Blue combo attack full 48x48_74
+  - first:
+      213: -3302586848020406924
+    second: Blue combo attack full 48x48_75
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 159
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff1a99796ee1ce020800000000000000
+      internalID: 2372305079452148223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 159
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914f3c241d8371b30800000000000000
+      internalID: 4257934444121551897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 150
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de57b1ddc7255ed80800000000000000
+      internalID: -8222074848455985683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 151
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f037f3a1471514790800000000000000
+      internalID: -7547661941397818609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 151
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3534a4b68b9e54060800000000000000
+      internalID: 6937207779317400403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_5
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 151
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee81e6c4bfd7f2d90800000000000000
+      internalID: -7120333967576917778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_6
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 156
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00003fafc2f394c0800000000000000
+      internalID: -4281811846887899122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_7
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 150
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1429b293e9af9210800000000000000
+      internalID: 1341978008863974427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 151
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28ec44657a72d3640800000000000000
+      internalID: 5061245155894677122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_9
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 159
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4c7849437ebcb90800000000000000
+      internalID: -7220423364542216989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_10
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 159
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31c691c6fa94b200800000000000000
+      internalID: 194951068484288826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_11
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 152
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794aa52d138f67410800000000000000
+      internalID: 1474638820876657815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_12
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 153
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adaee9321b1edc3a0800000000000000
+      internalID: -6643405724378535206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 153
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3a654cfca30fbb0800000000000000
+      internalID: -4904355330179816461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_14
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 148
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2721e22e64f45a640800000000000000
+      internalID: 5090562119673188978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_15
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 145
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2adbb98ff876d1c0800000000000000
+      internalID: -4479259740450596308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_16
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 144
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb6dbe1b557ba1ee0800000000000000
+      internalID: -1289516764603099461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_17
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 143
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a9832bbfb41b280800000000000000
+      internalID: -9029352233502205368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_18
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 150
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36bf7ce7b1bb8780800000000000000
+      internalID: -8679648453321574853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_19
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 103
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0bd1ac65ce79e0d0800000000000000
+      internalID: -3393041457850754290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_20
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 103
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39fe34a4ff5bd140800000000000000
+      internalID: 4745492136697198909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_21
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 100
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b01ba820b10055e0800000000000000
+      internalID: -1923035184779030344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_22
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 106
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3de6f7b0ccf9e9b0800000000000000
+      internalID: -5050227602468967110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_23
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 111
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7a2b9442914da40800000000000000
+      internalID: 5391962297515288533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_24
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 111
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6d164f5b6ce7c10800000000000000
+      internalID: 2053296964918957823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_25
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 111
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83471cd2923a44230800000000000000
+      internalID: 3622199397569360952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_26
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 101
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a0fb62f81738330800000000000000
+      internalID: 3711935377527736864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_27
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 102
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089313bab3f29eab0800000000000000
+      internalID: -4978395979759666816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_28
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 102
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35660a3891ffa8a30800000000000000
+      internalID: 4218464486033483347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_29
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 102
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9602a933677e0a40800000000000000
+      internalID: 5336333876533003932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_30
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 105
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5174caf6d2b0af20800000000000000
+      internalID: 3431939552456241502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_31
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 110
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20aa0db578133b7c0800000000000000
+      internalID: -4056844381899937278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_32
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 111
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3273fda48f893180800000000000000
+      internalID: -9135112569127472578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_33
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 111
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44642a076a1e7e200800000000000000
+      internalID: 209384012666521156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_34
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 111
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1319c3e7f6348a0800000000000000
+      internalID: -6322086863925333588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_35
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 111
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d7bf15bcfa245c0800000000000000
+      internalID: -4232627411986186909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_36
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 111
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f881098c953076930800000000000000
+      internalID: 4136278466914949263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_37
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 111
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073787a9f856b6f80800000000000000
+      internalID: -8112278636331502736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_38
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 63
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e6e7e45d6fd0380800000000000000
+      internalID: -9003268684038377878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_39
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 63
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1edeb25f24f645860800000000000000
+      internalID: 7517756011360021985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_40
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 58
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e206d4d93c4556d0800000000000000
+      internalID: -3002409765304925471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_41
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 54
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1055f4ab62e2ec0800000000000000
+      internalID: -3589889271330963023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_42
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 54
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0547e8c2fe91cab0800000000000000
+      internalID: -4989532146559924979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_43
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 54
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba9f57fd36e58e20800000000000000
+      internalID: 3352338651464833715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_44
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 55
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f586e05136862ec60800000000000000
+      internalID: 7845948275597142111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_45
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 56
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a10812d79c8fb550800000000000000
+      internalID: 6178811797468348840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_46
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 63
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526418db89ef8b680800000000000000
+      internalID: -8738955144944597467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_47
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 63
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032ade9e46d74c540800000000000000
+      internalID: 5027280956427182640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_48
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 63
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e770251115ac82200800000000000000
+      internalID: 155596636676032382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_49
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 63
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf1ee17b09b76540800000000000000
+      internalID: 5001169370025435054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_50
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 63
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ce78936997dd970800000000000000
+      internalID: 8781308534559599631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_51
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 63
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465c28b9b04ab9e50800000000000000
+      internalID: 6817222830716011876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_52
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 63
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3e7dd4e36ed22f0800000000000000
+      internalID: -995886787310656555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_53
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 63
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cbf1cbb336f000a0800000000000000
+      internalID: -6917258325587264571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_54
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 63
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87245bacc9a7b5b20800000000000000
+      internalID: 3124225580345934456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_55
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 63
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e057f3d94028af40800000000000000
+      internalID: 5739873226544599270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_56
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 63
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bcd8209fed6bcad0800000000000000
+      internalID: -2680928277485790023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_57
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 11
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aed32c813e49a5a0800000000000000
+      internalID: -6509585811675816280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_58
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 10
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72788817268a5ad0800000000000000
+      internalID: -2712708323063860609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_59
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 15
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb564b1fdb1c2d6e0800000000000000
+      internalID: -1814174678328777284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_60
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 15
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791dfa267dafe03f0800000000000000
+      internalID: -932532269838511721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_61
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 15
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d047cad866734b6f0800000000000000
+      internalID: -669849530968280051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_62
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 15
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e578bef038050780800000000000000
+      internalID: -8717552497180772891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_63
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 15
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cfb3a096622bef20800000000000000
+      internalID: 3452891363218276289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_64
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 15
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 159cc82cf85a4bd80800000000000000
+      internalID: -8235775781690881711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_65
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 13
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be6418f06a379920800000000000000
+      internalID: 2996928265191714487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_66
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 12
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14dc41d268d85a580800000000000000
+      internalID: -8816485088086405823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_67
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 11
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6fc99972fd41a90800000000000000
+      internalID: -7343999731160516923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_68
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 15
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819541197507aba80800000000000000
+      internalID: -8450318229408818920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_69
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 15
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993a0fb282998e3b0800000000000000
+      internalID: -5482964148508646503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_70
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 15
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5608427658cdbb940800000000000000
+      internalID: 5313082650932838501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_71
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 15
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2df976d3925d6390800000000000000
+      internalID: -7823506182760694483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_72
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 15
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbdf0dbcdf6a2510800000000000000
+      internalID: 1525154417673755569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_73
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 15
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9b41bb019ad7be0800000000000000
+      internalID: -1477839213384386066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_74
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 15
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6353dc04f0a12230800000000000000
+      internalID: 3612345346175488878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue combo attack full 48x48_75
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 15
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47dddd372cada22d0800000000000000
+      internalID: -3302586848020406924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
