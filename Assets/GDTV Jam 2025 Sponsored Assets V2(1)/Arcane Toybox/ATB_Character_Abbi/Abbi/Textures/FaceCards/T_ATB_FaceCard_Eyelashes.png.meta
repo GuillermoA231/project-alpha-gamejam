@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      T_ATB_FaceCard_Eyelashes_0: -3365353391815806666
+      T_ATB_FaceCard_Eyelashes_1: 5263769309592097293
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

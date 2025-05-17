@@ -360,7 +360,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Grate 3.2 hit 24x24_0: 2973224954938523162
+      Grate 3.2 hit 24x24_1: -8042927306021196647
+      Grate 3.2 hit 24x24_2: -4449394556165414762
+      Grate 3.2 hit 24x24_3: -3548086231992633685
+      Grate 3.2 hit 24x24_4: 8765445922033554394
+      Grate 3.2 hit 24x24_5: 8603236855173406938
+      Grate 3.2 hit 24x24_6: 7211453101021464528
+      Grate 3.2 hit 24x24_7: -3046900589246296692
+      Grate 3.2 hit 24x24_8: 1761780947431118933
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

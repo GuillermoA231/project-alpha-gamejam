@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tiny_treats_texture_1_0: -3488784803940504180
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

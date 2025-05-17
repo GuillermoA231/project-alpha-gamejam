@@ -360,7 +360,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pairs of boots v1_0: 4443681500655818405
+      Pairs of boots v1_1: -4489076435301377279
+      Pairs of boots v1_2: 2787541267581122938
+      Pairs of boots v1_3: -5629407942913421498
+      Pairs of boots v1_4: 7067832106643309251
+      Pairs of boots v1_5: -175902312298261793
+      Pairs of boots v1_6: 6188402268829363428
+      Pairs of boots v1_7: 414084065617163012
+      Pairs of boots v1_8: 1727824420257455565
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

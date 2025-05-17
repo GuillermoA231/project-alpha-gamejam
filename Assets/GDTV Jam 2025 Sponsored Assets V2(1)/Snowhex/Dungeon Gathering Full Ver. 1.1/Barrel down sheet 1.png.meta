@@ -335,7 +335,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Barrel down sheet 1_0: -931303401145930729
+      Barrel down sheet 1_1: 1889933791350233026
+      Barrel down sheet 1_2: -3100465004788344156
+      Barrel down sheet 1_3: 2575722964592470264
+      Barrel down sheet 1_4: 192338958689624133
+      Barrel down sheet 1_5: -4976841728169381105
+      Barrel down sheet 1_6: -4603284854495714662
+      Barrel down sheet 1_7: -1515587973714559219
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

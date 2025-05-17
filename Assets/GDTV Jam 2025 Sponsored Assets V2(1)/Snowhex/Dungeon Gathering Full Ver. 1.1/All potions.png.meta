@@ -810,7 +810,34 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      All potions_0: -7099576349109679330
+      All potions_1: 4022591716347472473
+      All potions_10: -5820422074697788075
+      All potions_11: 5586495095873932315
+      All potions_12: -4557972775779587419
+      All potions_13: 5327086964471202945
+      All potions_14: 6562120630334617957
+      All potions_15: 2036461565336678420
+      All potions_16: 14028757182251643
+      All potions_17: 3418236276494432728
+      All potions_18: 7688732208100637325
+      All potions_19: -6724863178196913988
+      All potions_2: 1717546368057645001
+      All potions_20: -3705732637867076077
+      All potions_21: -4476446500937742300
+      All potions_22: -2195433489776341487
+      All potions_23: 7765331965118139751
+      All potions_24: 4905340359352103363
+      All potions_25: -4861886807656469849
+      All potions_26: -2434750451237919530
+      All potions_3: 2513274081477484877
+      All potions_4: 6505939472780807957
+      All potions_5: 5656396699813619417
+      All potions_6: 3491682044164593964
+      All potions_7: 1941889651517213689
+      All potions_8: -4932417097817242516
+      All potions_9: 4044897741910816436
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

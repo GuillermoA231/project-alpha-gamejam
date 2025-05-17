@@ -310,7 +310,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Blue Asha Falling 32x32_0: -9026880458470745244
+      Blue Asha Falling 32x32_1: -7400284901659833346
+      Blue Asha Falling 32x32_2: 7673446856839090621
+      Blue Asha Falling 32x32_3: 1020408719968837743
+      Blue Asha Falling 32x32_4: 141108697632171146
+      Blue Asha Falling 32x32_5: -241204611596071925
+      Blue Asha Falling 32x32_6: -3652443351182302460
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -560,7 +560,24 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wall Green Torch_0: -8635862976194909462
+      Wall Green Torch_1: -2054433027943481282
+      Wall Green Torch_10: -4316729112375208979
+      Wall Green Torch_11: 2829932291956490050
+      Wall Green Torch_12: -7829454926258409068
+      Wall Green Torch_13: 7705918971560093680
+      Wall Green Torch_14: -2158614426995154008
+      Wall Green Torch_15: 3257206706573417949
+      Wall Green Torch_16: -1245075513630470821
+      Wall Green Torch_2: -139756527260517709
+      Wall Green Torch_3: -2957871085023645293
+      Wall Green Torch_4: 4643853678595107377
+      Wall Green Torch_5: 6391539126937236708
+      Wall Green Torch_6: 2444282956963650991
+      Wall Green Torch_7: -5677120907340763646
+      Wall Green Torch_8: -1522259384276448753
+      Wall Green Torch_9: -1561274633954278754
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

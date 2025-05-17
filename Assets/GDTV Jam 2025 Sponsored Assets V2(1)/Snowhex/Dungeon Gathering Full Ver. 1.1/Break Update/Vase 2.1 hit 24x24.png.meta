@@ -335,7 +335,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Vase 2.1 hit 24x24_0: 48583092520323474
+      Vase 2.1 hit 24x24_1: -2412713835941219031
+      Vase 2.1 hit 24x24_2: 7411206306856050739
+      Vase 2.1 hit 24x24_3: 1339142663498674171
+      Vase 2.1 hit 24x24_4: -7870729365691547378
+      Vase 2.1 hit 24x24_5: 3209281347952776325
+      Vase 2.1 hit 24x24_6: 8149225279861958089
+      Vase 2.1 hit 24x24_7: -8831315653605435032
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

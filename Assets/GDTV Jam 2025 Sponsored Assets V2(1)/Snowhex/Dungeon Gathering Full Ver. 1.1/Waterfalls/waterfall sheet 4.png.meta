@@ -335,7 +335,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      waterfall sheet 4_0: -8303031766371782328
+      waterfall sheet 4_1: -3899815566927295195
+      waterfall sheet 4_2: -1471922095223581893
+      waterfall sheet 4_3: 326519510733306959
+      waterfall sheet 4_4: -5833203393663491511
+      waterfall sheet 4_5: 8169235363302175713
+      waterfall sheet 4_6: 2909087995078685552
+      waterfall sheet 4_7: -186871163886638060
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

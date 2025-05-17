@@ -385,7 +385,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Teemo_spritesheet_by-cupnooble_0: 4101325714201591175
+      Teemo_spritesheet_by-cupnooble_1: 2777930806395528249
+      Teemo_spritesheet_by-cupnooble_2: 6540938245721678903
+      Teemo_spritesheet_by-cupnooble_3: 8468679979235290921
+      Teemo_spritesheet_by-cupnooble_4: 3681039867966810252
+      Teemo_spritesheet_by-cupnooble_5: 4940551414244133088
+      Teemo_spritesheet_by-cupnooble_6: 5094991143221748294
+      Teemo_spritesheet_by-cupnooble_7: -9185425642353943437
+      Teemo_spritesheet_by-cupnooble_8: -5170954176872098172
+      Teemo_spritesheet_by-cupnooble_9: -3547293193662865868
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

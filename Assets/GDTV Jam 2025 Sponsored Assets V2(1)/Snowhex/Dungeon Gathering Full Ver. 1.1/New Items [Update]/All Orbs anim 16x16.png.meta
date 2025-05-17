@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      All Orbs anim 16x16_0: -5685017463955194089
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
