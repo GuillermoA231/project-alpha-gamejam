@@ -3,12 +3,22 @@ using UnityEngine;
 
 public class EnemyMovementy : MonoBehaviour
 {
+
+    [Header("Spawn Sequence")]
+    [SerializeField] private SpriteRenderer renderer;
+    [SerializeField] private SpriteRenderer spawnIndicator;
+    private bool hasSpawned;
+    [SerializeField] private float spawnScaling, spawnScalingTime;
+
     [Header(" Elements")]
     private Player player;
     [Header(" Settings")]
     [SerializeField] private float moveSpeed;
     [SerializeField] private float playerDetectionRadius;
 
+
+    [Header("Effects")]
+    [SerializeField] private ParticleSystem deathParticles;
 
     [Header("DEBUG")]
     [SerializeField] private bool showGizmos;
@@ -22,14 +32,44 @@ public class EnemyMovementy : MonoBehaviour
             Debug.LogWarning("No player found, Destroying");
             Destroy(gameObject);
         }
+
+        // Hide the renderer
+        // Show the spawn indicator
+        renderer.enabled = false;
+        spawnIndicator.enabled = true;
+
+        // Prevent Following & Attacking during the spawn sequence
+
+        // Scale up and down the spawn indicator
+        Vector3 targetScale = spawnIndicator.transform.localScale * spawnScaling;
+        LeanTween.scale(spawnIndicator.gameObject, targetScale, spawnScalingTime)
+                 .setLoopPingPong(3)
+                 .setOnComplete(SpawnSequenceCompleted);
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (!hasSpawned)
+            return;
+
         FollowPlayer();
 
         TryAttack();
+
+    }
+
+
+    private void SpawnSequenceCompleted()
+    {
+        // Show the enemy after 2.5 seconds
+
+        // Show the renderer
+        renderer.enabled = true;
+        // Hide the spawn indicator
+        spawnIndicator.enabled = false;
+        hasSpawned = true;
+
     }
 
     private void FollowPlayer()
@@ -47,17 +87,23 @@ public class EnemyMovementy : MonoBehaviour
         float distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
 
         if (distanceToPlayer <= playerDetectionRadius)
-        {
-            Destroy(gameObject);
-        }
+            OnDeath();
+
+    }
+    private void OnDeath()
+    {
+        deathParticles.transform.SetParent(null);
+        deathParticles.Play();
+        Destroy(gameObject);
 
     }
 
     private void OnDrawGizmos()
     {
-        if(!showGizmos)
-        { return; } 
+        if (!showGizmos)
+            return;
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position,playerDetectionRadius);
+        Gizmos.DrawWireSphere(transform.position, playerDetectionRadius);
     }
+
 }
