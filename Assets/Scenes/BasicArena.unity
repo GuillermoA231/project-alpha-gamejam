@@ -537,9 +537,9 @@ MonoBehaviour:
   enemy: {fileID: 0}
   enemyMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   showGizmos: 1
-  gizmosRange: 0
+  gizmosRange: 0.4
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
