@@ -6779,6 +6779,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1665434014}
   - component: {fileID: 1665434015}
+  - component: {fileID: 1665434016}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -6816,15 +6817,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb734e6cd22271241b226cb7a55950cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  renderer: {fileID: 0}
-  spawnIndicator: {fileID: 0}
-  spawnScaling: 0
-  spawnScalingTime: 0
-  deathParticles: {fileID: 0}
-  damage: 0
-  attackFrequency: 0
-  playerDetectionRadius: 0
-  showGizmos: 0
+  renderer: {fileID: 240642970}
+  spawnIndicator: {fileID: 534373126}
+  spawnScaling: 2
+  spawnScalingTime: 0.5
+  deathParticles: {fileID: 1102049348}
+  damage: 1
+  attackFrequency: 1
+  playerDetectionRadius: 0.5
+  showGizmos: 1
+--- !u!114 &1665434016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665434012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa99fb0995d60b745b33fe5f4d3407e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
 --- !u!1 &1741916393
 GameObject:
   m_ObjectHideFlags: 0
