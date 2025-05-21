@@ -5002,7 +5002,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 50
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -5213,7 +5213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb734e6cd22271241b226cb7a55950cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 20
+  maxHealth: 50
   healthText: {fileID: 2339268995731859441}
   renderer: {fileID: 5111840403693750104}
   spawnIndicator: {fileID: 2579413134590923080}
