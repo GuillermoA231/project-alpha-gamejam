@@ -1,7 +1,7 @@
 
 using UnityEngine;
 using System;
-
+using TMPro;
 
 [RequireComponent(typeof(EnemyMovement))]
 public class Enemy : MonoBehaviour
@@ -9,6 +9,11 @@ public class Enemy : MonoBehaviour
 
     [Header("Components")]
     private EnemyMovement movement;
+
+    [Header("Health")]
+    [SerializeField] private int maxHealth;
+    private int health;
+    [SerializeField] private TextMeshPro healthText;
 
     [Header(" Elements")]
     private Player player;
@@ -34,10 +39,12 @@ public class Enemy : MonoBehaviour
     [Header("DEBUG")]
     [SerializeField] private bool showGizmos;
 
-    public event Action<GameObject> OnEnemyDied;
+    //public event Action<GameObject> OnEnemyDied;
 
     void Start()
     {
+        health = maxHealth;
+        healthText.text = health.ToString();
 
         movement = GetComponent<EnemyMovement>();
 
@@ -104,6 +111,18 @@ public class Enemy : MonoBehaviour
         attackTimer = 0;
     }
 
+
+    public void TakeDamage(int damage)
+    {
+        int realDamage = Mathf.Min(damage, health);
+        health -= realDamage;
+
+        healthText.text = health.ToString();
+
+        if (health <= 0)
+            OnDeath();
+    }
+
     private void Wait()
     {
         attackTimer += Time.deltaTime;
@@ -118,11 +137,11 @@ public class Enemy : MonoBehaviour
 
     }
 
-    public void Die()
-    {
-        OnEnemyDied?.Invoke(this.gameObject);
-        Destroy(gameObject);
-    }
+    // public void Die()
+    // {
+    //     OnEnemyDied?.Invoke(this.gameObject);
+    //     Destroy(gameObject);
+    // }
 
     private void OnDrawGizmos()
     {
