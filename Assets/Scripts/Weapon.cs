@@ -5,7 +5,9 @@ using UnityEngine;
 public class Weapon : MonoBehaviour
 {
     [Header(" Elements ")]
-    [SerializeField] private Transform enemy;
+    [SerializeField] private Transform hitDetectionTransform;
+    [SerializeField] private float hitDetectionRadius;
+
 
     [Header("Settings")]
     [SerializeField] private float range;
@@ -28,6 +30,9 @@ public class Weapon : MonoBehaviour
     void Update()
     {
         AutoAim();
+
+        ;
+        Attack();
     }
 
 
@@ -40,6 +45,22 @@ public class Weapon : MonoBehaviour
             targetUpVector = (closestEnemy.transform.position - transform.position).normalized;
 
         transform.up = Vector3.Lerp(transform.up, targetUpVector, Time.deltaTime * aimLerp);
+    }
+
+    private void Attack()
+    {
+        Collider2D[] enemies = Physics2D.OverlapCircleAll(hitDetectionTransform.position, hitDetectionRadius, enemyMask);
+
+        for (int i = 0; i < enemies.Length; i++)
+        {
+            Destroy(enemies[i].gameObject);
+        }
+
+    }
+
+    public void TakeDamage(int damage)
+    {
+        
     }
     private Enemy GetClosestEnemy()
     {
@@ -76,5 +97,7 @@ public class Weapon : MonoBehaviour
             return;
         Gizmos.color = Color.blue;
         Gizmos.DrawWireSphere(transform.position, range);
+        Gizmos.color = Color.magenta;
+        Gizmos.DrawWireSphere(transform.position, hitDetectionRadius);
     }
 }
