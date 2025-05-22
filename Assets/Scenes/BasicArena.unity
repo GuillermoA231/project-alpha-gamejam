@@ -549,9 +549,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   damage: 25
-  attackDelay: 1
+  attackDelay: 0.3
   animator: {fileID: 431829908}
-  aimLerp: 10
+  aimLerp: 20
   showGizmos: 1
 --- !u!95 &431829908
 Animator:
@@ -959,7 +959,7 @@ GameObject:
   - component: {fileID: 627204096}
   - component: {fileID: 627204095}
   - component: {fileID: 627204094}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
