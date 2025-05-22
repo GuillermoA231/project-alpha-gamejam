@@ -48,7 +48,7 @@ public class EnemySpawnManager : MonoBehaviour
 
         Enemy enemyScript = enemy.GetComponent<Enemy>();
         if (enemyScript != null)
-            enemyScript.OnEnemyDied += HandleEnemyDied;
+            //enemyScript.OnEnemyDied += HandleEnemyDied;
 
         activeEnemies.Add(enemy);
     }
