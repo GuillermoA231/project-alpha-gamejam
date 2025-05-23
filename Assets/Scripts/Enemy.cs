@@ -36,6 +36,10 @@ public class Enemy : MonoBehaviour
     private float attackDelay, attackTimer;
 
 
+    [Header("Actions")]
+    public static Action<int, Vector2> onDamageTaken;
+
+
     [Header("DEBUG")]
     [SerializeField] private bool showGizmos;
 
@@ -118,6 +122,8 @@ public class Enemy : MonoBehaviour
         health -= realDamage;
 
         healthText.text = health.ToString();
+
+        onDamageTaken?.Invoke(damage, transform.position);
 
         if (health <= 0)
             OnDeath();

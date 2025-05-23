@@ -47,5 +47,8 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Weapons
+    uniqueID: 3143117093
+    locked: 0
   m_RenderingLayers:
   - Default
