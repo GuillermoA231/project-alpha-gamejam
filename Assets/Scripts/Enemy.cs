@@ -23,6 +23,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private SpriteRenderer renderer;
     [SerializeField] private SpriteRenderer spawnIndicator;
     [SerializeField] private float spawnScaling, spawnScalingTime;
+    [SerializeField] private Collider2D collider;
     private bool hasSpawned;
 
     [Header("Effects")]
@@ -88,6 +89,8 @@ public class Enemy : MonoBehaviour
     {
         SetRenderersVisible(true);
         hasSpawned = true;
+
+        collider.enabled = true;
 
         movement.StorePlayer(player);
 
