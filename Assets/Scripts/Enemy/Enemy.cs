@@ -114,8 +114,9 @@ public class Enemy : MonoBehaviour
 
     private void Attack()
     {
-        Debug.Log("Damage done: " + damage);
         attackTimer = 0;
+
+        player.TakeDamage(damage);
     }
 
 
