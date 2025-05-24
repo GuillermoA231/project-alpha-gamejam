@@ -1,0 +1,1391 @@
+fileFormatVersion: 2
+guid: 88b7160b244866147abc4c2d63a3dc57
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9173236783840277419
+    second: All Vase Shine 24x24_0
+  - first:
+      213: 5317668557728395482
+    second: All Vase Shine 24x24_1
+  - first:
+      213: 4966441337947241188
+    second: All Vase Shine 24x24_2
+  - first:
+      213: -2012107987650852504
+    second: All Vase Shine 24x24_3
+  - first:
+      213: -7639279687560888750
+    second: All Vase Shine 24x24_4
+  - first:
+      213: -4404844804746996370
+    second: All Vase Shine 24x24_5
+  - first:
+      213: -1444769806378436318
+    second: All Vase Shine 24x24_6
+  - first:
+      213: 7597591979609620321
+    second: All Vase Shine 24x24_7
+  - first:
+      213: 5559365577280895085
+    second: All Vase Shine 24x24_8
+  - first:
+      213: -2745456379219049309
+    second: All Vase Shine 24x24_9
+  - first:
+      213: 3328931174317936650
+    second: All Vase Shine 24x24_10
+  - first:
+      213: -7019973085032291668
+    second: All Vase Shine 24x24_11
+  - first:
+      213: 5319617539993137128
+    second: All Vase Shine 24x24_12
+  - first:
+      213: -8913798881579783983
+    second: All Vase Shine 24x24_13
+  - first:
+      213: 5247221442934228956
+    second: All Vase Shine 24x24_14
+  - first:
+      213: 92472779530893040
+    second: All Vase Shine 24x24_15
+  - first:
+      213: 2912960504126429295
+    second: All Vase Shine 24x24_16
+  - first:
+      213: 9145132248614042606
+    second: All Vase Shine 24x24_17
+  - first:
+      213: -2192475489003697732
+    second: All Vase Shine 24x24_18
+  - first:
+      213: 4286531541989388268
+    second: All Vase Shine 24x24_19
+  - first:
+      213: 5495336113680370356
+    second: All Vase Shine 24x24_20
+  - first:
+      213: -8811072270890423788
+    second: All Vase Shine 24x24_21
+  - first:
+      213: -4238052468967136611
+    second: All Vase Shine 24x24_22
+  - first:
+      213: 1304214473880801346
+    second: All Vase Shine 24x24_23
+  - first:
+      213: 938758528821011793
+    second: All Vase Shine 24x24_24
+  - first:
+      213: -8179461745456709389
+    second: All Vase Shine 24x24_25
+  - first:
+      213: -5070663966664778687
+    second: All Vase Shine 24x24_26
+  - first:
+      213: 7498252757785221207
+    second: All Vase Shine 24x24_27
+  - first:
+      213: 1437691553476693527
+    second: All Vase Shine 24x24_28
+  - first:
+      213: 6191161465410068276
+    second: All Vase Shine 24x24_29
+  - first:
+      213: -1179690785517245278
+    second: All Vase Shine 24x24_30
+  - first:
+      213: 121451174477756445
+    second: All Vase Shine 24x24_31
+  - first:
+      213: -2626323430078657353
+    second: All Vase Shine 24x24_32
+  - first:
+      213: 7602718192609245389
+    second: All Vase Shine 24x24_33
+  - first:
+      213: 220180527807339919
+    second: All Vase Shine 24x24_34
+  - first:
+      213: -6415515007055517899
+    second: All Vase Shine 24x24_35
+  - first:
+      213: -670526605535171330
+    second: All Vase Shine 24x24_36
+  - first:
+      213: 6876808396533148070
+    second: All Vase Shine 24x24_37
+  - first:
+      213: -3258723251041782329
+    second: All Vase Shine 24x24_38
+  - first:
+      213: -768268640082080356
+    second: All Vase Shine 24x24_39
+  - first:
+      213: 336170840588495958
+    second: All Vase Shine 24x24_40
+  - first:
+      213: 5786982310329856388
+    second: All Vase Shine 24x24_41
+  - first:
+      213: 330960867710738842
+    second: All Vase Shine 24x24_42
+  - first:
+      213: 1493943405556000645
+    second: All Vase Shine 24x24_43
+  - first:
+      213: -2411426575980669171
+    second: All Vase Shine 24x24_44
+  - first:
+      213: -1690097227549389638
+    second: All Vase Shine 24x24_45
+  - first:
+      213: -7194552203792716465
+    second: All Vase Shine 24x24_46
+  - first:
+      213: -8463091886664244026
+    second: All Vase Shine 24x24_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 72
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3b855c042ed4f70800000000000000
+      internalID: 9173236783840277419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 72
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad03aa801672cc940800000000000000
+      internalID: 5317668557728395482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 72
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea392265185ce440800000000000000
+      internalID: 4966441337947241188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 72
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8694852227e8314e0800000000000000
+      internalID: -2012107987650852504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 72
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e731b4993dbf590800000000000000
+      internalID: -7639279687560888750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 72
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65945aecf8ded2c0800000000000000
+      internalID: -4404844804746996370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 72
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2297a9c048523fbe0800000000000000
+      internalID: -1444769806378436318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 72
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ffcf4d6a1107960800000000000000
+      internalID: 7597591979609620321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_8
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 72
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68bc5aa985d62d40800000000000000
+      internalID: 5559365577280895085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_9
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 72
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4815a18fd26e9d0800000000000000
+      internalID: -2745456379219049309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_10
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 72
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00d1fef34db23e20800000000000000
+      internalID: 3328931174317936650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_11
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 72
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2e8dd2cab049e90800000000000000
+      internalID: -7019973085032291668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_12
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 72
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef6a34d7f313d940800000000000000
+      internalID: 5319617539993137128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_13
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 72
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8a9200523db4480800000000000000
+      internalID: -8913798881579783983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_14
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 72
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd748e3f910e1d840800000000000000
+      internalID: 5247221442934228956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_15
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 72
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f6f457c087884100800000000000000
+      internalID: 92472779530893040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 40
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f68d23d152aec6820800000000000000
+      internalID: 2912960504126429295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 40
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eebfb9eb3590aee70800000000000000
+      internalID: 9145132248614042606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_18
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 40
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb90f23b823c291e0800000000000000
+      internalID: -2192475489003697732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 40
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cefe8c6f9b1dc7b30800000000000000
+      internalID: 4286531541989388268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_20
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 40
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba4b41741b534c40800000000000000
+      internalID: 5495336113680370356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_21
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 40
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a2843e378c8b580800000000000000
+      internalID: -8811072270890423788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 40
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d922fbfcbb96f25c0800000000000000
+      internalID: -4238052468967136611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_23
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 40
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240969a6720891210800000000000000
+      internalID: 1304214473880801346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_24
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 40
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155ae3088e3270d00800000000000000
+      internalID: 938758528821011793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_25
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 40
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0082011e6bc7e80800000000000000
+      internalID: -8179461745456709389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_26
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 40
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c9293ecf161a9b0800000000000000
+      internalID: -5070663966664778687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_27
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 40
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75891efd7252f0860800000000000000
+      internalID: 7498252757785221207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_28
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 40
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ece85c9d4b3f310800000000000000
+      internalID: 1437691553476693527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_29
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 40
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f9ad4fc8c6be550800000000000000
+      internalID: 6191161465410068276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_30
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 40
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ac61781b75e0afe0800000000000000
+      internalID: -1179690785517245278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_31
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 40
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18fc40233b7fa100800000000000000
+      internalID: 121451174477756445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_32
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc40e451cc6d8bd0800000000000000
+      internalID: -2626323430078657353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_33
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 8
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8bfdd4ae7428960800000000000000
+      internalID: 7602718192609245389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_34
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 8
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d1a62060d3e0300800000000000000
+      internalID: 220180527807339919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_35
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 8
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 537a449871387f6a0800000000000000
+      internalID: -6415515007055517899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_36
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 8
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efca0a8da9fc1b6f0800000000000000
+      internalID: -670526605535171330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_37
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 8
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a928cf3dc45f6f50800000000000000
+      internalID: 6876808396533148070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_38
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 8
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c53958f770b6c2d0800000000000000
+      internalID: -3258723251041782329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_39
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 8
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9dc5d70ebf8655f0800000000000000
+      internalID: -768268640082080356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_40
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 8
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c2f1139915aa400800000000000000
+      internalID: 336170840588495958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_41
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 8
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4813ea020cd7f4050800000000000000
+      internalID: 5786982310329856388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_42
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 8
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91247ad72fc79400800000000000000
+      internalID: 330960867710738842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_43
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 8
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587e3b2bc9d8bb410800000000000000
+      internalID: 1493943405556000645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_44
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 8
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d075cb03e44e88ed0800000000000000
+      internalID: -2411426575980669171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_45
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 8
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abccb0ca6819b88e0800000000000000
+      internalID: -1690097227549389638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_46
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 8
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d6ee693e0d72c90800000000000000
+      internalID: -7194552203792716465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Vase Shine 24x24_47
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 8
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c423e9b4ce0d8a80800000000000000
+      internalID: -8463091886664244026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      All Vase Shine 24x24_0: 9173236783840277419
+      All Vase Shine 24x24_1: 5317668557728395482
+      All Vase Shine 24x24_10: 3328931174317936650
+      All Vase Shine 24x24_11: -7019973085032291668
+      All Vase Shine 24x24_12: 5319617539993137128
+      All Vase Shine 24x24_13: -8913798881579783983
+      All Vase Shine 24x24_14: 5247221442934228956
+      All Vase Shine 24x24_15: 92472779530893040
+      All Vase Shine 24x24_16: 2912960504126429295
+      All Vase Shine 24x24_17: 9145132248614042606
+      All Vase Shine 24x24_18: -2192475489003697732
+      All Vase Shine 24x24_19: 4286531541989388268
+      All Vase Shine 24x24_2: 4966441337947241188
+      All Vase Shine 24x24_20: 5495336113680370356
+      All Vase Shine 24x24_21: -8811072270890423788
+      All Vase Shine 24x24_22: -4238052468967136611
+      All Vase Shine 24x24_23: 1304214473880801346
+      All Vase Shine 24x24_24: 938758528821011793
+      All Vase Shine 24x24_25: -8179461745456709389
+      All Vase Shine 24x24_26: -5070663966664778687
+      All Vase Shine 24x24_27: 7498252757785221207
+      All Vase Shine 24x24_28: 1437691553476693527
+      All Vase Shine 24x24_29: 6191161465410068276
+      All Vase Shine 24x24_3: -2012107987650852504
+      All Vase Shine 24x24_30: -1179690785517245278
+      All Vase Shine 24x24_31: 121451174477756445
+      All Vase Shine 24x24_32: -2626323430078657353
+      All Vase Shine 24x24_33: 7602718192609245389
+      All Vase Shine 24x24_34: 220180527807339919
+      All Vase Shine 24x24_35: -6415515007055517899
+      All Vase Shine 24x24_36: -670526605535171330
+      All Vase Shine 24x24_37: 6876808396533148070
+      All Vase Shine 24x24_38: -3258723251041782329
+      All Vase Shine 24x24_39: -768268640082080356
+      All Vase Shine 24x24_4: -7639279687560888750
+      All Vase Shine 24x24_40: 336170840588495958
+      All Vase Shine 24x24_41: 5786982310329856388
+      All Vase Shine 24x24_42: 330960867710738842
+      All Vase Shine 24x24_43: 1493943405556000645
+      All Vase Shine 24x24_44: -2411426575980669171
+      All Vase Shine 24x24_45: -1690097227549389638
+      All Vase Shine 24x24_46: -7194552203792716465
+      All Vase Shine 24x24_47: -8463091886664244026
+      All Vase Shine 24x24_5: -4404844804746996370
+      All Vase Shine 24x24_6: -1444769806378436318
+      All Vase Shine 24x24_7: 7597591979609620321
+      All Vase Shine 24x24_8: 5559365577280895085
+      All Vase Shine 24x24_9: -2745456379219049309
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

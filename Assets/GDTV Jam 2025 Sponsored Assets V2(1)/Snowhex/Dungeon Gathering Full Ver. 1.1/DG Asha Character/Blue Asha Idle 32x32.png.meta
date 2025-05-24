@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 68640e86b80342f45b1a6aab538713a8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3832426396699303629
+    second: Blue Asha Idle 32x32_0
+  - first:
+      213: -6939254259372519510
+    second: Blue Asha Idle 32x32_1
+  - first:
+      213: -7901684664427423161
+    second: Blue Asha Idle 32x32_2
+  - first:
+      213: 4753344808817206020
+    second: Blue Asha Idle 32x32_3
+  - first:
+      213: -4139644181996476640
+    second: Blue Asha Idle 32x32_4
+  - first:
+      213: -412339744323730459
+    second: Blue Asha Idle 32x32_5
+  - first:
+      213: -8264853241315537794
+    second: Blue Asha Idle 32x32_6
+  - first:
+      213: -3519541024283828779
+    second: Blue Asha Idle 32x32_7
+  - first:
+      213: 2006953080935051541
+    second: Blue Asha Idle 32x32_8
+  - first:
+      213: -1021290396117954698
+    second: Blue Asha Idle 32x32_9
+  - first:
+      213: -4903332862210253292
+    second: Blue Asha Idle 32x32_10
+  - first:
+      213: 1944365421443175765
+    second: Blue Asha Idle 32x32_11
+  - first:
+      213: -3902845885988766323
+    second: Blue Asha Idle 32x32_12
+  - first:
+      213: 2343747456491802886
+    second: Blue Asha Idle 32x32_13
+  - first:
+      213: -6983793723860945614
+    second: Blue Asha Idle 32x32_14
+  - first:
+      213: 5873096966930269433
+    second: Blue Asha Idle 32x32_15
+  - first:
+      213: 6949894994851801
+    second: Blue Asha Idle 32x32_16
+  - first:
+      213: 5558365391586705789
+    second: Blue Asha Idle 32x32_17
+  - first:
+      213: -8090321746927691685
+    second: Blue Asha Idle 32x32_18
+  - first:
+      213: 807707167496016739
+    second: Blue Asha Idle 32x32_19
+  - first:
+      213: 7782829975057619029
+    second: Blue Asha Idle 32x32_20
+  - first:
+      213: -3571103476897410991
+    second: Blue Asha Idle 32x32_21
+  - first:
+      213: -2354228451626813052
+    second: Blue Asha Idle 32x32_22
+  - first:
+      213: 2409076176524065328
+    second: Blue Asha Idle 32x32_23
+  - first:
+      213: -2735801808975606571
+    second: Blue Asha Idle 32x32_24
+  - first:
+      213: -2746578572526641791
+    second: Blue Asha Idle 32x32_25
+  - first:
+      213: -1116606888902572705
+    second: Blue Asha Idle 32x32_26
+  - first:
+      213: 4049316744806704977
+    second: Blue Asha Idle 32x32_27
+  - first:
+      213: -3842070717917779900
+    second: Blue Asha Idle 32x32_28
+  - first:
+      213: 7087655837188774055
+    second: Blue Asha Idle 32x32_29
+  - first:
+      213: -8254681735006464337
+    second: Blue Asha Idle 32x32_30
+  - first:
+      213: 4902825329208537165
+    second: Blue Asha Idle 32x32_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 103
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33168ec4f7c70dac0800000000000000
+      internalID: -3832426396699303629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 103
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf0cff4401d2bf90800000000000000
+      internalID: -6939254259372519510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 103
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ad6a1a9a3975290800000000000000
+      internalID: -7901684664427423161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 103
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4032f785be547f140800000000000000
+      internalID: 4753344808817206020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 103
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027669b9c870d86c0800000000000000
+      internalID: -4139644181996476640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 103
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e30fccef23174af0800000000000000
+      internalID: -412339744323730459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 103
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7cc6ae14c75d4d80800000000000000
+      internalID: -8264853241315537794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 103
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ddd523f514182fc0800000000000000
+      internalID: -3519541024283828779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 71
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511720e91312adb10800000000000000
+      internalID: 2006953080935051541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 71
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f0fd6bbc5a3d1f0800000000000000
+      internalID: -1021290396117954698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_10
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 71
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e5574adbcd3fbb0800000000000000
+      internalID: -4903332862210253292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_11
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 71
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5555ca29c06cbfa10800000000000000
+      internalID: 1944365421443175765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_12
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 71
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d7b88485e46d9c0800000000000000
+      internalID: -3902845885988766323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 71
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6015b6bd4e9a68020800000000000000
+      internalID: 2343747456491802886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_14
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 71
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2357aa02c94941f90800000000000000
+      internalID: -6983793723860945614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_15
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 71
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f48d4d039e618150800000000000000
+      internalID: 5873096966930269433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 39
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7f46684e0b81000800000000000000
+      internalID: 6949894994851801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 39
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71c959cfd7432d40800000000000000
+      internalID: 5558365391586705789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_18
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 39
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58d1cb4c3769bf80800000000000000
+      internalID: -8090321746927691685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 39
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3631321b36d853b00800000000000000
+      internalID: 807707167496016739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_20
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 39
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558529a80aa220c60800000000000000
+      internalID: 7782829975057619029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_21
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 39
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1501e5bee44e07ec0800000000000000
+      internalID: -3571103476897410991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 39
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4897aac42b9145fd0800000000000000
+      internalID: -2354228451626813052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_23
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 39
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ab29ac402ce6120800000000000000
+      internalID: 2409076176524065328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 7
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc4328efba780ad0800000000000000
+      internalID: -2735801808975606571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_25
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 7
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d99dc175132e9d0800000000000000
+      internalID: -2746578572526641791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_26
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 7
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55453953f30180f0800000000000000
+      internalID: -1116606888902572705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_27
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 7
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157ae3d0020123830800000000000000
+      internalID: 4049316744806704977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_28
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 7
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448a498c9093eaac0800000000000000
+      internalID: -3842070717917779900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_29
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 7
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a85cd19e696c5260800000000000000
+      internalID: 7087655837188774055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_30
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 7
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6d80b72ba717d80800000000000000
+      internalID: -8254681735006464337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Idle 32x32_31
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 7
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40334f19a55a0440800000000000000
+      internalID: 4902825329208537165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Blue Asha Idle 32x32_0: -3832426396699303629
+      Blue Asha Idle 32x32_1: -6939254259372519510
+      Blue Asha Idle 32x32_10: -4903332862210253292
+      Blue Asha Idle 32x32_11: 1944365421443175765
+      Blue Asha Idle 32x32_12: -3902845885988766323
+      Blue Asha Idle 32x32_13: 2343747456491802886
+      Blue Asha Idle 32x32_14: -6983793723860945614
+      Blue Asha Idle 32x32_15: 5873096966930269433
+      Blue Asha Idle 32x32_16: 6949894994851801
+      Blue Asha Idle 32x32_17: 5558365391586705789
+      Blue Asha Idle 32x32_18: -8090321746927691685
+      Blue Asha Idle 32x32_19: 807707167496016739
+      Blue Asha Idle 32x32_2: -7901684664427423161
+      Blue Asha Idle 32x32_20: 7782829975057619029
+      Blue Asha Idle 32x32_21: -3571103476897410991
+      Blue Asha Idle 32x32_22: -2354228451626813052
+      Blue Asha Idle 32x32_23: 2409076176524065328
+      Blue Asha Idle 32x32_24: -2735801808975606571
+      Blue Asha Idle 32x32_25: -2746578572526641791
+      Blue Asha Idle 32x32_26: -1116606888902572705
+      Blue Asha Idle 32x32_27: 4049316744806704977
+      Blue Asha Idle 32x32_28: -3842070717917779900
+      Blue Asha Idle 32x32_29: 7087655837188774055
+      Blue Asha Idle 32x32_3: 4753344808817206020
+      Blue Asha Idle 32x32_30: -8254681735006464337
+      Blue Asha Idle 32x32_31: 4902825329208537165
+      Blue Asha Idle 32x32_4: -4139644181996476640
+      Blue Asha Idle 32x32_5: -412339744323730459
+      Blue Asha Idle 32x32_6: -8264853241315537794
+      Blue Asha Idle 32x32_7: -3519541024283828779
+      Blue Asha Idle 32x32_8: 2006953080935051541
+      Blue Asha Idle 32x32_9: -1021290396117954698
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

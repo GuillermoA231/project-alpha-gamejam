@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 49a13ad8667ebef40af5a10a99102df3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7024442204123420312
+    second: Blue Asha Walk 32x32_0
+  - first:
+      213: -6553274331547514587
+    second: Blue Asha Walk 32x32_1
+  - first:
+      213: -548734884594613768
+    second: Blue Asha Walk 32x32_2
+  - first:
+      213: 5672077052137593043
+    second: Blue Asha Walk 32x32_3
+  - first:
+      213: 6367962428953132438
+    second: Blue Asha Walk 32x32_4
+  - first:
+      213: 3683929066171927860
+    second: Blue Asha Walk 32x32_5
+  - first:
+      213: -5048015413248943901
+    second: Blue Asha Walk 32x32_6
+  - first:
+      213: -7483748030809860620
+    second: Blue Asha Walk 32x32_7
+  - first:
+      213: -2772929572047421279
+    second: Blue Asha Walk 32x32_8
+  - first:
+      213: 3699484204194886965
+    second: Blue Asha Walk 32x32_9
+  - first:
+      213: -8737270547491399902
+    second: Blue Asha Walk 32x32_10
+  - first:
+      213: -1856229834585387322
+    second: Blue Asha Walk 32x32_11
+  - first:
+      213: -7876149367792300196
+    second: Blue Asha Walk 32x32_12
+  - first:
+      213: 3031105119425877521
+    second: Blue Asha Walk 32x32_13
+  - first:
+      213: 2053321939710853148
+    second: Blue Asha Walk 32x32_14
+  - first:
+      213: 4587277999059719687
+    second: Blue Asha Walk 32x32_15
+  - first:
+      213: 713233484797277848
+    second: Blue Asha Walk 32x32_16
+  - first:
+      213: -6631241782386562170
+    second: Blue Asha Walk 32x32_17
+  - first:
+      213: 5377834203376693266
+    second: Blue Asha Walk 32x32_18
+  - first:
+      213: -5936787294866178918
+    second: Blue Asha Walk 32x32_19
+  - first:
+      213: 2401647909038969265
+    second: Blue Asha Walk 32x32_20
+  - first:
+      213: -127329868180587232
+    second: Blue Asha Walk 32x32_21
+  - first:
+      213: 5064499175416732980
+    second: Blue Asha Walk 32x32_22
+  - first:
+      213: -1471315048880857793
+    second: Blue Asha Walk 32x32_23
+  - first:
+      213: 6439075463198039576
+    second: Blue Asha Walk 32x32_24
+  - first:
+      213: 4845408951145591357
+    second: Blue Asha Walk 32x32_25
+  - first:
+      213: 2457341491845297825
+    second: Blue Asha Walk 32x32_26
+  - first:
+      213: -2254990228606952273
+    second: Blue Asha Walk 32x32_27
+  - first:
+      213: -5227282607008617775
+    second: Blue Asha Walk 32x32_28
+  - first:
+      213: -7154782519005921118
+    second: Blue Asha Walk 32x32_29
+  - first:
+      213: -3194170893297122004
+    second: Blue Asha Walk 32x32_30
+  - first:
+      213: -8486071298159436525
+    second: Blue Asha Walk 32x32_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 103
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86926fd480b248e90800000000000000
+      internalID: -7024442204123420312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 103
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 529cc6857b71e05a0800000000000000
+      internalID: -6553274331547514587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 103
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f18fdf97808268f0800000000000000
+      internalID: -548734884594613768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 103
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d85e47e60447be40800000000000000
+      internalID: 5672077052137593043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 103
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69df8c8171c8f5850800000000000000
+      internalID: 6367962428953132438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 103
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d0ae6a7f1ff1330800000000000000
+      internalID: 3683929066171927860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 103
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e899982ab8d1f9b0800000000000000
+      internalID: -5048015413248943901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 103
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f59c0b01d2642890800000000000000
+      internalID: -7483748030809860620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 71
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a000feee339489d0800000000000000
+      internalID: -2772929572047421279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 71
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53574337845375330800000000000000
+      internalID: 3699484204194886965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_10
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 71
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227da46aabafeb680800000000000000
+      internalID: -8737270547491399902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_11
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 71
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce4e08dcc85d36e0800000000000000
+      internalID: -1856229834585387322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_12
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 71
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f82de21eb42b290800000000000000
+      internalID: -7876149367792300196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 71
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1165f30fb06a01a20800000000000000
+      internalID: 3031105119425877521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_14
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 71
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c104bf9dc6dde7c10800000000000000
+      internalID: 2053321939710853148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_15
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 71
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7065be3290949af30800000000000000
+      internalID: 4587277999059719687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 39
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8967147531ae5e900800000000000000
+      internalID: 713233484797277848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 39
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bee159bb819f3a0800000000000000
+      internalID: -6631241782386562170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_18
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 39
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210b63907b7e1aa40800000000000000
+      internalID: 5377834203376693266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 39
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9cf276e86b4c9da0800000000000000
+      internalID: -5936787294866178918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_20
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 39
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1d3dd7c0e545120800000000000000
+      internalID: 2401647909038969265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_21
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 39
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d7cc5d822ab3ef0800000000000000
+      internalID: -127329868180587232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 39
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d19fbca27b84640800000000000000
+      internalID: 5064499175416732980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_23
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 39
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d15c622c6d49be0800000000000000
+      internalID: -1471315048880857793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 7
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e5ad1a4013c5950800000000000000
+      internalID: 6439075463198039576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_25
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 7
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32f78cd4c95e3340800000000000000
+      internalID: 4845408951145591357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_26
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 7
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a67449311b3a1220800000000000000
+      internalID: 2457341491845297825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_27
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 7
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: facd7e3a55aa4b0e0800000000000000
+      internalID: -2254990228606952273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_28
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 7
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da6cac0a26f477b0800000000000000
+      internalID: -5227282607008617775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_29
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 7
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a04a75e43b15bc90800000000000000
+      internalID: -7154782519005921118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_30
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 7
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c250229fe760ca3d0800000000000000
+      internalID: -3194170893297122004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Walk 32x32_31
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 7
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d919e8d1b6b3a80800000000000000
+      internalID: -8486071298159436525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Blue Asha Walk 32x32_0: -7024442204123420312
+      Blue Asha Walk 32x32_1: -6553274331547514587
+      Blue Asha Walk 32x32_10: -8737270547491399902
+      Blue Asha Walk 32x32_11: -1856229834585387322
+      Blue Asha Walk 32x32_12: -7876149367792300196
+      Blue Asha Walk 32x32_13: 3031105119425877521
+      Blue Asha Walk 32x32_14: 2053321939710853148
+      Blue Asha Walk 32x32_15: 4587277999059719687
+      Blue Asha Walk 32x32_16: 713233484797277848
+      Blue Asha Walk 32x32_17: -6631241782386562170
+      Blue Asha Walk 32x32_18: 5377834203376693266
+      Blue Asha Walk 32x32_19: -5936787294866178918
+      Blue Asha Walk 32x32_2: -548734884594613768
+      Blue Asha Walk 32x32_20: 2401647909038969265
+      Blue Asha Walk 32x32_21: -127329868180587232
+      Blue Asha Walk 32x32_22: 5064499175416732980
+      Blue Asha Walk 32x32_23: -1471315048880857793
+      Blue Asha Walk 32x32_24: 6439075463198039576
+      Blue Asha Walk 32x32_25: 4845408951145591357
+      Blue Asha Walk 32x32_26: 2457341491845297825
+      Blue Asha Walk 32x32_27: -2254990228606952273
+      Blue Asha Walk 32x32_28: -5227282607008617775
+      Blue Asha Walk 32x32_29: -7154782519005921118
+      Blue Asha Walk 32x32_3: 5672077052137593043
+      Blue Asha Walk 32x32_30: -3194170893297122004
+      Blue Asha Walk 32x32_31: -8486071298159436525
+      Blue Asha Walk 32x32_4: 6367962428953132438
+      Blue Asha Walk 32x32_5: 3683929066171927860
+      Blue Asha Walk 32x32_6: -5048015413248943901
+      Blue Asha Walk 32x32_7: -7483748030809860620
+      Blue Asha Walk 32x32_8: -2772929572047421279
+      Blue Asha Walk 32x32_9: 3699484204194886965
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

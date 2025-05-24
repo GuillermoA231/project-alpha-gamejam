@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: f3b06f24755f5fd48a913174ade11ecd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4974341749176924393
+    second: Blue Asha Run 32x32_0
+  - first:
+      213: -8596980994233064181
+    second: Blue Asha Run 32x32_1
+  - first:
+      213: 3955340546559609735
+    second: Blue Asha Run 32x32_2
+  - first:
+      213: 2289481185595518724
+    second: Blue Asha Run 32x32_3
+  - first:
+      213: -1725017209362942082
+    second: Blue Asha Run 32x32_4
+  - first:
+      213: -5492998982046121709
+    second: Blue Asha Run 32x32_5
+  - first:
+      213: 5135336498383232582
+    second: Blue Asha Run 32x32_6
+  - first:
+      213: 6249373972190201639
+    second: Blue Asha Run 32x32_7
+  - first:
+      213: -3267666014748960756
+    second: Blue Asha Run 32x32_8
+  - first:
+      213: -4894561381051266097
+    second: Blue Asha Run 32x32_9
+  - first:
+      213: -2434653632918684222
+    second: Blue Asha Run 32x32_10
+  - first:
+      213: -236351216018645857
+    second: Blue Asha Run 32x32_11
+  - first:
+      213: -3018256675356183354
+    second: Blue Asha Run 32x32_12
+  - first:
+      213: 8971894126607748001
+    second: Blue Asha Run 32x32_13
+  - first:
+      213: 9186886782292036784
+    second: Blue Asha Run 32x32_14
+  - first:
+      213: 6950944165854782574
+    second: Blue Asha Run 32x32_15
+  - first:
+      213: 691739237978005656
+    second: Blue Asha Run 32x32_16
+  - first:
+      213: -7723779498794512844
+    second: Blue Asha Run 32x32_17
+  - first:
+      213: 853724879986218402
+    second: Blue Asha Run 32x32_18
+  - first:
+      213: -2264822534273832171
+    second: Blue Asha Run 32x32_19
+  - first:
+      213: -3471224647453686933
+    second: Blue Asha Run 32x32_20
+  - first:
+      213: 1054538761655875405
+    second: Blue Asha Run 32x32_21
+  - first:
+      213: 6899104183872306719
+    second: Blue Asha Run 32x32_22
+  - first:
+      213: 5406211300477614509
+    second: Blue Asha Run 32x32_23
+  - first:
+      213: 8206357085504909022
+    second: Blue Asha Run 32x32_24
+  - first:
+      213: 2427428344102004648
+    second: Blue Asha Run 32x32_25
+  - first:
+      213: -950048912675298323
+    second: Blue Asha Run 32x32_26
+  - first:
+      213: -4220481391045904441
+    second: Blue Asha Run 32x32_27
+  - first:
+      213: 6260872896342135610
+    second: Blue Asha Run 32x32_28
+  - first:
+      213: -6335593425459404844
+    second: Blue Asha Run 32x32_29
+  - first:
+      213: 4948602260331295726
+    second: Blue Asha Run 32x32_30
+  - first:
+      213: -3664374075925946260
+    second: Blue Asha Run 32x32_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 103
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7170ae8c88697fab0800000000000000
+      internalID: -4974341749176924393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 103
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0524f1a55361b880800000000000000
+      internalID: -8596980994233064181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 103
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b8263554134e630800000000000000
+      internalID: 3955340546559609735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 103
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f6c53120fd5cf10800000000000000
+      internalID: 2289481185595518724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 103
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e777c74dcf18f08e0800000000000000
+      internalID: -1725017209362942082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 103
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3110f8b6782f4c3b0800000000000000
+      internalID: -5492998982046121709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 103
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e1b3c4651644740800000000000000
+      internalID: 5135336498383232582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 103
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72708f0648c3ab650800000000000000
+      internalID: 6249373972190201639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 71
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08954a821be6a2d0800000000000000
+      internalID: -3267666014748960756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 71
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb081f3b56031cb0800000000000000
+      internalID: -4894561381051266097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_10
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 72
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd74c29b6f563ed0800000000000000
+      internalID: -2434653632918684222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_11
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 71
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c1afe32df48bcf0800000000000000
+      internalID: -236351216018645857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_12
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 71
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c471709b8ffc16d0800000000000000
+      internalID: -3018256675356183354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_13
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 71
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab4eda4c22928c70800000000000000
+      internalID: 8971894126607748001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_14
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 72
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc8f32bad06e7f70800000000000000
+      internalID: 9186886782292036784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_15
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 71
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64295324e6b67060800000000000000
+      internalID: 6950944165854782574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 39
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890e0e40c2d899900800000000000000
+      internalID: 691739237978005656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 39
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e88ead77f9fc490800000000000000
+      internalID: -7723779498794512844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_18
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 39
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5dd7f414a09db00800000000000000
+      internalID: 853724879986218402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 39
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51bee4597ebb190e0800000000000000
+      internalID: -2264822534273832171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_20
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 39
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6341f0139bb3dfc0800000000000000
+      internalID: -3471224647453686933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_21
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 39
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47f062aa6972ae00800000000000000
+      internalID: 1054538761655875405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 39
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ebe14c3ba8ebf50800000000000000
+      internalID: 6899104183872306719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_23
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 39
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9bba1d888b60b40800000000000000
+      internalID: 5406211300477614509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 7
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edea7854a46d2e170800000000000000
+      internalID: 8206357085504909022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_25
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 7
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a72ae7c735ffa120800000000000000
+      internalID: 2427428344102004648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_26
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 8
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de32eb82c8fb0d2f0800000000000000
+      internalID: -950048912675298323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_27
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 7
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7ff813986dd65c0800000000000000
+      internalID: -4220481391045904441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_28
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 7
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a33185a4ab613e650800000000000000
+      internalID: 6260872896342135610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_29
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 7
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df1132d8537318a0800000000000000
+      internalID: -6335593425459404844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_30
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 8
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3fdb57987fca440800000000000000
+      internalID: 4948602260331295726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Asha Run 32x32_31
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 7
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60a8405137852dc0800000000000000
+      internalID: -3664374075925946260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Blue Asha Run 32x32_0: -4974341749176924393
+      Blue Asha Run 32x32_1: -8596980994233064181
+      Blue Asha Run 32x32_10: -2434653632918684222
+      Blue Asha Run 32x32_11: -236351216018645857
+      Blue Asha Run 32x32_12: -3018256675356183354
+      Blue Asha Run 32x32_13: 8971894126607748001
+      Blue Asha Run 32x32_14: 9186886782292036784
+      Blue Asha Run 32x32_15: 6950944165854782574
+      Blue Asha Run 32x32_16: 691739237978005656
+      Blue Asha Run 32x32_17: -7723779498794512844
+      Blue Asha Run 32x32_18: 853724879986218402
+      Blue Asha Run 32x32_19: -2264822534273832171
+      Blue Asha Run 32x32_2: 3955340546559609735
+      Blue Asha Run 32x32_20: -3471224647453686933
+      Blue Asha Run 32x32_21: 1054538761655875405
+      Blue Asha Run 32x32_22: 6899104183872306719
+      Blue Asha Run 32x32_23: 5406211300477614509
+      Blue Asha Run 32x32_24: 8206357085504909022
+      Blue Asha Run 32x32_25: 2427428344102004648
+      Blue Asha Run 32x32_26: -950048912675298323
+      Blue Asha Run 32x32_27: -4220481391045904441
+      Blue Asha Run 32x32_28: 6260872896342135610
+      Blue Asha Run 32x32_29: -6335593425459404844
+      Blue Asha Run 32x32_3: 2289481185595518724
+      Blue Asha Run 32x32_30: 4948602260331295726
+      Blue Asha Run 32x32_31: -3664374075925946260
+      Blue Asha Run 32x32_4: -1725017209362942082
+      Blue Asha Run 32x32_5: -5492998982046121709
+      Blue Asha Run 32x32_6: 5135336498383232582
+      Blue Asha Run 32x32_7: 6249373972190201639
+      Blue Asha Run 32x32_8: -3267666014748960756
+      Blue Asha Run 32x32_9: -4894561381051266097
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

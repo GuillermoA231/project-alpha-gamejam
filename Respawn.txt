@@ -1,0 +1,80 @@
+// EnemySpawnManager.cs using System.Collections; using System.Collections.Generic; using UnityEngine;
+
+public class EnemySpawnManager : MonoBehaviour { [Header("Enemy Settings")] public GameObject enemyPrefab; public GameObject spawnEffectPrefab; // animación previa de aparición public Transform[] spawnPoints; // puntos posibles dentro del área libre (fuera de colisiones)
+
+[Header("Spawn Rules")]
+public int initialSpawnCount = 15; // número de enemigos al iniciar la zona
+public float respawnCooldown = 2f; // tiempo en el respawn al ser eliminado un enemigo para reaparecer
+public float spawnDelay = 0.5f; // tiempo entre animación de entrada y aparición
+public float ironDropChance = 0.3f; posibilidad de dropeo de mineral hierro, en este caso lo puse a 1 de 3 por cada una
+
+private List<GameObject> activeEnemies = new List<GameObject>();
+private bool isPlayerInZone = true; // hay que actualizar esto según la zona en que esté el jugador, 1 o 2 o 3 
+
+void Start()
+{
+    SpawnInitialEnemies();
+}
+
+void SpawnInitialEnemies()
+{
+    for (int i = 0; i < initialSpawnCount; i++)
+    {
+        StartCoroutine(SpawnEnemyWithEffect(RandomSpawnPoint()));
+    }
+}
+
+IEnumerator SpawnEnemyWithEffect(Transform spawnPoint)
+{
+    // animación de entrada cuando se abre el orificio
+    GameObject effect = Instantiate(spawnEffectPrefab, spawnPoint.position, Quaternion.identity);
+    yield return new WaitForSeconds(spawnDelay);
+
+    GameObject enemy = Instantiate(enemyPrefab, spawnPoint.position, Quaternion.identity);
+    enemy.GetComponent<Enemy>().OnEnemyDied += HandleEnemyDeath;
+
+    activeEnemies.Add(enemy);
+
+    // posibilidad de dropeo del hierro
+    if (Random.value < ironDropChance)
+    {
+        DropIron(spawnPoint.position);
+    }
+}
+
+void DropIron(Vector3 position)
+{
+    // hay que crear un prefab del mineral con colisionador para que detecte y recoja, tengo un tutorial que lo enseña ya lo subo
+    Debug.Log("Iron dropped at " + position);
+}
+
+void HandleEnemyDeath(GameObject enemy)
+{
+    activeEnemies.Remove(enemy);
+    StartCoroutine(RespawnAfterCooldown());
+}
+
+IEnumerator RespawnAfterCooldown() // para que sea infinito el respawn
+{
+    yield return new WaitForSeconds(respawnCooldown);
+
+    if (isPlayerInZone)
+    {
+        StartCoroutine(SpawnEnemyWithEffect(RandomSpawnPoint()));
+    }
+}
+
+Transform RandomSpawnPoint() // lugar aleatorio donde apareceran en la zona las hormigas
+{
+    // elige uno de los puntos seguros predefinidos
+    return spawnPoints[Random.Range(0, spawnPoints.Length)];
+}
+
+// Opcionalmente se puede llamar esto desde un trigger para saber si el jugador está en esta zona
+public void SetPlayerInZone(bool inZone)
+{
+    isPlayerInZone = inZone; // hay que configurar las zonas 1,2 y 3... aunque no se si hacemos por zonas el mismo codigo o ampliamos este.
+}
+
+}
+

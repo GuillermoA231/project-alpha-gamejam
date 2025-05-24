@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 574b33913dc529f4fbf689b1ba29471e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8869104793400652414
+    second: Blue Ashe Standby 32x32 (3 Rows)_0
+  - first:
+      213: 7728207963744585
+    second: Blue Ashe Standby 32x32 (3 Rows)_1
+  - first:
+      213: 3517490410361807682
+    second: Blue Ashe Standby 32x32 (3 Rows)_2
+  - first:
+      213: -1128857663713641751
+    second: Blue Ashe Standby 32x32 (3 Rows)_3
+  - first:
+      213: -5978043082355659168
+    second: Blue Ashe Standby 32x32 (3 Rows)_4
+  - first:
+      213: 7810017725949894807
+    second: Blue Ashe Standby 32x32 (3 Rows)_5
+  - first:
+      213: 2602065001660392471
+    second: Blue Ashe Standby 32x32 (3 Rows)_6
+  - first:
+      213: -7271607331677712363
+    second: Blue Ashe Standby 32x32 (3 Rows)_7
+  - first:
+      213: -3509965892229622972
+    second: Blue Ashe Standby 32x32 (3 Rows)_8
+  - first:
+      213: -7991132809624288411
+    second: Blue Ashe Standby 32x32 (3 Rows)_9
+  - first:
+      213: -2757252408163783297
+    second: Blue Ashe Standby 32x32 (3 Rows)_10
+  - first:
+      213: 14581875444061118
+    second: Blue Ashe Standby 32x32 (3 Rows)_11
+  - first:
+      213: 5140267659689022405
+    second: Blue Ashe Standby 32x32 (3 Rows)_12
+  - first:
+      213: -5162339566066079649
+    second: Blue Ashe Standby 32x32 (3 Rows)_13
+  - first:
+      213: -6547598917657604830
+    second: Blue Ashe Standby 32x32 (3 Rows)_14
+  - first:
+      213: 5073665948125377936
+    second: Blue Ashe Standby 32x32 (3 Rows)_15
+  - first:
+      213: 6098144679159349482
+    second: Blue Ashe Standby 32x32 (3 Rows)_16
+  - first:
+      213: -7537249153585921059
+    second: Blue Ashe Standby 32x32 (3 Rows)_17
+  - first:
+      213: 2617983782342726366
+    second: Blue Ashe Standby 32x32 (3 Rows)_18
+  - first:
+      213: 2312093643460587527
+    second: Blue Ashe Standby 32x32 (3 Rows)_19
+  - first:
+      213: 7361046455826562790
+    second: Blue Ashe Standby 32x32 (3 Rows)_20
+  - first:
+      213: 1485121409451380449
+    second: Blue Ashe Standby 32x32 (3 Rows)_21
+  - first:
+      213: 3541809751813841383
+    second: Blue Ashe Standby 32x32 (3 Rows)_22
+  - first:
+      213: 775114835615687440
+    second: Blue Ashe Standby 32x32 (3 Rows)_23
+  - first:
+      213: -8185200413748078791
+    second: Blue Ashe Standby 32x32 (3 Rows)_24
+  - first:
+      213: 1342890020756415296
+    second: Blue Ashe Standby 32x32 (3 Rows)_25
+  - first:
+      213: 6515659713410097066
+    second: Blue Ashe Standby 32x32 (3 Rows)_26
+  - first:
+      213: 2948874536675876941
+    second: Blue Ashe Standby 32x32 (3 Rows)_27
+  - first:
+      213: 7760860465658524790
+    second: Blue Ashe Standby 32x32 (3 Rows)_28
+  - first:
+      213: 3988943384338139538
+    second: Blue Ashe Standby 32x32 (3 Rows)_29
+  - first:
+      213: 1547528552112648965
+    second: Blue Ashe Standby 32x32 (3 Rows)_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 71
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e723c5ea1d3651b70800000000000000
+      internalID: 8869104793400652414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 71
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949ed62a3c47b1000800000000000000
+      internalID: 7728207963744585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 71
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243657a44e2a0d030800000000000000
+      internalID: 3517490410361807682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 71
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eafe509fed7550f0800000000000000
+      internalID: -1128857663713641751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 71
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ea5385d79b90da0800000000000000
+      internalID: -5978043082355659168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 71
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7906fb41eb1c26c60800000000000000
+      internalID: 7810017725949894807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 71
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714a17a25546c1420800000000000000
+      internalID: 2602065001660392471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 71
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510593198af061b90800000000000000
+      internalID: -7271607331677712363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_8
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 71
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4439aeb1e981a4fc0800000000000000
+      internalID: -3509965892229622972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_9
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 71
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56300696c0bc91190800000000000000
+      internalID: -7991132809624288411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 39
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7dae471b854cb9d0800000000000000
+      internalID: -2757252408163783297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_11
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 39
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb39002732ec33000800000000000000
+      internalID: 14581875444061118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_12
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 43
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c35132c336e55740800000000000000
+      internalID: 5140267659689022405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_13
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 39
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58efa2148fab58b0800000000000000
+      internalID: -5162339566066079649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_14
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 39
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d494d99714225a0800000000000000
+      internalID: -6547598917657604830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_15
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 39
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09532036c48496640800000000000000
+      internalID: 5073665948125377936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_16
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 39
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae04b3eb646f0a450800000000000000
+      internalID: 6098144679159349482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_17
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 39
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3c5e034df466790800000000000000
+      internalID: -7537249153585921059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_18
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 39
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2954e1162f45420800000000000000
+      internalID: 2617983782342726366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_19
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 39
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70038e13be4361020800000000000000
+      internalID: 2312093643460587527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_20
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 39
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eeb0b640c0b72660800000000000000
+      internalID: 7361046455826562790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_21
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 7
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee4daaad063c9410800000000000000
+      internalID: 1485121409451380449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_22
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 7
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1e0e63439072130800000000000000
+      internalID: 3541809751813841383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_23
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 7
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013220516d2c1ca00800000000000000
+      internalID: 775114835615687440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_24
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 7
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9375a2b3793586e80800000000000000
+      internalID: -8185200413748078791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_25
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 7
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0436a93eb57e2a210800000000000000
+      internalID: 1342890020756415296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_26
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 7
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aafd127ecf54c6a50800000000000000
+      internalID: 6515659713410097066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_27
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 7
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40a2cd64c18ce820800000000000000
+      internalID: 2948874536675876941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_28
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 7
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674f2f6897d14bb60800000000000000
+      internalID: 7760860465658524790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_29
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 7
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2998e9cafd29b5730800000000000000
+      internalID: 3988943384338139538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Ashe Standby 32x32 (3 Rows)_30
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 7
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503f27cd40de97510800000000000000
+      internalID: 1547528552112648965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Blue Ashe Standby 32x32 (3 Rows)_0: 8869104793400652414
+      Blue Ashe Standby 32x32 (3 Rows)_1: 7728207963744585
+      Blue Ashe Standby 32x32 (3 Rows)_10: -2757252408163783297
+      Blue Ashe Standby 32x32 (3 Rows)_11: 14581875444061118
+      Blue Ashe Standby 32x32 (3 Rows)_12: 5140267659689022405
+      Blue Ashe Standby 32x32 (3 Rows)_13: -5162339566066079649
+      Blue Ashe Standby 32x32 (3 Rows)_14: -6547598917657604830
+      Blue Ashe Standby 32x32 (3 Rows)_15: 5073665948125377936
+      Blue Ashe Standby 32x32 (3 Rows)_16: 6098144679159349482
+      Blue Ashe Standby 32x32 (3 Rows)_17: -7537249153585921059
+      Blue Ashe Standby 32x32 (3 Rows)_18: 2617983782342726366
+      Blue Ashe Standby 32x32 (3 Rows)_19: 2312093643460587527
+      Blue Ashe Standby 32x32 (3 Rows)_2: 3517490410361807682
+      Blue Ashe Standby 32x32 (3 Rows)_20: 7361046455826562790
+      Blue Ashe Standby 32x32 (3 Rows)_21: 1485121409451380449
+      Blue Ashe Standby 32x32 (3 Rows)_22: 3541809751813841383
+      Blue Ashe Standby 32x32 (3 Rows)_23: 775114835615687440
+      Blue Ashe Standby 32x32 (3 Rows)_24: -8185200413748078791
+      Blue Ashe Standby 32x32 (3 Rows)_25: 1342890020756415296
+      Blue Ashe Standby 32x32 (3 Rows)_26: 6515659713410097066
+      Blue Ashe Standby 32x32 (3 Rows)_27: 2948874536675876941
+      Blue Ashe Standby 32x32 (3 Rows)_28: 7760860465658524790
+      Blue Ashe Standby 32x32 (3 Rows)_29: 3988943384338139538
+      Blue Ashe Standby 32x32 (3 Rows)_3: -1128857663713641751
+      Blue Ashe Standby 32x32 (3 Rows)_30: 1547528552112648965
+      Blue Ashe Standby 32x32 (3 Rows)_4: -5978043082355659168
+      Blue Ashe Standby 32x32 (3 Rows)_5: 7810017725949894807
+      Blue Ashe Standby 32x32 (3 Rows)_6: 2602065001660392471
+      Blue Ashe Standby 32x32 (3 Rows)_7: -7271607331677712363
+      Blue Ashe Standby 32x32 (3 Rows)_8: -3509965892229622972
+      Blue Ashe Standby 32x32 (3 Rows)_9: -7991132809624288411
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
