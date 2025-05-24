@@ -1,0 +1,1718 @@
+fileFormatVersion: 2
+guid: 1a5e063618d9da3498fcfd49acd083ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3918405943945489862
+    second: Leafbug_0
+  - first:
+      213: -7023574880148688295
+    second: Leafbug_1
+  - first:
+      213: -5203395616784129348
+    second: Leafbug_2
+  - first:
+      213: 5335875053896094818
+    second: Leafbug_3
+  - first:
+      213: -7465555674253084252
+    second: Leafbug_4
+  - first:
+      213: 8412452111595956491
+    second: Leafbug_5
+  - first:
+      213: -5134755187601935168
+    second: Leafbug_6
+  - first:
+      213: -3516745599548131643
+    second: Leafbug_7
+  - first:
+      213: -4100075087287243149
+    second: Leafbug_8
+  - first:
+      213: -5768576788009277705
+    second: Leafbug_9
+  - first:
+      213: -5129247059806494306
+    second: Leafbug_10
+  - first:
+      213: 1790259113367883637
+    second: Leafbug_11
+  - first:
+      213: 8477893316642657884
+    second: Leafbug_12
+  - first:
+      213: 2437923224055499056
+    second: Leafbug_13
+  - first:
+      213: 4860839671405148147
+    second: Leafbug_14
+  - first:
+      213: 4015503260294927603
+    second: Leafbug_15
+  - first:
+      213: 5818595371883324785
+    second: Leafbug_16
+  - first:
+      213: -246015086094352640
+    second: Leafbug_17
+  - first:
+      213: -7292274188968341757
+    second: Leafbug_18
+  - first:
+      213: -1602076262187552257
+    second: Leafbug_19
+  - first:
+      213: -8835184520075333810
+    second: Leafbug_20
+  - first:
+      213: -3155543774273622482
+    second: Leafbug_21
+  - first:
+      213: 8012773855106794559
+    second: Leafbug_22
+  - first:
+      213: 1746216693506843973
+    second: Leafbug_23
+  - first:
+      213: -4747978211816840491
+    second: Leafbug_24
+  - first:
+      213: 5736017595513585579
+    second: Leafbug_25
+  - first:
+      213: 2774251223351419547
+    second: Leafbug_26
+  - first:
+      213: 441167062923545464
+    second: Leafbug_27
+  - first:
+      213: -4482924231144886866
+    second: Leafbug_28
+  - first:
+      213: -5724189623080757430
+    second: Leafbug_29
+  - first:
+      213: -4577762397281124044
+    second: Leafbug_30
+  - first:
+      213: 6989966488789659107
+    second: Leafbug_31
+  - first:
+      213: 6188849184128450568
+    second: Leafbug_32
+  - first:
+      213: -3009177414673217772
+    second: Leafbug_33
+  - first:
+      213: 6236419380286330023
+    second: Leafbug_34
+  - first:
+      213: -3991533751365345829
+    second: Leafbug_35
+  - first:
+      213: -8560322472471508446
+    second: Leafbug_36
+  - first:
+      213: -5717215342397146515
+    second: Leafbug_37
+  - first:
+      213: -7871683769288339359
+    second: Leafbug_38
+  - first:
+      213: 2002573162444353
+    second: Leafbug_39
+  - first:
+      213: 335281201620730637
+    second: Leafbug_40
+  - first:
+      213: 8631849660027888990
+    second: Leafbug_41
+  - first:
+      213: 7823953339917161186
+    second: Leafbug_42
+  - first:
+      213: 8848951593245311124
+    second: Leafbug_43
+  - first:
+      213: 5346969180590589063
+    second: Leafbug_44
+  - first:
+      213: 5644054447105636588
+    second: Leafbug_45
+  - first:
+      213: 3305319002600368211
+    second: Leafbug_46
+  - first:
+      213: -7996083342826974997
+    second: Leafbug_47
+  - first:
+      213: 4995383539641953396
+    second: Leafbug_48
+  - first:
+      213: -2243953496216407960
+    second: Leafbug_49
+  - first:
+      213: -8033644638371369891
+    second: Leafbug_50
+  - first:
+      213: -3979648769466472546
+    second: Leafbug_51
+  - first:
+      213: -7536745379326889985
+    second: Leafbug_52
+  - first:
+      213: 3305669019280803452
+    second: Leafbug_53
+  - first:
+      213: -3356259923801140883
+    second: Leafbug_54
+  - first:
+      213: 2193691317348300782
+    second: Leafbug_55
+  - first:
+      213: 8867306138418627426
+    second: Leafbug_56
+  - first:
+      213: -1984587340888063227
+    second: Leafbug_57
+  - first:
+      213: 3824461321509047224
+    second: Leafbug_58
+  - first:
+      213: -7696734141620037550
+    second: Leafbug_59
+  - first:
+      213: 3537057869972537494
+    second: Leafbug_60
+  - first:
+      213: -308029707731189239
+    second: Leafbug_61
+  - first:
+      213: -1107179161427026445
+    second: Leafbug_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Leafbug_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 525
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd66a60279f06630800000000000000
+      internalID: 3918405943945489862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 525
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9527167ebdf378e90800000000000000
+      internalID: -7023574880148688295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 525
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb2e1cb5143d9c7b0800000000000000
+      internalID: -5203395616784129348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 525
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26458514716dc0a40800000000000000
+      internalID: 5335875053896094818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 525
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a93e312ba4056890800000000000000
+      internalID: -7465555674253084252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 525
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0969a9df980fb470800000000000000
+      internalID: 8412452111595956491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_6
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 461
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4746aac5fadb8b0800000000000000
+      internalID: -5134755187601935168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_7
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 461
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6f38d7282023fc0800000000000000
+      internalID: -3516745599548131643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_8
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 461
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ea0d56e6b9917c0800000000000000
+      internalID: -4100075087287243149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_9
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 461
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6a42b79f5e1ffa0800000000000000
+      internalID: -5768576788009277705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_10
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 461
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91640b99f041d8b0800000000000000
+      internalID: -5129247059806494306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_11
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 461
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57fc23cad2748d810800000000000000
+      internalID: 1790259113367883637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 407
+        width: 44
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56d42ebd0787a570800000000000000
+      internalID: 8477893316642657884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_13
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 407
+        width: 44
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039c08f614e35d120800000000000000
+      internalID: 2437923224055499056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_14
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 407
+        width: 44
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7fa346deb257340800000000000000
+      internalID: 4860839671405148147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_15
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 407
+        width: 44
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f45d40b0fee9b730800000000000000
+      internalID: 4015503260294927603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_16
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 407
+        width: 44
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17566d899adcfb050800000000000000
+      internalID: 5818595371883324785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_17
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 407
+        width: 44
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f75f7259af59cf0800000000000000
+      internalID: -246015086094352640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_18
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 333
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30fcac1e243acca90800000000000000
+      internalID: -7292274188968341757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_19
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 332
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff1b931b02844c9e0800000000000000
+      internalID: -1602076262187552257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_20
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 331
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f21e36d7e136580800000000000000
+      internalID: -8835184520075333810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_21
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 330
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ea935f7a14534d0800000000000000
+      internalID: -3155543774273622482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_22
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 329
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f348d232e57133f60800000000000000
+      internalID: 8012773855106794559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_23
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 328
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5452555b4decb3810800000000000000
+      internalID: 1746216693506843973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_24
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 329
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2ec53e8facb1eb0800000000000000
+      internalID: -4747978211816840491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_25
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 332
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf3af5cc9d6a9f40800000000000000
+      internalID: 5736017595513585579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_26
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 269
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92ed8df9ce108620800000000000000
+      internalID: 2774251223351419547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_27
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 269
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b09283b175f1600800000000000000
+      internalID: 441167062923545464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_28
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 269
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead2e9fc92479c1c0800000000000000
+      internalID: -4482924231144886866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_29
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 269
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a475b49add79f80b0800000000000000
+      internalID: -5724189623080757430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_30
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 269
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4310beb8a558870c0800000000000000
+      internalID: -4577762397281124044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_31
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 269
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed2134bc79510160800000000000000
+      internalID: 6989966488789659107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_32
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 270
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80041740b8533e550800000000000000
+      internalID: 6188849184128450568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_33
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 270
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417464ca5114d36d0800000000000000
+      internalID: -3009177414673217772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_34
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 215
+        width: 44
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4145862663c8650800000000000000
+      internalID: 6236419380286330023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_35
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 215
+        width: 45
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bddd2e083393b98c0800000000000000
+      internalID: -3991533751365345829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_36
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 215
+        width: 46
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22aca89d010a33980800000000000000
+      internalID: -8560322472471508446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_37
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 215
+        width: 47
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a310cefee58a0b0800000000000000
+      internalID: -5717215342397146515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_38
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 215
+        width: 48
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1605c5b515922c290800000000000000
+      internalID: -7871683769288339359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_39
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 215
+        width: 49
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146fbf5645d170000800000000000000
+      internalID: 2002573162444353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_40
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 215
+        width: 47
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03487af97827a400800000000000000
+      internalID: 335281201620730637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_41
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 215
+        width: 45
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55e984488d7ac770800000000000000
+      internalID: 8631849660027888990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_42
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 141
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e25efc0c14449c60800000000000000
+      internalID: 7823953339917161186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_43
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 141
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490830e179acdca70800000000000000
+      internalID: 8848951593245311124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_44
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 141
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784401ae320443a40800000000000000
+      internalID: 5346969180590589063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_45
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 141
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8f1bcbd95b35e40800000000000000
+      internalID: 5644054447105636588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_46
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 141
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358e75bde1adedd20800000000000000
+      internalID: 3305319002600368211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_47
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 141
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be051649094380190800000000000000
+      internalID: -7996083342826974997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_48
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 141
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c2135dcda235540800000000000000
+      internalID: 4995383539641953396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_49
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 77
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86076852f20ebd0e0800000000000000
+      internalID: -2243953496216407960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_50
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 78
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c2726f3c2c28090800000000000000
+      internalID: -8033644638371369891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_51
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 79
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e97612d778275c8c0800000000000000
+      internalID: -3979648769466472546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_52
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 80
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff67a6420a186790800000000000000
+      internalID: -7536745379326889985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_53
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 81
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c760f37757810ed20800000000000000
+      internalID: 3305669019280803452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_54
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 81
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6114fba16b2c61d0800000000000000
+      internalID: -3356259923801140883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_55
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 81
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7776561ae817e10800000000000000
+      internalID: 2193691317348300782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_56
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 23
+        width: 44
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263451fa3fffe0b70800000000000000
+      internalID: 8867306138418627426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_57
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 23
+        width: 43
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50341a804545574e0800000000000000
+      internalID: -1984587340888063227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_58
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 23
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb84cd1f47331530800000000000000
+      internalID: 3824461321509047224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_59
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 23
+        width: 41
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258dd16c315bf2590800000000000000
+      internalID: -7696734141620037550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_60
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 23
+        width: 40
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69086b18467261130800000000000000
+      internalID: 3537057869972537494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_61
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 23
+        width: 40
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9024a62ec98a9bbf0800000000000000
+      internalID: -308029707731189239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafbug_62
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 23
+        width: 40
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd5d643b6282a0f0800000000000000
+      internalID: -1107179161427026445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

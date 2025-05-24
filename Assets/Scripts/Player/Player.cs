@@ -5,6 +5,7 @@ public class Player : MonoBehaviour
 {
 
     [Header(" Components")]
+    [SerializeField] private CapsuleCollider2D collider;
     private PlayerHealth playerHealth;
 
     private void Awake()
@@ -28,4 +29,8 @@ public class Player : MonoBehaviour
         playerHealth.TakeDamage(damage);
     }
 
+    public Vector2 GetShootPosition()
+    {
+        return (Vector2)transform.position + collider.offset;
+    }
 }

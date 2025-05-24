@@ -30,14 +30,13 @@ public class PlayerHealth : MonoBehaviour
         
         UpdateHealthUI();
 
-        if (health < 0)
+        if (health <= 0)
             Death();
     }
 
     private void Death()
     {
-        Debug.Log("death");
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("BasicArena");
     }
 
     private void UpdateHealthUI()
