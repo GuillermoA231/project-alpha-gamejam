@@ -1,39 +1,35 @@
-
 using UnityEngine;
 using System;
-using TMPro;
 
-[RequireComponent(typeof(EnemyMovement))]
-public class Enemy : MonoBehaviour
+public abstract class Enemy : MonoBehaviour
 {
 
     [Header("Components")]
-    private EnemyMovement movement;
+    protected EnemyMovement movement;
 
     [Header("Health")]
-    [SerializeField] private int maxHealth;
-    private int health;
+    [SerializeField] protected int maxHealth;
+    protected int health;
 
     [Header(" Elements")]
-    private Player player;
-
+    protected Player player;
 
     [Header("Spawn Sequence")]
-    [SerializeField] private SpriteRenderer renderer;
-    [SerializeField] private SpriteRenderer spawnIndicator;
-    [SerializeField] private float spawnScaling, spawnScalingTime;
-    [SerializeField] private Collider2D collider;
-    private bool hasSpawned;
+    [SerializeField] protected SpriteRenderer renderer;
+    [SerializeField] protected SpriteRenderer spawnIndicator;
+    [SerializeField] protected float spawnScaling, spawnScalingTime;
+    [SerializeField] protected Collider2D collider;
+    protected bool hasSpawned;
 
     [Header("Effects")]
-    [SerializeField] private ParticleSystem deathParticles;
-
+    [SerializeField] protected ParticleSystem deathParticles;
 
     [Header("Attack")]
-    [SerializeField] private int damage;
-    [SerializeField] private float attackFrequency;
-    [SerializeField] private float playerDetectionRadius;
-    private float attackDelay, attackTimer;
+    [SerializeField] protected float playerDetectionRadius;
+
+    
+    [Header("Rotation")]
+    [SerializeField] private float rotationOffset = 0f;
 
 
     [Header("Actions")]
@@ -41,16 +37,14 @@ public class Enemy : MonoBehaviour
 
 
     [Header("DEBUG")]
-    [SerializeField] private bool showGizmos;
+    [SerializeField] protected bool showGizmos;
 
-    //public event Action<GameObject> OnEnemyDied;
 
-    void Start()
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    protected virtual void Start()
     {
         health = maxHealth;
-
         movement = GetComponent<EnemyMovement>();
-
         player = FindFirstObjectByType<Player>();
 
         if (player == null)
@@ -60,24 +54,10 @@ public class Enemy : MonoBehaviour
         }
         StartSpawnSequence();
 
-        attackDelay = 1f / attackFrequency;
+
     }
 
-    void Update()
-    {
-
-        if (!renderer.enabled)
-            return;
-
-        if (attackTimer >= attackDelay)
-            TryAttack();
-        else
-            Wait();
-
-        movement.FollowPlayer();
-    }
-
-    private void StartSpawnSequence()
+    protected void StartSpawnSequence()
     {
         SetRenderersVisible(false);
         Vector3 targetScale = spawnIndicator.transform.localScale * spawnScaling;
@@ -89,7 +69,7 @@ public class Enemy : MonoBehaviour
     }
 
 
-    private void SpawnSequenceCompleted()
+    protected void SpawnSequenceCompleted()
     {
         SetRenderersVisible(true);
         hasSpawned = true;
@@ -101,29 +81,34 @@ public class Enemy : MonoBehaviour
     }
 
 
-    private void SetRenderersVisible(bool visibility)
+    protected void SetRenderersVisible(bool visibility)
     {
         renderer.enabled = visibility;
         spawnIndicator.enabled = !visibility;
 
     }
-    private void TryAttack()
+
+    // Update is called once per frame
+    protected bool CanAttack()
     {
-        float distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
-
-
-        if (distanceToPlayer <= playerDetectionRadius)
-            Attack();
-
+        return renderer.enabled;
     }
 
-    private void Attack()
+    protected virtual void LateUpdate()
     {
-        attackTimer = 0;
-
-        player.TakeDamage(damage);
+        if (hasSpawned)
+            FacePlayer();
     }
 
+
+
+    protected void OnDeath()
+    {
+        deathParticles.transform.SetParent(null);
+        deathParticles.Play();
+        Destroy(gameObject);
+
+    }
 
     public void TakeDamage(int damage)
     {
@@ -136,27 +121,18 @@ public class Enemy : MonoBehaviour
             OnDeath();
     }
 
-    private void Wait()
+     protected void FacePlayer()
     {
-        attackTimer += Time.deltaTime;
+        if (player == null) return;
+
+        Vector2 dir = (Vector2)player.transform.position - (Vector2)transform.position;
+        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        angle += rotationOffset;
+        transform.rotation = Quaternion.Euler(0f, 0f, angle);
     }
 
-
-    private void OnDeath()
-    {
-        deathParticles.transform.SetParent(null);
-        deathParticles.Play();
-        Destroy(gameObject);
-
-    }
-
-    // public void Die()
-    // {
-    //     OnEnemyDied?.Invoke(this.gameObject);
-    //     Destroy(gameObject);
-    // }
-
-    private void OnDrawGizmos()
+    
+    protected void OnDrawGizmos()
     {
         if (!showGizmos)
             return;
