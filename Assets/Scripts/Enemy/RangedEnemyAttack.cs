@@ -1,10 +1,12 @@
 using UnityEngine;
+using UnityEngine.Pool;
 
 public class RangedEnemyAttack : MonoBehaviour
 {
     [Header(" Elements ")]
     [SerializeField] private Transform shootingPoint;
-    [SerializeField] private GameObject bulletPrefab;
+    [SerializeField] private EnemyBullet bulletPrefab;
+    private ObjectPool<EnemyBullet> enemyBulletPool;
     private Player player;
 
 
@@ -23,11 +25,38 @@ public class RangedEnemyAttack : MonoBehaviour
     {
         attackDelay = 1f / attackFrequency;
         attackTimer = attackDelay;
+
+        enemyBulletPool = new ObjectPool<EnemyBullet>(CreateFunction, ActionOnGet, ActionOnRelease, ActionOnDestroy);
     }
 
-    void Update()
+    private EnemyBullet CreateFunction()
     {
+        EnemyBullet bulletInstance = Instantiate(bulletPrefab, shootingPoint.position, Quaternion.identity);
+        bulletInstance.Configure(this);
 
+        return bulletInstance;
+    }
+
+    private void ActionOnGet(EnemyBullet enemyBullet)
+    {
+        enemyBullet.Reload();
+        enemyBullet.transform.position  = shootingPoint.position;
+        enemyBullet.gameObject.SetActive(true);
+    }
+
+    private void ActionOnRelease(EnemyBullet enemyBullet)
+    {
+        enemyBullet.gameObject.SetActive(false);
+    }
+
+    private void ActionOnDestroy(EnemyBullet enemyBullet)
+    {
+        Destroy(enemyBullet.gameObject);
+    }
+
+    public void ReleaseBullet(EnemyBullet enemyBullet)
+    {
+        enemyBulletPool.Release(enemyBullet); 
     }
 
     public void StorePlayer(Player player)
@@ -53,18 +82,15 @@ public class RangedEnemyAttack : MonoBehaviour
     private void Shoot()
     {
         Vector2 direction = (player.GetShootPosition() - (Vector2)shootingPoint.position).normalized;
-        
-        gizmosDirection = direction;
 
-        GameObject bulletInstance = Instantiate(bulletPrefab, shootingPoint.position, Quaternion.identity);
-        bulletInstance.transform.right = direction;
+        EnemyBullet bulletInstance = enemyBulletPool.Get();
 
-        bulletInstance.GetComponent<Rigidbody2D>().linearVelocity = direction * 5;
+        bulletInstance.Shoot(damage, direction);
     }
 
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.white;
-        Gizmos.DrawLine(shootingPoint.position, (Vector2)shootingPoint.position + gizmosDirection *5);
+        Gizmos.DrawLine(shootingPoint.position, (Vector2)shootingPoint.position + gizmosDirection * 5);
     }
 }

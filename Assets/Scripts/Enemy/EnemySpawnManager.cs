@@ -46,7 +46,7 @@ public class EnemySpawnManager : MonoBehaviour
             DropIron(spawnPoint.position);
         }
 
-        Enemy enemyScript = enemy.GetComponent<Enemy>();
+        MeleeEnemy enemyScript = enemy.GetComponent<MeleeEnemy>();
         if (enemyScript != null)
             //enemyScript.OnEnemyDied += HandleEnemyDied;
 

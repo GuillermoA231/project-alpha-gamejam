@@ -5214,17 +5214,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 50
-  healthText: {fileID: 2339268995731859441}
   renderer: {fileID: 5111840403693750104}
   spawnIndicator: {fileID: 2579413134590923080}
   spawnScaling: 2
   spawnScalingTime: 0.5
   collider: {fileID: 5948356057901061900}
   deathParticles: {fileID: 2392658930063099489}
+  playerDetectionRadius: 0.4
+  rotationOffset: 90
+  showGizmos: 1
   damage: 5
   attackFrequency: 1
-  playerDetectionRadius: 0.4
-  showGizmos: 1
 --- !u!114 &8428708772761696878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5237,7 +5237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa99fb0995d60b745b33fe5f4d3407e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 6
 --- !u!58 &5948356057901061900
 CircleCollider2D:
   m_ObjectHideFlags: 0

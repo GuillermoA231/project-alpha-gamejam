@@ -5038,16 +5038,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5d6d801a67e17c41b6521d205635d24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 25
   renderer: {fileID: 6156530631688977493}
   spawnIndicator: {fileID: 6157185362626441843}
   spawnScaling: 2
   spawnScalingTime: 0.5
   collider: {fileID: 4359756471677069461}
   deathParticles: {fileID: 3872895982777591502}
-  damage: 1
-  attackFrequency: 1
-  playerDetectionRadius: 5
+  playerDetectionRadius: 10
+  rotationOffset: 90
   showGizmos: 1
 --- !u!114 &5515216638197268124
 MonoBehaviour:
@@ -5061,7 +5060,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa99fb0995d60b745b33fe5f4d3407e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 2
 --- !u!58 &4359756471677069461
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5110,6 +5109,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17c99f30e374f534ba4c4db2d8954e01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shootingPoint: {fileID: 0}
+  bulletPrefab: {fileID: 0}
+  damage: 5
+  attackFrequency: 0.7
 --- !u!1 &8746754879460243020
 GameObject:
   m_ObjectHideFlags: 0
