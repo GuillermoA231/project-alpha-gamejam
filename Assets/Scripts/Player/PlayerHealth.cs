@@ -27,7 +27,7 @@ public class PlayerHealth : MonoBehaviour
         realDamage = Mathf.Min(health, damage);
         health -= realDamage;
 
-        
+
         UpdateHealthUI();
 
         if (health <= 0)
@@ -36,7 +36,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void Death()
     {
-        SceneManager.LoadScene("BasicArena");
+        SceneManager.LoadScene("BasicArena", LoadSceneMode.Single);
     }
 
     private void UpdateHealthUI()

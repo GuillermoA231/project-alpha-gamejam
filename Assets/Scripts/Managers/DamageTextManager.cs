@@ -1,28 +1,31 @@
 using UnityEngine;
 using UnityEngine.Pool;
-
 public class DamageTextManager : MonoBehaviour
 {
-
     [Header("Elements")]
     [SerializeField] private DamageText damageTextPrefab;
 
-    [Header("Elements")]
     private ObjectPool<DamageText> damageTextPool;
 
-    private void Awake()
+    private void OnEnable()
     {
-
-        MeleeEnemy.onDamageTaken += EnemyHitCallback;
+        Enemy.onDamageTaken += EnemyHitCallback;
     }
 
-    private void OnDestroy()
+    private void OnDisable()
     {
-        MeleeEnemy.onDamageTaken -= EnemyHitCallback;
+        Enemy.onDamageTaken -= EnemyHitCallback;
     }
-    void Start()
+
+    void Awake()
     {
-        damageTextPool = new ObjectPool<DamageText>(CreateFunction, ActionOnGet, ActionOnRelease, ActionOnDestroy);
+        // Create the pool once
+        damageTextPool = new ObjectPool<DamageText>(
+            CreateFunction,
+            ActionOnGet,
+            ActionOnRelease,
+            ActionOnDestroy
+        );
     }
 
     private DamageText CreateFunction()
@@ -30,38 +33,45 @@ public class DamageTextManager : MonoBehaviour
         return Instantiate(damageTextPrefab, transform);
     }
 
-    private void ActionOnGet(DamageText damageText)
+    private void ActionOnGet(DamageText dt)
     {
-
-        damageText.gameObject.SetActive(true);
+        if (dt != null)
+            dt.gameObject.SetActive(true);
     }
 
-    private void ActionOnRelease(DamageText damageText)
+    private void ActionOnRelease(DamageText dt)
     {
-        damageText.gameObject.SetActive(false);   
+        if (dt != null)
+            dt.gameObject.SetActive(false);
     }
 
-    private void ActionOnDestroy(DamageText damageText)
+    private void ActionOnDestroy(DamageText dt)
     {
-        Destroy(damageText.gameObject);
+        if (dt != null)
+            Destroy(dt.gameObject);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void EnemyHitCallback(int damage, Vector2 enemyPosition, bool isCritical)
     {
+        var dt = damageTextPool.Get();
+        if (dt == null) return;
 
-    }
+        // position and animate
+        Vector3 spawnPos = enemyPosition + Vector2.up * Random.Range(0.3f, 1.3f);
+        dt.transform.position = spawnPos;
+        dt.AnimatePopUp(damage, isCritical);
 
-    private void EnemyHitCallback(int damage, Vector2 enemyPosition)
-    {
-
-        DamageText damageTextInstance = damageTextPool.Get();
-
-        Vector3 spawnPosition = enemyPosition + Vector2.up * Random.Range(0.3f, 1.3f);
-        damageTextInstance.transform.position = spawnPosition;
-
-        damageTextInstance.AnimatePopUp(damage);
-
-        LeanTween.delayedCall(1, () => damageTextPool.Release(damageTextInstance));
+        // schedule pool-release *on the dt's GameObject*, so it
+        // cancels itself if that object is destroyed
+        LeanTween.delayedCall(
+            dt.gameObject,
+            2f,
+            () =>
+            {
+                // safety check
+                if (dt != null)
+                    damageTextPool.Release(dt);
+            }
+        );
     }
 }
