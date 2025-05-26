@@ -110,7 +110,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -5243008058539326800, guid: e371a87b2665f824eb6376b1c2546c50, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.47358483, g: 1, b: 0.50813735, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -199,7 +199,6 @@ MonoBehaviour:
   showGizmos: 1
   hitDetectionTransform: {fileID: 8095222905966475081}
   hitCollider: {fileID: 1720747762674286407}
-  hitDetectionRadius: 0.2
 --- !u!1 &9100586042807353554
 GameObject:
   m_ObjectHideFlags: 0

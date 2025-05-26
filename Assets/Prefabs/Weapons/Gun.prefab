@@ -99,12 +99,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a38b446ba3af36e40beb6809f3a7393e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 8
+  range: 20
   enemyMask:
     serializedVersion: 2
     m_Bits: 64
-  damage: 5
-  attackDelay: 1
+  damage: 20
+  attackDelay: 0.5
   animator: {fileID: 0}
   aimLerp: 15
   showGizmos: 1
@@ -220,7 +220,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -4637937412519905047, guid: 4267745ef6f1c374c96347b6f806d3ed, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.088679194, g: 1, b: 0.13011065, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 490d9df27fd874243a09ae2bad7183dd
+guid: e2f6136906b492445868261eaee37cf6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4530670122045351285
-    second: Scorpion_0
+      213: -2952609757684278397
+    second: robotgame1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Scorpion_0
+      name: robotgame1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 640
-        height: 640
+        x: 2
+        y: 1
+        width: 59
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b8ad20d4783df11c0800000000000000
-      internalID: -4530670122045351285
+      spriteID: 38b50e8a1193607d0800000000000000
+      internalID: -2952609757684278397
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Scorpion_0: -4530670122045351285
+      robotgame1_0: -2952609757684278397
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

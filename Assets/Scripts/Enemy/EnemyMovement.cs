@@ -1,4 +1,3 @@
-
 using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
@@ -7,33 +6,36 @@ public class EnemyMovement : MonoBehaviour
     private Player player;
 
     [Header(" Settings")]
-    [SerializeField] private float moveSpeed;
-    private bool isRangedEnemy;
+    [SerializeField] private float baseMoveSpeed = 5f;
+    private float currentMoveSpeed;
 
+    void Awake()
+    {
+        currentMoveSpeed = baseMoveSpeed;
+    }
 
-    // Update is called once per frame
     void Update()
     {
-        // if (player != null)
-        //     FollowPlayer();
+        // if you want auto-follow, uncomment:
+        // if (player != null) FollowPlayer();
     }
 
     public void StorePlayer(Player player)
     {
-        this.player = player; 
+        this.player = player;
     }
-
 
     public void FollowPlayer()
     {
-        Vector2 direction = (player.transform.position - transform.position).normalized;
-
-        Vector2 targetPosition = (Vector2)transform.position + direction * moveSpeed * Time.deltaTime;
-
-        transform.position = targetPosition;
-
+        if (player == null) return;
+        Vector2 dir = (player.transform.position - transform.position).normalized;
+        transform.position += (Vector3)(dir * currentMoveSpeed * Time.deltaTime);
     }
 
-
-
+    public void SetRandomSpeed(float minMultiplier = 0.5f, float maxMultiplier = 2.5f)
+    {
+        float m = Random.Range(minMultiplier, maxMultiplier);
+        currentMoveSpeed = baseMoveSpeed * m;
+        Debug.Log($"{gameObject.name} speed set to {currentMoveSpeed:F2}");
+    }
 }

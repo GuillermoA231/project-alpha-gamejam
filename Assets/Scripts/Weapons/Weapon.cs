@@ -55,7 +55,7 @@ public abstract class Weapon : MonoBehaviour
     {
         isCriticalHit = false;
 
-        if (Random.Range(0, 101) <= 50)
+        if (Random.Range(0, 101) <= 10)
         {
             isCriticalHit = true;
             return damage * 2;
