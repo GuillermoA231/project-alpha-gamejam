@@ -8,13 +8,15 @@ public class WeaponBullet : MonoBehaviour
     private Rigidbody2D rigidbody2D;
     private Collider2D collider2D;
     private RangedWeapon rangedWeapon;
-    
+
 
 
     [Header("Settings")]
     [SerializeField] private float moveSpeed;
     [SerializeField] private LayerMask enemyMask;
     private int damage;
+    private bool isCriticalHit;
+    private Enemy target;
 
 
     private void Awake()
@@ -43,38 +45,44 @@ public class WeaponBullet : MonoBehaviour
 
     public void Reload()
     {
+        target = null;
         rigidbody2D.linearVelocity = Vector2.zero;
         collider2D.enabled = true;
     }
-    public void Shoot(int damage, Vector2 direction)
+    public void Shoot(int damage, Vector2 direction, bool isCriticalHit)
     {
         Invoke("Release", 1);
 
         this.damage = damage;
+        this.isCriticalHit = isCriticalHit;
 
         transform.right = direction;
         rigidbody2D.linearVelocity = direction * moveSpeed;
     }
     private void OnTriggerEnter2D(Collider2D collider)
     {
+        if (target != null)
+            return;
         if (IfIsInLayerMask(collider.gameObject.layer, enemyMask))
         {
+            target = collider.GetComponent<Enemy>();
+
             CancelInvoke();
-            Attack(collider.GetComponent<Enemy>());
+            Attack(target);
             Release();
         }
     }
 
     private void Release()
     {
-        if(!gameObject.activeSelf)
+        if (!gameObject.activeSelf)
             return;
         rangedWeapon.ReleaseBullet(this);
     }
 
     private void Attack(Enemy enemy)
     {
-        enemy.TakeDamage(damage);
+        enemy.TakeDamage(damage, isCriticalHit);
     }
 
     private bool IfIsInLayerMask(int layer, LayerMask layerMask)

@@ -33,7 +33,8 @@ public abstract class Enemy : MonoBehaviour
 
 
     [Header("Actions")]
-    public static Action<int, Vector2> onDamageTaken;
+    public static Action<int, Vector2, bool> onDamageTaken;
+    public static Action<Vector2> onDeath;
 
 
     [Header("DEBUG")]
@@ -101,26 +102,6 @@ public abstract class Enemy : MonoBehaviour
     }
 
 
-
-    protected void OnDeath()
-    {
-        deathParticles.transform.SetParent(null);
-        deathParticles.Play();
-        Destroy(gameObject);
-
-    }
-
-    public void TakeDamage(int damage)
-    {
-        int realDamage = Mathf.Min(damage, health);
-        health -= realDamage;
-
-        onDamageTaken?.Invoke(damage, transform.position);
-
-        if (health <= 0)
-            OnDeath();
-    }
-
      protected void FacePlayer()
     {
         if (player == null) return;
@@ -130,6 +111,29 @@ public abstract class Enemy : MonoBehaviour
         angle += rotationOffset;
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
     }
+
+    public void TakeDamage(int damage, bool isCriticalHit)
+    {
+        int realDamage = Mathf.Min(damage, health);
+        health -= realDamage;
+
+        onDamageTaken?.Invoke(damage, transform.position, isCriticalHit);
+
+        if (health <= 0)
+            OnDeath();
+    }
+
+    protected void OnDeath()
+    {
+        onDeath?.Invoke(transform.position);
+
+        deathParticles.transform.SetParent(null);
+        deathParticles.Play();
+        Destroy(gameObject);
+
+    }
+
+
 
     
     protected void OnDrawGizmos()
