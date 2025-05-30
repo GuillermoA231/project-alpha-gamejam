@@ -5109,7 +5109,7 @@ MonoBehaviour:
   spawnScalingTime: 0.5
   collider: {fileID: 4359756471677069461}
   deathParticles: {fileID: 3872895982777591502}
-  playerDetectionRadius: 10
+  playerDetectionRadius: 6
   rotationOffset: 90
   showGizmos: 1
 --- !u!114 &5515216638197268124
