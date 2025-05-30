@@ -1,10 +1,14 @@
 using System.Collections;
 using UnityEngine;
 
-public class Diamond : MonoBehaviour
+public abstract class DroppableCurrency : MonoBehaviour , ICollectable
 {
-
     private bool collected;
+
+    private void OnEnable()
+    {
+        collected = false;
+    }
     public void Collect(Player player)
     {
         if (collected)
@@ -13,13 +17,12 @@ public class Diamond : MonoBehaviour
 
         StartCoroutine(MoveTowardsPlayer(player));
     }
+    
 
     IEnumerator MoveTowardsPlayer(Player player)
     {
         float timer = 0;
         Vector2 initialPosition = transform.position;
-
-        // Vector2 targetPosition = player.GetShootPosition();
 
         while (timer < 1)
         {
@@ -32,8 +35,5 @@ public class Diamond : MonoBehaviour
         Collected();
     }
 
-    private void Collected()
-    {
-        gameObject.SetActive(false);
-    }
+    protected abstract void Collected();
 }
