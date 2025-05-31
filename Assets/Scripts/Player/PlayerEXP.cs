@@ -10,6 +10,7 @@ public class PlayerEXP : MonoBehaviour
     private int requiredXP;
     private int currentXP;
     private int level;
+    private int levelsEarnedThisWave;
 
     [Header("Elements")]
     [SerializeField] private Slider xpSlider;
@@ -43,7 +44,7 @@ public class PlayerEXP : MonoBehaviour
         normalizedXP = (float)currentXP / requiredXP;
         xpSlider.value = normalizedXP;
         xpText.text = currentXP + " / " + requiredXP;
-        lvlText.text = "LV: " + (level+1);
+        lvlText.text = "LV: " + (level + 1);
     }
     private void moneyCollectedCallback(Money money)
     {
@@ -63,8 +64,18 @@ public class PlayerEXP : MonoBehaviour
     {
         level++;
         currentXP = 0;
+        levelsEarnedThisWave++;
         UpdateRequiredXP();
         UpdateEXPUI();
+    }
+    public bool HasLeveledUp()
+    {
+        if (levelsEarnedThisWave > 0)
+        {
+            levelsEarnedThisWave--;
+            return true;
+        }
+        return false;
     }
 
 }

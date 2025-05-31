@@ -4,10 +4,12 @@ using UnityEngine.SceneManagement;
 using NaughtyAttributes;
 using Unity.VisualScripting;
 
-public class WaveManager : MonoBehaviour
+[RequireComponent(typeof(WaveManagerUI))]
+public class WaveManager : MonoBehaviour, IGameStateListener
 {
     [Header("Elements")]
     [SerializeField] private Player player;
+    private WaveManagerUI ui;
 
 
     [Header("Settings")]
@@ -20,10 +22,15 @@ public class WaveManager : MonoBehaviour
     [SerializeField] private Wave[] waves;
     private List<float> localCounters = new List<float>();
 
+
+    private void Awake()
+    {
+        ui = GetComponent<WaveManagerUI>();
+    }
     void Start()
     {
 
-        StartWave(currentWaveIndex);
+        // StartWave(currentWaveIndex);
     }
 
     void Update()
@@ -31,7 +38,11 @@ public class WaveManager : MonoBehaviour
         if (!isTimerOn)
             return;
         if (timer < waveDuration)
+        {
             manageCurrentWave();
+            string timerString = ((int)(waveDuration - timer)).ToString();
+            ui.UpdateTimerText(timerString);
+        }
         else
             StartWaveTransition();
     }
@@ -39,12 +50,19 @@ public class WaveManager : MonoBehaviour
     private void StartWave(int waveIndex)
     {
         Debug.Log("Wave: " + waveIndex);
+
+        ui.UpdateWaveText("Wave " + (currentWaveIndex + 1) + " / " + waves.Length);
         localCounters.Clear();
         foreach (WaveSegment segment in waves[waveIndex].segments)
             localCounters.Add(1);
 
         timer = 0;
         isTimerOn = true;
+    }
+
+    private void StartNextWave()
+    {
+        StartWave(currentWaveIndex);
     }
 
     private void manageCurrentWave()
@@ -78,13 +96,18 @@ public class WaveManager : MonoBehaviour
     private void StartWaveTransition()
     {
         isTimerOn = false;
-        //DefeatAllEnemies();
+        DefeatAllEnemies();
         currentWaveIndex++;
 
         if (currentWaveIndex >= waves.Length)
+        {
             Debug.Log("All waves cleared");
+            ui.UpdateTimerText("");
+            ui.UpdateWaveText("Game finished!");
+            GameManager.instance.SetGameState(GameState.STAGECOMPLETE);
+        }
         else
-            StartWave(currentWaveIndex);
+            GameManager.instance.WaveCompletedCallback();
     }
 
 
@@ -107,6 +130,20 @@ public class WaveManager : MonoBehaviour
         targetPosition.y = Mathf.Clamp(targetPosition.y, -16, 16);
 
         return targetPosition;
+    }
+
+    public void GameStateChangedCallback(GameState gameState)
+    {
+        switch (gameState)
+        {
+            case GameState.GAME:
+                StartNextWave();
+                break;
+            case GameState.GAMEOVER:
+                isTimerOn = false;
+                DefeatAllEnemies();
+                break;
+        }
     }
 }
 
