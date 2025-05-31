@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &152225022847183318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4830462465612044338}
+  m_Layer: 6
+  m_Name: Drop Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4830462465612044338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 152225022847183318}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1527883327144355661}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3334374673249807451
 GameObject:
   m_ObjectHideFlags: 0
@@ -5056,6 +5087,7 @@ Transform:
   - {fileID: 3079630914633070030}
   - {fileID: 5021529001226747566}
   - {fileID: 4620310782206947580}
+  - {fileID: 4830462465612044338}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &689411261754752198
@@ -5077,7 +5109,7 @@ MonoBehaviour:
   spawnScalingTime: 0.5
   collider: {fileID: 4359756471677069461}
   deathParticles: {fileID: 3872895982777591502}
-  playerDetectionRadius: 10
+  playerDetectionRadius: 6
   rotationOffset: 90
   showGizmos: 1
 --- !u!114 &5515216638197268124

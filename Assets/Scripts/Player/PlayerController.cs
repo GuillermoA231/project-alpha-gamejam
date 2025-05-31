@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour, IGameStateListener
 {
     [SerializeField] private Rigidbody2D rig;
     [SerializeField] private SpriteRenderer spriteRenderer;
@@ -14,6 +14,9 @@ public class PlayerController : MonoBehaviour
     [Header("Stats")]
     [SerializeField] private float moveSpeed;
     private float speedX, speedY;
+
+    [Header("Settings")]
+    private bool canMove;
 
     void Start()
     {
@@ -43,6 +46,11 @@ public class PlayerController : MonoBehaviour
 
     void WASDMove()
     {
+        if (!canMove)
+        {
+            rig.linearVelocity = Vector2.zero;
+            return;
+        }
         speedX = Input.GetAxisRaw("Horizontal") * moveSpeed;
         speedY = Input.GetAxisRaw("Vertical") * moveSpeed;
         rig.linearVelocity = new Vector2(speedX, speedY);
@@ -64,5 +72,13 @@ public class PlayerController : MonoBehaviour
         {
             spriteRenderer.sprite = spriteLeft;
         }
+    }
+
+    public void GameStateChangedCallback(GameState gameState)
+    {
+        if (gameState == GameState.GAME)
+            canMove = true;
+        else
+            canMove = false;
     }
 }

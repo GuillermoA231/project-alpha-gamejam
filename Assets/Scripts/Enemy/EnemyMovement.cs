@@ -36,6 +36,5 @@ public class EnemyMovement : MonoBehaviour
     {
         float m = Random.Range(minMultiplier, maxMultiplier);
         currentMoveSpeed = baseMoveSpeed * m;
-        Debug.Log($"{gameObject.name} speed set to {currentMoveSpeed:F2}");
     }
 }
