@@ -16,6 +16,9 @@ public class PlayerEXP : MonoBehaviour
     [SerializeField] private Slider xpSlider;
     [SerializeField] private TextMeshProUGUI xpText;
     [SerializeField] private TextMeshProUGUI lvlText;
+
+    [Header("DEBUG")]
+    [SerializeField] private bool debugMode;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     private void Awake()
@@ -70,6 +73,9 @@ public class PlayerEXP : MonoBehaviour
     }
     public bool HasLeveledUp()
     {
+        if(debugMode)
+            return true;
+
         if (levelsEarnedThisWave > 0)
         {
             levelsEarnedThisWave--;
