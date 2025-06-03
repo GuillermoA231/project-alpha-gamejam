@@ -9,6 +9,7 @@ using Unity.VisualScripting;
 public class WaveTransitionManager : MonoBehaviour, IGameStateListener
 {
     [Header(" Elements")]
+    [SerializeField] private PlayerStatsManager  playerStatsManager;
     [SerializeField] private UpgradeContainer[] upgradeContainers;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -117,7 +118,7 @@ public class WaveTransitionManager : MonoBehaviour, IGameStateListener
                 return () => Debug.Log("Invalid Stat");
 
         }
-        return () => Debug.Log("processed");
+        return () => playerStatsManager.AddPlayerStat(stat,value);
     }
 }
 

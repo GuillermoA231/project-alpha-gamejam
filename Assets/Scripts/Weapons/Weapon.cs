@@ -1,19 +1,31 @@
 
+using System.Runtime.InteropServices;
+using NaughtyAttributes;
+using Unity.VisualScripting;
 using UnityEngine;
 
-public abstract class Weapon : MonoBehaviour
+public abstract class Weapon : MonoBehaviour, IPlayerStatsDependency
 {
+
+    [field: SerializeField] public WeaponDataSO WeaponData { get; private set; }
     [Header("Settings")]
-    [SerializeField] private float range;
+    [SerializeField] protected float range;
     [SerializeField] protected LayerMask enemyMask;
     [Header("Attack")]
-    [SerializeField] protected int damage;
+    [SerializeField] protected int baseDamage;
+    protected int damage;
     [SerializeField] protected float attackDelay;
     [SerializeField] protected Animator animator;
     protected float attackTimer;
+    [Header("Critical Attack")]
+    protected int criticalChance;
+    protected float criticalDamage;
 
     [Header("Animations")]
     [SerializeField] protected float aimLerp;
+    [Header("Level")]
+    [field: SerializeField]public int Level { get; private set; }
+
 
     [Header("DEBUG")]
     [SerializeField] private bool showGizmos;
@@ -21,10 +33,7 @@ public abstract class Weapon : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-    }
-    // Update is called once per frame
-    void Update()
-    {
+        damage = baseDamage;
     }
     protected Enemy GetClosestEnemy()
     {
@@ -55,10 +64,10 @@ public abstract class Weapon : MonoBehaviour
     {
         isCriticalHit = false;
 
-        if (Random.Range(0, 101) <= 10)
+        if (Random.Range(0, 101) <= criticalChance)
         {
             isCriticalHit = true;
-            return damage * 2;
+            return Mathf.RoundToInt(damage * criticalDamage);
         }
 
         return damage;
@@ -71,5 +80,21 @@ public abstract class Weapon : MonoBehaviour
 
         Gizmos.color = Color.blue;
         Gizmos.DrawWireSphere(transform.position, range);
+    }
+
+    public abstract void UpdateStats(PlayerStatsManager playerStatsManager);
+
+    protected void ConfigureStats()
+    {
+        float multiplier = 1 + (float)Level / 3;
+        damage = Mathf.RoundToInt(WeaponData.GetStatValue(Stat.Attack) * multiplier);
+        attackDelay = 1f / (WeaponData.GetStatValue(Stat.AttackSpeed) * multiplier);
+
+        criticalChance = Mathf.RoundToInt(WeaponData.GetStatValue(Stat.CriticalChance) * multiplier);
+        criticalDamage = WeaponData.GetStatValue(Stat.CriticalDamage) * multiplier;
+
+
+        if(WeaponData.Prefab.GetType() == typeof(RangedWeapon))
+            range = WeaponData.GetStatValue(Stat.Range) * multiplier;
     }
 }
