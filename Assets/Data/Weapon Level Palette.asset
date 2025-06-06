@@ -12,5 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f2d1d62685dbdc40a776a99f1a2c732, type: 3}
   m_Name: Weapon Level Palette
   m_EditorClassIdentifier: 
-  <LevelColors>k__BackingField: []
-  <LevelOutlineColors>k__BackingField: []
+  <LevelColors>k__BackingField:
+  - {r: 0.7056604, g: 0.7056604, b: 0.7056604, a: 1}
+  - {r: 0.30128145, g: 0.8080093, b: 0.81886786, a: 1}
+  - {r: 0.60396785, g: 0.24741183, b: 0.9169811, a: 1}
+  - {r: 0.85660374, g: 0.24405126, b: 0.24405126, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  <LevelOutlineColors>k__BackingField:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0, g: 0.9767442, b: 1, a: 1}
+  - {r: 1, g: 0.49411765, b: 1, a: 1}
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}

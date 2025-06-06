@@ -1,4 +1,5 @@
 
+using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using NaughtyAttributes;
 using Unity.VisualScripting;
@@ -24,13 +25,13 @@ public abstract class Weapon : MonoBehaviour, IPlayerStatsDependency
     [Header("Animations")]
     [SerializeField] protected float aimLerp;
     [Header("Level")]
-    [field: SerializeField]public int Level { get; private set; }
+    [field: SerializeField] public int Level { get; private set; }
 
 
     [Header("DEBUG")]
     [SerializeField] private bool showGizmos;
 
-    
+
     protected Enemy GetClosestEnemy()
     {
         Enemy closestEnemy = null;
@@ -82,17 +83,13 @@ public abstract class Weapon : MonoBehaviour, IPlayerStatsDependency
 
     protected void ConfigureStats()
     {
-        float multiplier = 1 + (float)Level / 3;
-        damage = Mathf.RoundToInt(WeaponData.GetStatValue(Stat.Attack) * multiplier);
-        attackDelay = Mathf.Max(0.08f, 1f / (WeaponData.GetStatValue(Stat.AttackSpeed) * multiplier));
+        Dictionary<Stat, float> calculatedStats = WeaponStatsCalculator.GetStats(WeaponData, Level);
 
-
-        criticalChance = Mathf.RoundToInt(WeaponData.GetStatValue(Stat.CriticalChance) * multiplier);
-        criticalDamage = WeaponData.GetStatValue(Stat.CriticalDamage) * multiplier;
-
-
-        if(WeaponData.Prefab.GetType() == typeof(RangedWeapon))
-            range = WeaponData.GetStatValue(Stat.Range) * multiplier;
+        damage                  = Mathf.RoundToInt(calculatedStats[Stat.Attack]);
+        attackDelay             = Mathf.Max(0.08f, 1f/ calculatedStats[Stat.AttackSpeed]);
+        criticalChance          = Mathf.RoundToInt(calculatedStats[Stat.CriticalChance]);
+        criticalDamage          = calculatedStats[Stat.CriticalDamage];
+        range                   = calculatedStats[Stat.Range];
     }
     public void UpgradeTo(int level)
     {
