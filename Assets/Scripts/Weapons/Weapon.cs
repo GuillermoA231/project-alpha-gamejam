@@ -30,11 +30,7 @@ public abstract class Weapon : MonoBehaviour, IPlayerStatsDependency
     [Header("DEBUG")]
     [SerializeField] private bool showGizmos;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        damage = baseDamage;
-    }
+    
     protected Enemy GetClosestEnemy()
     {
         Enemy closestEnemy = null;
@@ -88,7 +84,8 @@ public abstract class Weapon : MonoBehaviour, IPlayerStatsDependency
     {
         float multiplier = 1 + (float)Level / 3;
         damage = Mathf.RoundToInt(WeaponData.GetStatValue(Stat.Attack) * multiplier);
-        attackDelay = 1f / (WeaponData.GetStatValue(Stat.AttackSpeed) * multiplier);
+        attackDelay = Mathf.Max(0.08f, 1f / (WeaponData.GetStatValue(Stat.AttackSpeed) * multiplier));
+
 
         criticalChance = Mathf.RoundToInt(WeaponData.GetStatValue(Stat.CriticalChance) * multiplier);
         criticalDamage = WeaponData.GetStatValue(Stat.CriticalDamage) * multiplier;
@@ -96,5 +93,10 @@ public abstract class Weapon : MonoBehaviour, IPlayerStatsDependency
 
         if(WeaponData.Prefab.GetType() == typeof(RangedWeapon))
             range = WeaponData.GetStatValue(Stat.Range) * multiplier;
+    }
+    public void UpgradeTo(int level)
+    {
+        Level = level;
+        ConfigureStats();
     }
 }
