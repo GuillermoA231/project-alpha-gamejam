@@ -27,7 +27,7 @@ public abstract class Enemy : MonoBehaviour
     [Header("Attack")]
     [SerializeField] protected float playerDetectionRadius;
 
-    
+
     [Header("Rotation")]
     [SerializeField] private float rotationOffset = 0f;
 
@@ -102,7 +102,7 @@ public abstract class Enemy : MonoBehaviour
     }
 
 
-     protected void FacePlayer()
+    protected void FacePlayer()
     {
         if (player == null) return;
 
@@ -123,19 +123,22 @@ public abstract class Enemy : MonoBehaviour
             OnDeath();
     }
 
-    protected void OnDeath()
+    public void OnDeath()
     {
         onDeath?.Invoke(transform.position);
+        DeathAfterWave();
+
+    }
+
+    public void DeathAfterWave()
+    {
 
         deathParticles.transform.SetParent(null);
         deathParticles.Play();
         Destroy(gameObject);
-
     }
 
 
-
-    
     protected void OnDrawGizmos()
     {
         if (!showGizmos)

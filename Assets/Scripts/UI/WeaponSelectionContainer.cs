@@ -8,6 +8,7 @@ public class WeaponSelectionContainer : MonoBehaviour
     [Header("Elements")]
     [SerializeField] private Image icon;
     [SerializeField] private Image nameBackgroundColor;
+    [SerializeField] private Outline containerOutline;
     [SerializeField] private TextMeshProUGUI nameText;
 
     [Header("Stats")]
@@ -28,6 +29,7 @@ public class WeaponSelectionContainer : MonoBehaviour
         Color imageOutlineColor = ColorHolder.GetOutlineColor(level);
         nameText.color = imageColor;
         nameBackgroundColor.color = imageOutlineColor;
+        containerOutline.effectColor = imageOutlineColor;
 
         foreach (Image image in containerImage)
         {

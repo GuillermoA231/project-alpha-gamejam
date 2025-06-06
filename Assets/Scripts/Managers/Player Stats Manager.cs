@@ -14,17 +14,8 @@ public class PlayerStatsManager : MonoBehaviour
         foreach (KeyValuePair<Stat, float> kvp in playerStats)
             addends.Add(kvp.Key, 0);
     }
-    void Start()
-    {
-
-        UpdatePlayerStats();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+    
+    void Start() => UpdatePlayerStats();
 
     public void AddPlayerStat(Stat stat, float value)
     {
@@ -44,7 +35,6 @@ public class PlayerStatsManager : MonoBehaviour
     }
     private void UpdatePlayerStats()
     {
-
         IEnumerable<IPlayerStatsDependency> playerStatsDependencies =
         FindObjectsByType<MonoBehaviour>(FindObjectsSortMode.None)
         .OfType<IPlayerStatsDependency>();
