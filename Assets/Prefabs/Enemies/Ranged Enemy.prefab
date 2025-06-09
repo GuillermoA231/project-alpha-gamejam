@@ -5109,7 +5109,7 @@ MonoBehaviour:
   spawnScalingTime: 0.5
   collider: {fileID: 4359756471677069461}
   deathParticles: {fileID: 3872895982777591502}
-  playerDetectionRadius: 6
+  playerDetectionRadius: 20
   rotationOffset: 90
   showGizmos: 1
 --- !u!114 &5515216638197268124
@@ -5124,7 +5124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa99fb0995d60b745b33fe5f4d3407e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseMoveSpeed: 2.5
+  baseMoveSpeed: 3
 --- !u!58 &4359756471677069461
 CircleCollider2D:
   m_ObjectHideFlags: 0

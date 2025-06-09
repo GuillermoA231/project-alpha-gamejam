@@ -119,11 +119,11 @@ public class WaveManager : MonoBehaviour, IGameStateListener
     private Vector2 GetSpawnPosition()
     {
         Vector2 direction = Random.onUnitSphere;
-        Vector2 offset = direction.normalized * Random.Range(6, 10);
+        Vector2 offset = direction.normalized * Random.Range(30,80);
         Vector2 targetPosition = (Vector2)player.transform.position + offset;
 
-        targetPosition.x = Mathf.Clamp(targetPosition.x, -20, 20);
-        targetPosition.y = Mathf.Clamp(targetPosition.y, -16, 16);
+        targetPosition.x = Mathf.Clamp(targetPosition.x, -110, 110);
+        targetPosition.y = Mathf.Clamp(targetPosition.y, -110, 110);
 
         return targetPosition;
     }
