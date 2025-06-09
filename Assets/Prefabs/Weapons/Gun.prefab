@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 4611292019151882944}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2, y: 0.90000033, z: 0}
+  m_LocalPosition: {x: 2, y: 1, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -57,14 +57,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6483588011960569101}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -0.5, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3267956076894072996}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!95 &5850011898984396644
 Animator:
   serializedVersion: 7
@@ -99,17 +99,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a38b446ba3af36e40beb6809f3a7393e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 20
+  <WeaponData>k__BackingField: {fileID: 11400000, guid: 07d6f8437624d6243894885a0eb31064, type: 2}
+  range: 0
   enemyMask:
     serializedVersion: 2
     m_Bits: 64
-  damage: 20
-  attackDelay: 0.5
+  baseDamage: 0
+  attackDelay: 1
   animator: {fileID: 0}
-  aimLerp: 15
+  aimLerp: 20
+  <Level>k__BackingField: 0
   showGizmos: 1
   weaponBulletPrefab: {fileID: 496041145423611910, guid: 719438396b0dc6044a3d009b1aa59bc1, type: 3}
   shootingPoint: {fileID: 837304891189481659}
+  spriteRenderer: {fileID: 1056968470537780238}
 --- !u!1 &7996332197995448172
 GameObject:
   m_ObjectHideFlags: 0

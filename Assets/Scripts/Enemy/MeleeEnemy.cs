@@ -8,10 +8,12 @@ public class MeleeEnemy : Enemy
     [Header("Attack")]
     [SerializeField] private int damage;
     [SerializeField] private float attackFrequency;
+    
     private float attackDelay, attackTimer;
     //public event Action<GameObject> OnEnemyDied;
+
     protected override void Start()
-    { 
+    {
         base.Start();
         attackDelay = 1f / attackFrequency;
     }

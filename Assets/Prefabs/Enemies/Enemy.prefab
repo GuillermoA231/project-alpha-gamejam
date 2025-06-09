@@ -5223,6 +5223,9 @@ MonoBehaviour:
   deathParticles: {fileID: 2392658930063099489}
   playerDetectionRadius: 0.4
   rotationOffset: 90
+  deathClip: {fileID: 8300000, guid: 7ebed220a30c28246b18e31030c659da, type: 3}
+  deathVolume: 1
+  deathPitchRange: {x: 0.95, y: 1.05}
   showGizmos: 1
   damage: 5
   attackFrequency: 1
@@ -5238,7 +5241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa99fb0995d60b745b33fe5f4d3407e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseMoveSpeed: 3
+  baseMoveSpeed: 5
 --- !u!58 &5948356057901061900
 CircleCollider2D:
   m_ObjectHideFlags: 0

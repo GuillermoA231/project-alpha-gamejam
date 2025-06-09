@@ -9,6 +9,7 @@ public class WaveManager : MonoBehaviour, IGameStateListener
 {
     [Header("Elements")]
     [SerializeField] private Player player;
+    [SerializeField] private Transform bulletParent;
     private WaveManagerUI ui;
 
 
@@ -96,6 +97,7 @@ public class WaveManager : MonoBehaviour, IGameStateListener
     private void StartWaveTransition()
     {
         isTimerOn = false;
+        CleanBullets();
         DefeatAllEnemies();
         currentWaveIndex++;
 
@@ -113,21 +115,31 @@ public class WaveManager : MonoBehaviour, IGameStateListener
 
     private void DefeatAllEnemies()
     {
-        while (transform.childCount > 0)
+        foreach (Enemy enemy in transform.GetComponentsInChildren<Enemy>())
+            enemy.DeathAfterWave();
+    }
+    private void CleanBullets()
+    {
+        for (int i = bulletParent.childCount - 1; i >= 0; i--)
         {
-            Transform child = transform.transform.GetChild(0);
-            child.SetParent(null);
-            Object.Destroy(child.gameObject);
+            Transform child = bulletParent.GetChild(i);
+            if (!child.gameObject.activeSelf)
+                continue;              // ← already pooled / inactive, skip it
+
+            if (child.TryGetComponent<EnemyBullet>(out var eb))
+                eb.ReturnToPool();
+            else
+                Destroy(child.gameObject);
         }
     }
     private Vector2 GetSpawnPosition()
     {
         Vector2 direction = Random.onUnitSphere;
-        Vector2 offset = direction.normalized * Random.Range(6, 10);
+        Vector2 offset = direction.normalized * Random.Range(30, 40);
         Vector2 targetPosition = (Vector2)player.transform.position + offset;
 
-        targetPosition.x = Mathf.Clamp(targetPosition.x, -20, 20);
-        targetPosition.y = Mathf.Clamp(targetPosition.y, -16, 16);
+        targetPosition.x = Mathf.Clamp(targetPosition.x, -100, 100);
+        targetPosition.y = Mathf.Clamp(targetPosition.y, -100, 100);
 
         return targetPosition;
     }

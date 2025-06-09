@@ -31,7 +31,8 @@ public class RangedEnemyAttack : MonoBehaviour
 
     private EnemyBullet CreateFunction()
     {
-        EnemyBullet bulletInstance = Instantiate(bulletPrefab, shootingPoint.position, Quaternion.identity);
+        Transform parent = BulletManager.Instance.Container;
+        EnemyBullet bulletInstance = Instantiate(bulletPrefab, shootingPoint.position, Quaternion.identity, parent);
         bulletInstance.Configure(this);
 
         return bulletInstance;

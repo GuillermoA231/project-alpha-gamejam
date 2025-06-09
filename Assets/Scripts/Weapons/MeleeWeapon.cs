@@ -78,6 +78,8 @@ public class MeleeWeapon : Weapon
         damagedEnemies.Clear();
 
         animator.speed = 1f / attackDelay;
+
+        PlayAttackSound();
     }
 
     private void Attacking()
@@ -120,4 +122,16 @@ public class MeleeWeapon : Weapon
 
     }
 
+    
+    public override void UpdateStats(PlayerStatsManager playerStatsManager)
+    {
+        ConfigureStats();
+        damage = Mathf.RoundToInt((int)(damage * (1 + playerStatsManager.GetStatValue(Stat.Attack) / 100)));
+        attackDelay /= 1 + (playerStatsManager.GetStatValue(Stat.AttackSpeed) / 100);
+        attackDelay = Mathf.Max(0.09f, attackDelay);
+
+        criticalChance = Mathf.RoundToInt(criticalChance * (1 + playerStatsManager.GetStatValue(Stat.CriticalChance) / 100));
+        criticalDamage += playerStatsManager.GetStatValue(Stat.CriticalDamage);
+
+    }
 }

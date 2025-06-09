@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour, IGameStateListener
+public class PlayerController : MonoBehaviour, IPlayerStatsDependency, IGameStateListener
 {
     [SerializeField] private Rigidbody2D rig;
     [SerializeField] private SpriteRenderer spriteRenderer;
@@ -12,7 +12,8 @@ public class PlayerController : MonoBehaviour, IGameStateListener
     [SerializeField] private Sprite spriteRight;
 
     [Header("Stats")]
-    [SerializeField] private float moveSpeed;
+    [SerializeField] private float baseMoveSpeed;
+    private float moveSpeed;
     private float speedX, speedY;
 
     [Header("Settings")]
@@ -80,5 +81,11 @@ public class PlayerController : MonoBehaviour, IGameStateListener
             canMove = true;
         else
             canMove = false;
+    }
+
+    public void UpdateStats(PlayerStatsManager playerStatsManager)
+    {
+        float moveSpeedPercent = playerStatsManager.GetStatValue(Stat.MoveSpeed) /100;
+        moveSpeed = baseMoveSpeed * (1 + moveSpeedPercent);
     }
 }

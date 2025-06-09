@@ -188,14 +188,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d98925c293b4ea4885f8b77dfc5c611, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <WeaponData>k__BackingField: {fileID: 11400000, guid: 3c24a50b8899a964db2906c50388b178, type: 2}
   range: 5
   enemyMask:
     serializedVersion: 2
     m_Bits: 64
-  damage: 10
-  attackDelay: 0.6
+  baseDamage: 5
+  attackDelay: 1
   animator: {fileID: 4518935248810215405}
-  aimLerp: 13
+  aimLerp: 15
+  <Level>k__BackingField: 0
   showGizmos: 1
   hitDetectionTransform: {fileID: 8095222905966475081}
   hitCollider: {fileID: 1720747762674286407}
