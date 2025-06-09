@@ -26,7 +26,6 @@ public class GameManager : MonoBehaviour
     public void OpenShop() => SetGameState(GameState.SHOP);
     public void SetGameState(GameState gameState)
     {
-        Debug.Log(gameState);
         IEnumerable<IGameStateListener> gameStateListeners =
         FindObjectsByType<MonoBehaviour>(FindObjectsSortMode.None)
         .OfType<IGameStateListener>();

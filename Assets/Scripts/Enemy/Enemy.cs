@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using System;
 
@@ -37,8 +38,17 @@ public abstract class Enemy : MonoBehaviour
     public static Action<Vector2> onDeath;
 
 
+    [Header("Audio")]
+    [SerializeField] private AudioClip deathClip;
+    [SerializeField] private float deathVolume = 1f;
+    [SerializeField] private Vector2 deathPitchRange = new Vector2(0.95f, 1.05f);
+    
+
+
     [Header("DEBUG")]
     [SerializeField] protected bool showGizmos;
+
+    private bool isDeathAfterWave;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -120,13 +130,16 @@ public abstract class Enemy : MonoBehaviour
         onDamageTaken?.Invoke(damage, transform.position, isCriticalHit);
 
         if (health <= 0)
+        {
+            DeathAfterWave();
             OnDeath();
+        }
     }
 
     public void OnDeath()
     {
         onDeath?.Invoke(transform.position);
-        DeathAfterWave();
+        PlayDeathSound();
 
     }
 
@@ -136,6 +149,18 @@ public abstract class Enemy : MonoBehaviour
         deathParticles.transform.SetParent(null);
         deathParticles.Play();
         Destroy(gameObject);
+    }
+    private void PlayDeathSound()
+    {
+        if (deathClip == null) return;
+        AudioManager.Instance.PlaySFX(
+            deathClip,
+            transform.position,
+            deathVolume,
+            deathPitchRange.x,
+            deathPitchRange.y,
+            spatialBlend: 1f
+        );
     }
 
 

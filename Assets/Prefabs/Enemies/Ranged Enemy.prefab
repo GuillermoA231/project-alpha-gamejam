@@ -5111,6 +5111,9 @@ MonoBehaviour:
   deathParticles: {fileID: 3872895982777591502}
   playerDetectionRadius: 20
   rotationOffset: 90
+  deathClip: {fileID: 8300000, guid: 7ebed220a30c28246b18e31030c659da, type: 3}
+  deathVolume: 1
+  deathPitchRange: {x: 1.2, y: 1.3}
   showGizmos: 1
 --- !u!114 &5515216638197268124
 MonoBehaviour:

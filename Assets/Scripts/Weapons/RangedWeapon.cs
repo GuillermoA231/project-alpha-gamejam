@@ -15,6 +15,8 @@ public class RangedWeapon : Weapon
 
     [Header(" Pooling ")]
     [SerializeField] private ObjectPool<WeaponBullet> weaponBulletPool;
+
+
     void Start()
     {
         weaponBulletPool = new ObjectPool<WeaponBullet>(CreateFunction, ActionOnGet, ActionOnRelease, ActionOnDestroy);
@@ -97,10 +99,12 @@ public class RangedWeapon : Weapon
 
         else
             shootingDirection = transform.up;
-        
+
         WeaponBullet weaponBulletInstance = weaponBulletPool.Get();
         weaponBulletInstance.transform.position = shootingPoint.position;
         weaponBulletInstance.Shoot(damage, transform.up, isCriticalHit);
+
+        PlayAttackSound();
     }
 
     public override void UpdateStats(PlayerStatsManager playerStatsManager)

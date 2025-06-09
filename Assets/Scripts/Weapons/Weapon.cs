@@ -26,12 +26,26 @@ public abstract class Weapon : MonoBehaviour, IPlayerStatsDependency
     [SerializeField] protected float aimLerp;
     [Header("Level")]
     [field: SerializeField] public int Level { get; private set; }
+    [Header("Audio")]
+    private AudioSource audioSource;
 
 
     [Header("DEBUG")]
     [SerializeField] private bool showGizmos;
 
 
+    protected void Awake()
+    {
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.playOnAwake = false;
+        audioSource.clip = WeaponData.AttackSound;
+    }
+
+    protected void PlayAttackSound()
+    {
+        audioSource.pitch = Random.Range(.95f, 1.05f);
+        audioSource.Play();
+    }
     protected Enemy GetClosestEnemy()
     {
         Enemy closestEnemy = null;

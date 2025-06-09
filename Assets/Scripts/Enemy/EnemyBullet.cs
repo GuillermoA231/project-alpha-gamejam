@@ -23,7 +23,7 @@ public class EnemyBullet : MonoBehaviour
         rigidbody2D = GetComponent<Rigidbody2D>();
         collider2D = GetComponent<Collider2D>();
 
-        
+
         //Alternative option with LeanTween if I don't want to use Coroutines
         // LeanTween.delayedCall(gameObject, 5, () => RangedEnemyAttack.ReleaseBullet(this));
         StartCoroutine(ReleaseCoroutine());
@@ -34,7 +34,8 @@ public class EnemyBullet : MonoBehaviour
     {
         yield return new WaitForSeconds(5);
 
-        RangedEnemyAttack.ReleaseBullet(this);
+        // RangedEnemyAttack.ReleaseBullet(this);
+        ReturnToPool();
     }
 
     public void Configure(RangedEnemyAttack rangedEnemyAttack)
@@ -53,15 +54,17 @@ public class EnemyBullet : MonoBehaviour
     {
         if (collision.TryGetComponent(out Player player))
         {
+            // Commented Code = 
             //LeanTween.cancel(gameObject);
-            StopCoroutine(ReleaseCoroutine());
+            // StopCoroutine(ReleaseCoroutine());
 
-            StopAllCoroutines();
+            // StopAllCoroutines();
 
             player.TakeDamage(damage);
-            collider2D.enabled = false;
+            // collider2D.enabled = false;
 
-            RangedEnemyAttack.ReleaseBullet(this);
+            // RangedEnemyAttack.ReleaseBullet(this);
+            ReturnToPool();
         }
     }
 
@@ -69,5 +72,13 @@ public class EnemyBullet : MonoBehaviour
     {
         rigidbody2D.linearVelocity = Vector2.zero;
         collider2D.enabled = true;
+    }
+    
+    public void ReturnToPool()
+    {
+        if (!gameObject.activeSelf)
+            return; // ← already pooled / inactive, skip it
+        StopAllCoroutines();
+        RangedEnemyAttack.ReleaseBullet(this);
     }
 }

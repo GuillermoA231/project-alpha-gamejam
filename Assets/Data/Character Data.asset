@@ -19,11 +19,11 @@ MonoBehaviour:
   attackSpeed: 0
   criticalChance: 0
   criticalDamage: 0
-  moveSpeed: 200
-  maxHealth: 1000
+  moveSpeed: 3
+  maxHealth: 10
   range: 0
-  healthRegeneration: 5
-  armor: 15
+  healthRegeneration: 2
+  armor: 0
   luck: 0
-  dodge: 10
-  lifesteal: 20
+  dodge: 15
+  lifesteal: 1

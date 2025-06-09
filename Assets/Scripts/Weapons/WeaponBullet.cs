@@ -51,7 +51,7 @@ public class WeaponBullet : MonoBehaviour
     }
     public void Shoot(int damage, Vector2 direction, bool isCriticalHit)
     {
-        Invoke("Release", 1);
+        Invoke("Release", 5);
 
         this.damage = damage;
         this.isCriticalHit = isCriticalHit;
