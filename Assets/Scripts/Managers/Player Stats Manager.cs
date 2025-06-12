@@ -8,13 +8,18 @@ public class PlayerStatsManager : MonoBehaviour
     [Header("Settings")]
     private Dictionary<Stat, float> playerStats = new Dictionary<Stat, float>();
     private Dictionary<Stat, float> addends = new Dictionary<Stat, float>();
+    private Dictionary<Stat, float> objectAddends = new Dictionary<Stat, float>();
     private void Awake()
     {
         playerStats = playerData.baseStats;
+
         foreach (KeyValuePair<Stat, float> kvp in playerStats)
+        {
             addends.Add(kvp.Key, 0);
+            objectAddends.Add(kvp.Key, 0);
+        }
     }
-    
+
     void Start() => UpdatePlayerStats();
 
     public void AddPlayerStat(Stat stat, float value)
@@ -24,6 +29,14 @@ public class PlayerStatsManager : MonoBehaviour
         else
             Debug.LogError($"The key {stat} has not been f  ound, check player stats manager");
 
+
+        UpdatePlayerStats();
+    }
+
+    public void AddObject(Dictionary<Stat, float> objectData)
+    {
+        foreach (KeyValuePair<Stat, float> kvp in objectData)
+            objectAddends[kvp.Key] += kvp.Value;
 
         UpdatePlayerStats();
     }
