@@ -1,3 +1,17 @@
+// ===================================
+// Author: Andrada Joaquín Guillermo
+// Script: DamageTextManager
+// Type: MonoBehaviour
+//
+// Description:
+// Manages a pool of DamageText objects to display floating damage indicators and dodge messages.
+// Subscribes to enemy damage and player dodge events to spawn text popups with animations.
+// Uses Unity's ObjectPool and LeanTween for efficient and timed lifecycle management.
+//
+// Course: Tabsil Unity 2D Game - Kawaii Survivor - The Coolest Roguelike Ever
+//
+// Date: 23/05/2025
+// ===================================
 using UnityEngine;
 using UnityEngine.Pool;
 public class DamageTextManager : MonoBehaviour

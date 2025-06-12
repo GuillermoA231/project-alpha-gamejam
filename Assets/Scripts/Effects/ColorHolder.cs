@@ -1,3 +1,16 @@
+// ===================================
+// Author: Andrada Joaquín Guillermo
+// Script: ColorHolder
+// Type: MonoBehaviour (Singleton)
+//
+// Description:
+// Provides centralized access to color palettes based on levels.
+// Retrieves main and outline colors from a ScriptableObject palette.
+//
+// Course: Tabsil Unity 2D Game - Kawaii Survivor - The Coolest Roguelike Ever
+//
+// Date: 06/06/2025 
+// ===================================
 using UnityEngine;
 
 public class ColorHolder : MonoBehaviour

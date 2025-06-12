@@ -17,7 +17,7 @@ MonoBehaviour:
   <PurchasePrice>k__BackingField: 50
   <AttackSound>k__BackingField: {fileID: 8300000, guid: 2974f8b480858134681e6b6a658327bd, type: 3}
   <Prefab>k__BackingField: {fileID: 3737537163647032576, guid: 04db8218c07640f4aa9f97c69e32e6a3, type: 3}
-  attack: 10
+  attack: 8
   attackSpeed: 2
   criticalChance: 15
   criticalDamage: 1.5

@@ -5214,7 +5214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb734e6cd22271241b226cb7a55950cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 50
+  maxHealth: 15
   renderer: {fileID: 5111840403693750104}
   spawnIndicator: {fileID: 2579413134590923080}
   spawnScaling: 2
@@ -5227,7 +5227,7 @@ MonoBehaviour:
   deathVolume: 1
   deathPitchRange: {x: 0.95, y: 1.05}
   showGizmos: 1
-  damage: 5
+  damage: 2
   attackFrequency: 1
 --- !u!114 &8428708772761696878
 MonoBehaviour:
@@ -5241,7 +5241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa99fb0995d60b745b33fe5f4d3407e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseMoveSpeed: 5
+  baseMoveSpeed: 7
 --- !u!58 &5948356057901061900
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5386,7 +5386,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 2956541825629854486, guid: 770338442670c2941845b29047f8246d, type: 3}
-  m_Color: {r: 0.64705884, g: 0.21568629, b: 0.19607845, a: 1}
+  m_Color: {r: 0.7207546, g: 0.34977794, b: 0.1509505, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

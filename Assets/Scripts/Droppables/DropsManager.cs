@@ -1,3 +1,16 @@
+// ===================================
+// Author: Andrada Joaquín Guillermo
+// Script: DropsManager
+// Type: MonoBehaviour
+//
+// Description:
+// Manages pooling and spawning of droppable items such as money, diamonds, and chests upon enemy death.
+// Controls drop chances and handles collection callbacks to recycle pooled objects.
+//
+// Course: Tabsil Unity 2D Game - Kawaii Survivor - The Coolest Roguelike Ever
+//
+// Date: 28/05/2025
+// ===================================
 using UnityEngine;
 using Random = UnityEngine.Random;
 using UnityEngine.Pool;

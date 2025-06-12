@@ -1,3 +1,20 @@
+// ===================================
+// Author: Andrada Joaquín Guillermo
+// Script: DroppableCurrency
+// Type: MonoBehaviour
+//
+// Description:
+// Abstract base class for currency objects collectible by the player.
+// Designed to be inherited by concrete currency types, providing shared functionality
+// such as smooth movement towards the player on collection, and requiring
+// subclasses to implement specific behavior via abstract methods.
+//
+// Course: Tabsil Unity 2D Game - Kawaii Survivor - The Coolest Roguelike Ever
+//
+// Date: 27/05/2025
+// ===================================
+
+
 using System.Collections;
 using UnityEngine;
 

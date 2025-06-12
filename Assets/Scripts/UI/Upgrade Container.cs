@@ -5,7 +5,7 @@
     {
 
         [Header("Elements")]
-        [SerializeField] private Image image;
+        [SerializeField] private Image image; 
         [SerializeField] private TextMeshProUGUI upgradeNameText;
         [SerializeField] private TextMeshProUGUI upgradeValueText;
         [field: SerializeField] public Button Button { get; private set; }
