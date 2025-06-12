@@ -152,8 +152,8 @@ public abstract class Enemy : MonoBehaviour
 
     public void OnDeath()
     {
-        onDeath?.Invoke(transform.position);
         PlayDeathSound();
+        onDeath?.Invoke(transform.position);
 
     }
 
