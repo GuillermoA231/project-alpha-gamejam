@@ -1,3 +1,19 @@
+// ===================================
+// Author: Andrada Joaquín Guillermo
+// Script: PlayerController
+// Type: MonoBehaviour
+//
+// Description:
+// This script handles player movement using WASD keys, changes sprites based on movement direction, 
+// and listens to game state changes to enable or disable movement.
+// It also updates player stats affecting movement speed.
+//
+// Course: Tabsil Unity 2D Game - Kawaii Survivor - The Coolest Roguelike Ever
+//
+// Date: 11/05/2025
+// ===================================
+
+
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour, IPlayerStatsDependency, IGameStateListener

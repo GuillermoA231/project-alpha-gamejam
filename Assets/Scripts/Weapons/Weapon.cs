@@ -1,4 +1,18 @@
-
+// ===================================
+// Author: Andrada Joaquín Guillermo
+// Script: Weapon
+// Type: MonoBehaviour
+//
+// Description:
+// Abstract base class for all weapon types. Handles enemy detection,
+// damage calculation (including critical hits), attack timing,
+// animation parameters, stat updates based on level, and audio playback.
+// Provides a framework to implement specific weapon behavior via inheritance.
+//
+// Course: Tabsil Unity 2D Game - Kawaii Survivor - The Coolest Roguelike Ever
+//
+// Date: 19/05/2025
+// ===================================
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using NaughtyAttributes;

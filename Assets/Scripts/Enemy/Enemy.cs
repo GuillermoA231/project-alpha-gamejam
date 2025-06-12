@@ -1,4 +1,18 @@
-
+// ===================================
+// Author: Andrada Joaquín Guillermo
+// Script: Enemy
+// Type: MonoBehaviour
+//
+// Description:
+// This abstract class defines the base behavior for all enemies.
+// It handles health, spawn sequences, death effects, rotation to face the player,
+// and provides hooks for subclasses to implement specific enemy behaviors.
+// It also integrates visual/audio feedback and attack detection radius for debugging.
+//
+// Course: Tabsil Unity 2D Game - Kawaii Survivor - The Coolest Roguelike Ever
+//
+// Date: 18/05/2025
+// ===================================
 using UnityEngine;
 using System;
 

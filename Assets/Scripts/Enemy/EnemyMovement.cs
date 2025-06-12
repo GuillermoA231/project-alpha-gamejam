@@ -1,3 +1,18 @@
+// ===================================
+// Author: Andrada Joaquín Guillermo
+// Script: EnemyMovement
+// Type: MonoBehaviour
+//
+// Description:
+// This script controls the enemy's movement logic. It stores a reference to the player,
+// and when enabled, allows the enemy to follow the player. It also includes functionality
+// to set a randomized speed multiplier for enemy variety.
+//
+// Course: Tabsil Unity 2D Game - Kawaii Survivor - The Coolest Roguelike Ever
+//
+// Date: 18/05/2025
+// ===================================
+
 using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
