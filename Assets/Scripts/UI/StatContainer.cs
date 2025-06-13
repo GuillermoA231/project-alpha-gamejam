@@ -1,26 +1,64 @@
+// StatContainer.cs
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.Localization.Settings;
 using TMPro;
+
 public class StatContainer : MonoBehaviour
 {
-
     [Header("Elements")]
-    [SerializeField] private Image statImage;
-    [SerializeField] private TextMeshProUGUI statText;
-    [SerializeField] private TextMeshProUGUI statValueText;
+    [SerializeField] private UnityEngine.UI.Image statImage;
+    [SerializeField] private TextMeshProUGUI statText;       // Localized stat name
+    [SerializeField] private TextMeshProUGUI statValueText;  // Numeric value
 
-    public void Configure(Sprite icon, string statName, string statValue)
+    private Stat statType;
+    private float statValue;
+
+    private string localeStatTableName = "Stats";
+
+    private void OnEnable()
+    {
+        LocalizationSettings.SelectedLocaleChanged += OnLocaleChanged;
+    }
+
+    private void OnDisable()
+    {
+        LocalizationSettings.SelectedLocaleChanged -= OnLocaleChanged;
+    }
+
+    public void InitializeStatContainer(Sprite icon, Stat stat, float value)
     {
         statImage.sprite = icon;
-        statText.text = statName;
-        statValueText.text = statValue;
+        statType = stat;
+        statValue = value;
+
+        statValueText.text = statValue.ToString("F0");
+        UpdateStatName();
     }
 
-    public float GetFontSize()
+    private void OnLocaleChanged(UnityEngine.Localization.Locale _)
     {
-        return statText.fontSize;
+        UpdateStatName();
     }
-    
+
+    private void UpdateStatName()
+    {
+        string key = statType.ToString();
+        var stringOp = LocalizationSettings.StringDatabase.GetLocalizedStringAsync(localeStatTableName, key);
+
+        if (stringOp.IsDone)
+        {
+            statText.text = stringOp.Result;
+        }
+        else
+        {
+            stringOp.Completed += handle =>
+            {
+                statText.text = handle.Result;
+            };
+        }
+    }
+
+    public float GetFontSize() => statText.fontSize;
     public void SetFontSize(float fontSize)
     {
         statText.fontSizeMax = fontSize;

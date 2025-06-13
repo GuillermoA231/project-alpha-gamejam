@@ -52,7 +52,7 @@ public class WaveManager : MonoBehaviour, IGameStateListener
     {
         Debug.Log("Wave: " + waveIndex);
 
-        ui.UpdateWaveText("Wave " + (currentWaveIndex + 1) + " / " + waves.Length);
+        ui.UpdateWaveText(currentWaveIndex + 1, waves.Length);
         localCounters.Clear();
         foreach (WaveSegment segment in waves[waveIndex].segments)
             localCounters.Add(1);
@@ -105,7 +105,7 @@ public class WaveManager : MonoBehaviour, IGameStateListener
         {
             Debug.Log("All waves cleared");
             ui.UpdateTimerText("");
-            ui.UpdateWaveText("Game finished!");
+            ui.UpdateWaveText(0, 0);
             GameManager.instance.SetGameState(GameState.STAGECOMPLETE);
         }
         else
