@@ -67,6 +67,10 @@ MonoBehaviour:
     m_Key: UI.Canvas.GameOver.RestartGameButton
     m_Metadata:
       m_Items: []
+  - m_Id: 556452769300480
+    m_Key: UI.Canvas.Menu.LanguageTitle
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

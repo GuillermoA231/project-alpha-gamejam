@@ -66,6 +66,10 @@ MonoBehaviour:
     m_Localized: RESTART GAME
     m_Metadata:
       m_Items: []
+  - m_Id: 556452769300480
+    m_Localized: LANGUAGE
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -74,7 +74,7 @@ public class UIManager : MonoBehaviour, IGameStateListener
         }
     }
 
-    private void ShowPanel(GameObject panel, bool hidePreviousPanels =true)
+    private void ShowPanel(GameObject panel, bool hidePreviousPanels = true)
     {
         if (hidePreviousPanels)
         {
