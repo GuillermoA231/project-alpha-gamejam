@@ -24,7 +24,7 @@ public class StatContainerManager : MonoBehaviour
             Sprite icon = ResourcesManager.GetStatIcon(kvp.Key);
             string statName = Enums.FormatStatName(kvp.Key);
             string statValue = kvp.Value.ToString("F0");
-            containerInstance.Configure(icon, statName, statValue);
+            containerInstance.InitializeStatContainer(icon, kvp.Key, kvp.Value);
         }
 
         LeanTween.delayedCall(Time.deltaTime * 3, () => ResizeText(statContainers));

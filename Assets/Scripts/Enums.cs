@@ -1,6 +1,7 @@
 public enum GameState
 {
     MENU,
+    TUTORIAL,
     WEAPONSELECTION,
     GAME,
     STAGECOMPLETE,

@@ -261,6 +261,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   statImage: {fileID: 5516311555148223805}
   statText: {fileID: 252059131129575817}
+  statNameText: {fileID: 252059131129575817}
+  statType: 0
   statValueText: {fileID: 98688981279577711}
 --- !u!1 &3155678979847538204
 GameObject:

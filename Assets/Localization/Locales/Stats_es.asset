@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Stats_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: f9d19fa9d2b555f498ed36794883df92, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 88435195904
+    m_Localized: Ataque
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189945741312
+    m_Localized: Velocidad De Ataque
+    m_Metadata:
+      m_Items: []
+  - m_Id: 232996077568
+    m_Localized: Chance De Critico
+    m_Metadata:
+      m_Items: []
+  - m_Id: 263396392960
+    m_Localized: "Da\xF1o Critico"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288797097984
+    m_Localized: Velocidad De Movimiento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316387229696
+    m_Localized: Salud Maxima
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338902253568
+    m_Localized: Alcance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 360033157120
+    m_Localized: "Regeneraci\xF3n De Salud"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 378760724480
+    m_Localized: Armadura
+    m_Metadata:
+      m_Items: []
+  - m_Id: 397278576640
+    m_Localized: Suerte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 416673038336
+    m_Localized: "Evasi\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440534433792
+    m_Localized: Robo De Vida
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

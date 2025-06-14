@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Menu Labels Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Menu Labels
+  m_TableCollectionNameGuidString: 85c6d6c275b6b04448f7f14b4a281efe
+  m_Entries:
+  - m_Id: 92201680896
+    m_Key: UI.Canvas.Menu.ChooseWeaponButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2861071466496
+    m_Key: UI.Canvas.Menu.MenuText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3020689899520
+    m_Key: UI.Canvas.WeaponSelection.Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9896328560640
+    m_Key: UI.Canvas.WeaponSelection.WeaponContainer.Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9996320768000
+    m_Key: UI.Canvas.WeaponSelection.StartButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10153590390784
+    m_Key: UI.Canvas.Game.WaveText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10189661405184
+    m_Key: UI.Canvas.StageCompleted.Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10344246673408
+    m_Key: UI.Canvas.StageCompleted.RestartButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10383069151232
+    m_Key: UI.Canvas.WaveTransition.Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13769550200832
+    m_Key: UI.Canvas.Shop.Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15485943283712
+    m_Key: UI.Canvas.Shop.NextWave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15592520548352
+    m_Key: UI.Canvas.GameOver.Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15667451789312
+    m_Key: UI.Canvas.GameOver.RestartGameButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 556452769300480
+    m_Key: UI.Canvas.Menu.LanguageTitle
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8047178549994717461
+  references:
+    version: 2
+    RefIds:
+    - rid: 8047178549994717461
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1749734062776

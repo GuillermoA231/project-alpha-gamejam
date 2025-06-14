@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Stats Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Stats
+  m_TableCollectionNameGuidString: f9d19fa9d2b555f498ed36794883df92
+  m_Entries:
+  - m_Id: 88435195904
+    m_Key: Attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189945741312
+    m_Key: AttackSpeed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 232996077568
+    m_Key: CriticalChance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 263396392960
+    m_Key: CriticalDamage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288797097984
+    m_Key: MoveSpeed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316387229696
+    m_Key: MaxHealth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338902253568
+    m_Key: Range
+    m_Metadata:
+      m_Items: []
+  - m_Id: 360033157120
+    m_Key: HealthRegeneration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 378760724480
+    m_Key: Armor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 397278576640
+    m_Key: Luck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 416673038336
+    m_Key: Dodge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440534433792
+    m_Key: Lifesteal
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8047178549994717470
+  references:
+    version: 2
+    RefIds:
+    - rid: 8047178549994717470
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1749747661003
