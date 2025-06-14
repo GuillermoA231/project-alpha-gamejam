@@ -48,23 +48,23 @@ public class WaveTransitionManager : MonoBehaviour, IGameStateListener
         switch (stat)
         {
             case Stat.Attack:
-                value = UnityEngine.Random.Range(5, 18);
+                value = UnityEngine.Random.Range(5, 12);
                 buttonString = "+" + value.ToString("F0") + "%";
                 break;
             case Stat.AttackSpeed:
-                value = UnityEngine.Random.Range(5, 25);
+                value = UnityEngine.Random.Range(5, 15);
                 buttonString = "+" + value.ToString("F0") + "%";
                 break;
             case Stat.CriticalChance:
-                value = UnityEngine.Random.Range(5, 17);
+                value = UnityEngine.Random.Range(5, 15);
                 buttonString = "+" + value.ToString("F0") + "%";
                 break;
             case Stat.CriticalDamage:
-                value = UnityEngine.Random.Range(1.4f, 2.4f);
+                value = UnityEngine.Random.Range(1.1f, 1.4f);
                 buttonString = "+" + value.ToString("F1") + "x";
                 break;
             case Stat.MoveSpeed:
-                value = UnityEngine.Random.Range(10, 30);
+                value = UnityEngine.Random.Range(5, 15);
                 buttonString = "+" + value.ToString("F0");
                 break;
             case Stat.MaxHealth:
@@ -72,27 +72,27 @@ public class WaveTransitionManager : MonoBehaviour, IGameStateListener
                 buttonString = "+" + value.ToString("F0");
                 break;
             case Stat.Range:
-                value = UnityEngine.Random.Range(1, 30);
+                value = UnityEngine.Random.Range(1, 15);
                 buttonString = "+" + value.ToString("F0") + " (GUN ONLY)";
                 break;
             case Stat.HealthRegeneration:
-                value = UnityEngine.Random.Range(1, 24);
+                value = UnityEngine.Random.Range(1, 20);
                 buttonString = "+" + value.ToString("F0") + "%";
                 break;
             case Stat.Armor:
-                value = UnityEngine.Random.Range(1, 10);
+                value = UnityEngine.Random.Range(1, 12);
                 buttonString = "+" + value.ToString("F0");
                 break;
             case Stat.Luck:
-                value = UnityEngine.Random.Range(1, 40);
+                value = UnityEngine.Random.Range(1, 20);
                 buttonString = "[DONT TOUCH] +" + value.ToString("F0");
                 break;
             case Stat.Dodge:
-                value = UnityEngine.Random.Range(1, 24);
+                value = UnityEngine.Random.Range(1, 15);
                 buttonString = "+" + value.ToString("F0") + "%";
                 break;
             case Stat.Lifesteal:
-                value = UnityEngine.Random.Range(1, 10);
+                value = UnityEngine.Random.Range(1, 7);
                 buttonString = "+" + value.ToString("F0") + "%";
                 break;
             default:

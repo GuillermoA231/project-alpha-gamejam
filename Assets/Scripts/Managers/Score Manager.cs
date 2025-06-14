@@ -2,40 +2,33 @@ using UnityEngine;
 
 public class ScoreManager : MonoBehaviour
 {
-    public static ScoreManager Instance { get; private set; }
+    public static ScoreManager Instance;
 
-    private int score = 0;
-    public int CurrentScore => score;
+    public int WaveReached { get; private set; }
+    public int EnemiesKilled { get; private set; }
+    public int MoneyCollected { get; private set; }
+    public int LevelReached { get; private set; }
+    public bool DidWin { get; private set; } = false;
 
-    private void Awake()
+    void Awake()
     {
-        // Singleton pattern
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        if (Instance == null) Instance = this;
+        else Destroy(gameObject);
     }
 
-    /// <summary>
-    /// Call this to add to the player's score.
-    /// </summary>
-    public void AddScore(int amount)
-    {
-        score += amount;
-        // Optionally: update any in-game score UI here
-        Debug.Log($"Score is now {score}");
-    }
+    public void RegisterEnemyKill() => EnemiesKilled++;
+    public void RegisterCoin(int amount) => MoneyCollected += amount;
+    public void SetWave(int wave) => WaveReached = wave;
+    public void SetLevel(int lvl) => LevelReached = lvl;
+    public void SetWin(bool didWin) => DidWin = didWin;
 
-    /// <summary>
-    /// Resets the score back to zero. Call when starting a new game.
-    /// </summary>
-    public void ResetScore()
+
+    public void ResetStats()
     {
-        score = 0;
+        WaveReached = 0;
+        EnemiesKilled = 0;
+        MoneyCollected = 0;
+        LevelReached = 0;
+        DidWin = false;
     }
 }
