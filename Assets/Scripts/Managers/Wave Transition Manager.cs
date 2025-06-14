@@ -1,58 +1,38 @@
-using UnityEngine;
-using UnityEngine.UI;
-using TMPro;
 using System;
-using Random = UnityEngine.Random;
+using UnityEngine;
+using UnityEngine.Localization.Settings;
 using NaughtyAttributes;
-using Unity.VisualScripting;
 
 public class WaveTransitionManager : MonoBehaviour, IGameStateListener
 {
-    [Header(" Elements")]
+    [Header("Elements")]
     [SerializeField] private PlayerStatsManager playerStatsManager;
     [SerializeField] private UpgradeContainer[] upgradeContainers;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
     public void GameStateChangedCallback(GameState gameState)
     {
-        switch (gameState)
-        {
-            case GameState.WAVETRANSITION:
-                ConfigureUpgradeContainers();
-                break;
-        }
+        if (gameState == GameState.WAVETRANSITION)
+            ConfigureUpgradeContainers();
     }
 
     [Button]
     private void ConfigureUpgradeContainers()
     {
+        var stats = Enum.GetValues(typeof(Stat));
         for (int i = 0; i < upgradeContainers.Length; i++)
         {
-            int randomIndex = Random.Range(0, Enum.GetValues(typeof(Stat)).Length);
-            Stat stat = (Stat)Enum.GetValues(typeof(Stat)).GetValue(randomIndex);
-
+            Stat stat = (Stat)stats.GetValue(UnityEngine.Random.Range(0, stats.Length));
             Sprite upgradeIcon = ResourcesManager.GetStatIcon(stat);
-
-            string randomStatString = Enums.FormatStatName(stat);
 
             string buttonString;
             Action action = GetActionToPerform(stat, out buttonString);
 
-            upgradeContainers[i].Configure(upgradeIcon, randomStatString, buttonString);
+            upgradeContainers[i].Configure(upgradeIcon, stat, buttonString);
 
-
-            upgradeContainers[i].Button.onClick.RemoveAllListeners();
-            upgradeContainers[i].Button.onClick.AddListener(() => action?.Invoke());
-            upgradeContainers[i].Button.onClick.AddListener(() => BonusSelectedCallback());
+            var btn = upgradeContainers[i].Button;
+            btn.onClick.RemoveAllListeners();
+            btn.onClick.AddListener(() => action?.Invoke());
+            btn.onClick.AddListener(BonusSelectedCallback);
         }
     }
 
@@ -68,59 +48,56 @@ public class WaveTransitionManager : MonoBehaviour, IGameStateListener
         switch (stat)
         {
             case Stat.Attack:
-                value = Random.Range(5, 18);
-                buttonString = "+" + value.ToString() + "%";
+                value = UnityEngine.Random.Range(5, 18);
+                buttonString = "+" + value.ToString("F0") + "%";
                 break;
             case Stat.AttackSpeed:
-                value = Random.Range(5, 25);
-                buttonString = "+" + value.ToString() + "%";
+                value = UnityEngine.Random.Range(5, 25);
+                buttonString = "+" + value.ToString("F0") + "%";
                 break;
             case Stat.CriticalChance:
-                value = Random.Range(5, 17);
-                buttonString = "+" + value.ToString() + "%";
+                value = UnityEngine.Random.Range(5, 17);
+                buttonString = "+" + value.ToString("F0") + "%";
                 break;
             case Stat.CriticalDamage:
-                value = Random.Range(1.4f, 2.4f);
+                value = UnityEngine.Random.Range(1.4f, 2.4f);
                 buttonString = "+" + value.ToString("F1") + "x";
                 break;
             case Stat.MoveSpeed:
-                value = Random.Range(10, 30);
-                buttonString = "+" + value.ToString();
+                value = UnityEngine.Random.Range(10, 30);
+                buttonString = "+" + value.ToString("F0");
                 break;
             case Stat.MaxHealth:
-                value = Random.Range(5, 15);
-                buttonString = "+" + value.ToString();
+                value = UnityEngine.Random.Range(5, 15);
+                buttonString = "+" + value.ToString("F0");
                 break;
             case Stat.Range:
-                value = Random.Range(1, 30);
-                buttonString = "+" + value.ToString() + " (GUN ONLY)";
+                value = UnityEngine.Random.Range(1, 30);
+                buttonString = "+" + value.ToString("F0") + " (GUN ONLY)";
                 break;
             case Stat.HealthRegeneration:
-                value = Random.Range(1, 24);
-                buttonString = "+" + value.ToString() + "%";
+                value = UnityEngine.Random.Range(1, 24);
+                buttonString = "+" + value.ToString("F0") + "%";
                 break;
             case Stat.Armor:
-                value = Random.Range(1, 10);
-                buttonString = "+" + value.ToString();
+                value = UnityEngine.Random.Range(1, 10);
+                buttonString = "+" + value.ToString("F0");
                 break;
             case Stat.Luck:
-                value = Random.Range(1, 40);
-                buttonString = "[DONT TOUCH] +" + value.ToString();
+                value = UnityEngine.Random.Range(1, 40);
+                buttonString = "[DONT TOUCH] +" + value.ToString("F0");
                 break;
             case Stat.Dodge:
-                value = Random.Range(1, 24);
-                buttonString = "+" + value.ToString() + "%";
+                value = UnityEngine.Random.Range(1, 24);
+                buttonString = "+" + value.ToString("F0") + "%";
                 break;
             case Stat.Lifesteal:
-                value = Random.Range(1, 10);
-                buttonString = "+" + value.ToString() + "%";
+                value = UnityEngine.Random.Range(1, 10);
+                buttonString = "+" + value.ToString("F0") + "%";
                 break;
-
             default:
                 return () => Debug.Log("Invalid Stat");
-
         }
         return () => playerStatsManager.AddPlayerStat(stat, value);
     }
 }
-
