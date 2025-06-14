@@ -50,6 +50,22 @@ MonoBehaviour:
     m_Localized: WEAPON SELECTION
     m_Metadata:
       m_Items: []
+  - m_Id: 9996320768000
+    m_Localized: START!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10153590390784
+    m_Localized: Wave {0} / {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10189661405184
+    m_Localized: 'STAGE COMPLETED! [END OF BUILD]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10344246673408
+    m_Localized: RESTART GAME
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

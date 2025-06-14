@@ -34,6 +34,38 @@ MonoBehaviour:
     m_Localized: "Da\xF1o Critico"
     m_Metadata:
       m_Items: []
+  - m_Id: 288797097984
+    m_Localized: Velocidad De Movimiento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316387229696
+    m_Localized: Salud Maxima
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338902253568
+    m_Localized: Alcance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 360033157120
+    m_Localized: "Regeneraci\xF3n De Salud"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 378760724480
+    m_Localized: Armadura
+    m_Metadata:
+      m_Items: []
+  - m_Id: 397278576640
+    m_Localized: Suerte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 416673038336
+    m_Localized: "Evasi\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440534433792
+    m_Localized: Robo De Vida
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

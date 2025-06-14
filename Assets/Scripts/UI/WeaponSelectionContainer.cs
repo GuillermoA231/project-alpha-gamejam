@@ -33,6 +33,30 @@ public class WeaponSelectionContainer : MonoBehaviour
         LocalizationSettings.SelectedLocaleChanged -= OnLocaleChanged;
     }
 
+    private void OnLocaleChanged(UnityEngine.Localization.Locale _)
+    {
+        UpdateWeaponName();
+    }
+
+    private void UpdateWeaponName()
+    {
+        string localizationTable = "Weapons";
+        int displayLevel = weaponLevel + 1;
+        var op = LocalizationSettings.StringDatabase.GetLocalizedStringAsync(localizationTable, weaponKey);
+
+        if (op.IsDone)
+        {
+            nameText.text = $"{op.Result} (LVL {displayLevel})";
+        }
+        else
+        {
+            op.Completed += handle =>
+            {
+                nameText.text = $"{handle.Result} (LVL {displayLevel})";
+            };
+        }
+    }
+
     public void Configure(Sprite sprite, int level, WeaponDataSO weaponData)
     {
         icon.sprite = sprite;
@@ -51,30 +75,6 @@ public class WeaponSelectionContainer : MonoBehaviour
 
         var calculatedStats = WeaponStatsCalculator.GetStats(weaponData, level);
         StatContainerManager.GenerateStatContainers(calculatedStats, statsContainerParent);
-    }
-
-    private void OnLocaleChanged(UnityEngine.Localization.Locale _)
-    {
-        UpdateWeaponName();
-    }
-
-    private void UpdateWeaponName()
-    {
-        string table = "Weapons";
-        int displayLevel = weaponLevel + 1;
-        var op = LocalizationSettings.StringDatabase.GetLocalizedStringAsync(table, weaponKey);
-
-        if (op.IsDone)
-        {
-            nameText.text = $"{op.Result} (LVL {displayLevel})";
-        }
-        else
-        {
-            op.Completed += handle =>
-            {
-                nameText.text = $"{handle.Result} (LVL {displayLevel})";
-            };
-        }
     }
 
     public void Select()

@@ -22,6 +22,8 @@ public class GameManager : MonoBehaviour
 
 
     public void StartGame() => SetGameState(GameState.GAME);
+    public void Tutorial() => SetGameState(GameState.TUTORIAL);
+    public void Menu() => SetGameState(GameState.MENU);
     public void StartWeaponSelection() => SetGameState(GameState.WEAPONSELECTION);
     public void OpenShop() => SetGameState(GameState.SHOP);
     public void SetGameState(GameState gameState)

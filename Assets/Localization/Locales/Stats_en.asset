@@ -35,7 +35,35 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 288797097984
-    m_Localized: Velocidad De Movimiento
+    m_Localized: Move Speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 316387229696
+    m_Localized: Max Health
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338902253568
+    m_Localized: Range
+    m_Metadata:
+      m_Items: []
+  - m_Id: 360033157120
+    m_Localized: Health Regeneration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 378760724480
+    m_Localized: Armor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 397278576640
+    m_Localized: Luck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 416673038336
+    m_Localized: Dodge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440534433792
+    m_Localized: Life Steal
     m_Metadata:
       m_Items: []
   references:
