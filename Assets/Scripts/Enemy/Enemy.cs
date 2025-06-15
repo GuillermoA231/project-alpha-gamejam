@@ -152,6 +152,7 @@ public abstract class Enemy : MonoBehaviour
 
     public void OnDeath()
     {
+        ScoreManager.Instance.RegisterEnemyKill();
         PlayDeathSound();
         onDeath?.Invoke(transform.position);
 

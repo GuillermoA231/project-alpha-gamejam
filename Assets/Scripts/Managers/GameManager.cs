@@ -8,20 +8,19 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+    
+    private ScoreManager scoreManagerInstance;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     public void Awake()
     {
-        // Set culture to Spanish (Spain)
         CultureInfo culture = new CultureInfo("es-ES");
 
-        // Apply to the current thread (affects date, number formats, etc.)
         Thread.CurrentThread.CurrentCulture = culture;
         Thread.CurrentThread.CurrentUICulture = culture;
 
-        // Optional: Print to confirm
         Debug.Log("Current Culture: " + CultureInfo.CurrentCulture.Name);
-        
+
         if (instance == null)
             instance = this;
         else
@@ -31,6 +30,8 @@ public class GameManager : MonoBehaviour
     {
         Application.targetFrameRate = 60;
         SetGameState(GameState.MENU);
+        
+        scoreManagerInstance = ScoreManager.Instance;
     }
 
     public void SetEnglish() =>
@@ -73,6 +74,8 @@ public class GameManager : MonoBehaviour
     }
     public void ManageGameOver()
     {
+        scoreManagerInstance.SetWin(false);
+        scoreManagerInstance.ResetStats();
         SceneManager.LoadScene("BasicArena", LoadSceneMode.Single);
     }
 }

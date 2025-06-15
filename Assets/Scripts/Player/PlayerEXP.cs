@@ -3,6 +3,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class PlayerEXP : MonoBehaviour
 {
@@ -66,6 +67,7 @@ public class PlayerEXP : MonoBehaviour
     private void LevelUp()
     {
         level++;
+        ScoreManager.Instance.SetLevel(level);
         currentXP = 0;
         levelsEarnedThisWave++;
         UpdateRequiredXP();

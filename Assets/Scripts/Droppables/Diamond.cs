@@ -24,6 +24,8 @@ public class Diamond : DroppableCurrency
     public static Action<Diamond> onCollected;
     protected override void Collected()
     {
+        
+        ScoreManager.Instance.RegisterCoin(5);
         onCollected?.Invoke(this);
     }
 }

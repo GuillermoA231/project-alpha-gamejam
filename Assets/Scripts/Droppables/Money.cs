@@ -20,6 +20,7 @@ public class Money : DroppableCurrency
     public static Action<Money> onCollected;
     protected override void Collected()
     { 
+        ScoreManager.Instance.RegisterCoin(1);
         onCollected?.Invoke(this);
     }
 }

@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using NaughtyAttributes;
 using Unity.VisualScripting;
+using UnityEngine.SocialPlatforms.Impl;
 
 [RequireComponent(typeof(WaveManagerUI))]
 public class WaveManager : MonoBehaviour, IGameStateListener
@@ -64,12 +65,13 @@ public class WaveManager : MonoBehaviour, IGameStateListener
     private void StartNextWave()
     {
         StartWave(currentWaveIndex);
+        ScoreManager.Instance.SetWave(currentWaveIndex+1);
     }
 
     private void manageCurrentWave()
     {
         Wave currentwave = waves[currentWaveIndex];
-
+        
         for (int i = 0; i < currentwave.segments.Count; i++)
         {
             WaveSegment segment = currentwave.segments[i];
@@ -106,6 +108,7 @@ public class WaveManager : MonoBehaviour, IGameStateListener
             Debug.Log("All waves cleared");
             ui.UpdateTimerText("");
             ui.UpdateWaveText(0, 0);
+            ScoreManager.Instance.SetWin(true);
             GameManager.instance.SetGameState(GameState.STAGECOMPLETE);
         }
         else
