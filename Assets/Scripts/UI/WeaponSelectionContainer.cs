@@ -57,9 +57,9 @@ public class WeaponSelectionContainer : MonoBehaviour
         }
     }
 
-    public void Configure(Sprite sprite, int level, WeaponDataSO weaponData)
+    public void Configure(WeaponDataSO weaponData, int level)
     {
-        icon.sprite = sprite;
+        icon.sprite = weaponData.Sprite;
         weaponLevel = level;
         weaponKey = weaponData.name;
 
@@ -68,12 +68,17 @@ public class WeaponSelectionContainer : MonoBehaviour
         nameText.color = imageColor;
         nameBackgroundColor.color = outlineColor;
         containerOutline.effectColor = outlineColor;
+        
         foreach (var img in containerImage)
             img.color = imageColor;
 
         UpdateWeaponName();
 
         var calculatedStats = WeaponStatsCalculator.GetStats(weaponData, level);
+        GenerateStatContainers(calculatedStats);
+    }
+    private void GenerateStatContainers(Dictionary<Stat,float> calculatedStats)
+    {
         StatContainerManager.GenerateStatContainers(calculatedStats, statsContainerParent);
     }
 

@@ -261,8 +261,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   statImage: {fileID: 5516311555148223805}
   statText: {fileID: 252059131129575817}
-  statNameText: {fileID: 252059131129575817}
-  statType: 0
   statValueText: {fileID: 98688981279577711}
 --- !u!1 &3155678979847538204
 GameObject:
@@ -317,7 +315,7 @@ MonoBehaviour:
   m_IgnoreLayout: 0
   m_MinWidth: -1
   m_MinHeight: -1
-  m_PreferredWidth: 200
+  m_PreferredWidth: 300
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
@@ -350,7 +348,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '50
+  m_text: '-50
 
 '
   m_isRightToLeft: 0
@@ -383,7 +381,7 @@ MonoBehaviour:
   m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 18
+  m_fontSizeMin: 1
   m_fontSizeMax: 50
   m_fontStyle: 1
   m_HorizontalAlignment: 4
@@ -476,7 +474,7 @@ MonoBehaviour:
   m_IgnoreLayout: 0
   m_MinWidth: -1
   m_MinHeight: -1
-  m_PreferredWidth: 600
+  m_PreferredWidth: 500
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
@@ -536,7 +534,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45.7
+  m_fontSize: 38.15
   m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 1

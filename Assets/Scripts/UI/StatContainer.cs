@@ -31,7 +31,7 @@ public class StatContainer : MonoBehaviour
         statType = stat;
         statValue = value;
 
-        statValueText.text = statValue.ToString("F0");
+        statValueText.text = statValue.ToString("F1");
         UpdateStatName();
     }
 

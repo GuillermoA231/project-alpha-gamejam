@@ -2,22 +2,88 @@ using System;
 using UnityEngine;
 using UnityEngine.Localization.Settings;
 using NaughtyAttributes;
+using Random = UnityEngine.Random;
+using Unity.VisualScripting;
+using Object = UnityEngine.Object;
 
 public class WaveTransitionManager : MonoBehaviour, IGameStateListener
 {
+    [Header("Player")]
+    [SerializeField] private PlayerObjects playerObjects;
+
     [Header("Elements")]
     [SerializeField] private PlayerStatsManager playerStatsManager;
     [SerializeField] private UpgradeContainer[] upgradeContainers;
+    [SerializeField] private GameObject upgradeContainersParent;
+
+    [Header(" Settings")]
+    private int chestsCollected;
+
+    [Header("Chest Related Stuff")]
+    [SerializeField] private ChestObjectContainer chestContainerPrefab;
+    [SerializeField] private Transform chestContainerParent;
+
+    public void Awake()
+    {
+        Chest.onCollected += ChestCollectedCallback;
+    }
+    public void OnDestroy()
+    {
+        Chest.onCollected -= ChestCollectedCallback;
+    }
+
 
     public void GameStateChangedCallback(GameState gameState)
     {
-        if (gameState == GameState.WAVETRANSITION)
+        switch (gameState)
+        {
+
+            case GameState.WAVETRANSITION:
+                TryOpenChest();
+                break;
+        }
+    }
+
+    private void TryOpenChest()
+    {
+        chestContainerParent.Clear();
+
+        if (chestsCollected > 0)
+        {
+            ShowObject();
+        }
+        else
             ConfigureUpgradeContainers();
+    }
+
+    private void ShowObject()
+    {
+ 
+        chestsCollected--;
+
+        upgradeContainersParent.SetActive(false);
+
+        ObjectDataSO[] objectDatas = ResourcesManager.Objects;
+        ObjectDataSO randomObjectData = objectDatas[Random.Range(0, objectDatas.Length)];
+
+        ChestObjectContainer containerInstance = Instantiate(chestContainerPrefab, chestContainerParent);
+        containerInstance.Configure(randomObjectData, randomObjectData.Rarity);
+
+
+        containerInstance.InstallButton.onClick.AddListener(() => InstallButtonCallback(randomObjectData));
+    }
+    
+
+    private void InstallButtonCallback(ObjectDataSO objectToTake)
+    {
+        playerObjects.AddObject(objectToTake);
+        TryOpenChest();
     }
 
     [Button]
     private void ConfigureUpgradeContainers()
     {
+        upgradeContainersParent.SetActive(true);
         var stats = Enum.GetValues(typeof(Stat));
         for (int i = 0; i < upgradeContainers.Length; i++)
         {
@@ -99,5 +165,18 @@ public class WaveTransitionManager : MonoBehaviour, IGameStateListener
                 return () => Debug.Log("Invalid Stat");
         }
         return () => playerStatsManager.AddPlayerStat(stat, value);
+    }
+
+
+    private void ChestCollectedCallback(Chest chest)
+    {
+        if (chest.GetType() != typeof(Chest))
+        {
+            chestsCollected++;
+            return;
+        }
+
+        chestsCollected++;
+        Debug.Log($"Chest collected: {chestsCollected}");
     }
 }

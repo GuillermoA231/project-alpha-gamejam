@@ -100,9 +100,9 @@ public class DropsManager : MonoBehaviour
     {
         bool shouldSpawnChest = Random.Range(0, 101) <= chestDropChance;
 
+
         if (!shouldSpawnChest)
             return;
-
         Instantiate(chestPrefab, spawnPosition, Quaternion.identity, transform);
 
     }

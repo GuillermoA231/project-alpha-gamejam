@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618220f15e9884a43a4942122c462a57, type: 3}
+  m_Name: Shield
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Battery
+  <Icon>k__BackingField: {fileID: -750977821, guid: a6a9c44c21b93f44bac06ed0a5f64b25, type: 3}
+  <Price>k__BackingField: 100
+  <Rarity>k__BackingField: 2
+  statDatas:
+  - stat: 0
+    value: -1
+  - stat: 8
+    value: 5

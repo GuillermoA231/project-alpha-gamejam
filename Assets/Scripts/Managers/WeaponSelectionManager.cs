@@ -58,7 +58,7 @@ public class WeaponSelectionManager : MonoBehaviour, IGameStateListener
         var weaponData = starterWeapons[Random.Range(0, starterWeapons.Length)];
         var level = Random.Range(0, 4);
 
-        container.Configure(weaponData.Sprite, level, weaponData);
+        container.Configure(weaponData, level);
 
         container.Button.onClick.RemoveAllListeners();
         container.Button.onClick.AddListener(() =>
