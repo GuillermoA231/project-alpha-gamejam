@@ -8,6 +8,9 @@ using Object = UnityEngine.Object;
 
 public class WaveTransitionManager : MonoBehaviour, IGameStateListener
 {
+
+    public static WaveTransitionManager instance;
+
     [Header("Player")]
     [SerializeField] private PlayerObjects playerObjects;
 
@@ -25,6 +28,11 @@ public class WaveTransitionManager : MonoBehaviour, IGameStateListener
 
     public void Awake()
     {
+        if (instance == null)
+            instance = this;
+        else
+            Destroy(gameObject);
+
         Chest.onCollected += ChestCollectedCallback;
     }
     public void OnDestroy()
@@ -52,13 +60,20 @@ public class WaveTransitionManager : MonoBehaviour, IGameStateListener
         {
             ShowObject();
         }
-        else
+        else if (Player.instance.HasleveledUp())
+        {
             ConfigureUpgradeContainers();
+        }
+        else
+        {
+            upgradeContainersParent.SetActive(false);
+            GameManager.instance.SetGameState(GameState.SHOP);
+        }
     }
 
     private void ShowObject()
     {
- 
+
         chestsCollected--;
 
         upgradeContainersParent.SetActive(false);
@@ -71,14 +86,21 @@ public class WaveTransitionManager : MonoBehaviour, IGameStateListener
 
 
         containerInstance.InstallButton.onClick.AddListener(() => InstallButtonCallback(randomObjectData));
+        containerInstance.MeltButton.onClick.AddListener(() => MeltButtonCallback(randomObjectData));
     }
-    
+
 
     private void InstallButtonCallback(ObjectDataSO objectToTake)
     {
         playerObjects.AddObject(objectToTake);
         TryOpenChest();
     }
+    private void MeltButtonCallback(ObjectDataSO objectToMelt)
+    {
+        CurrencyManager.instance.AddCurrency(objectToMelt.MeltPrice);
+        TryOpenChest();
+    }
+
 
     [Button]
     private void ConfigureUpgradeContainers()
@@ -178,5 +200,10 @@ public class WaveTransitionManager : MonoBehaviour, IGameStateListener
 
         chestsCollected++;
         Debug.Log($"Chest collected: {chestsCollected}");
+    }
+
+    public bool HasCollectedChest()
+    {
+        return chestsCollected > 0;
     }
 }

@@ -8,6 +8,7 @@ public class ObjectDataSO : ScriptableObject
     [field: SerializeField] public string Name { get; private set; }
     [field: SerializeField] public Sprite Icon { get; private set; }
     [field: SerializeField] public int Price { get; private set; }
+    [field: SerializeField] public int MeltPrice { get; private set; }
 
     [field: Range(0, 3)]
     [field: SerializeField] public int Rarity { get; private set; }
