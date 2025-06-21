@@ -7,11 +7,18 @@ public class AudioManager : MonoBehaviour
     [Header("Global Settings")]
     [Tooltip("Master volume multiplier for SFX (0 to 1).")]
     [Range(0f, 1f)]
+    
     public float sfxVolume = 1f;
+
+
+    [Header("UI Sounds")]
+    [Tooltip("Click-to-purchase sound")]
+    public AudioClip buyClip;
+    [Tooltip("Click-to-sell sound")]
+    public AudioClip sellClip;
 
     private void Awake()
     {
-        // Singleton pattern
         if (Instance == null)
         {
             Instance = this;

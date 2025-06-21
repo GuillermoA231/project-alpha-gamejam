@@ -56,18 +56,22 @@ public class WaveTransitionManager : MonoBehaviour, IGameStateListener
     {
         chestContainerParent.Clear();
 
+        bool canLevelUp = Player.instance.GetComponent<PlayerEXP>().CanLevelUpThisWave();
+
         if (chestsCollected > 0)
         {
             ShowObject();
+            return;
         }
-        else if (Player.instance.HasleveledUp())
+        else if (canLevelUp)
         {
             ConfigureUpgradeContainers();
+            return;
         }
         else
         {
-            upgradeContainersParent.SetActive(false);
             GameManager.instance.SetGameState(GameState.SHOP);
+            return;
         }
     }
 
@@ -84,9 +88,13 @@ public class WaveTransitionManager : MonoBehaviour, IGameStateListener
         ChestObjectContainer containerInstance = Instantiate(chestContainerPrefab, chestContainerParent);
         containerInstance.Configure(randomObjectData, randomObjectData.Rarity);
 
+        containerInstance.SetupButtonCallbacks(
+        () => InstallButtonCallback(randomObjectData),
+        () => MeltButtonCallback(randomObjectData)
+        );
 
-        containerInstance.InstallButton.onClick.AddListener(() => InstallButtonCallback(randomObjectData));
-        containerInstance.MeltButton.onClick.AddListener(() => MeltButtonCallback(randomObjectData));
+        // containerInstance.InstallButton.onClick.AddListener(() => InstallButtonCallback(randomObjectData));
+        // containerInstance.MeltButton.onClick.AddListener(() => MeltButtonCallback(randomObjectData));
     }
 
 
@@ -126,6 +134,7 @@ public class WaveTransitionManager : MonoBehaviour, IGameStateListener
 
     private void BonusSelectedCallback()
     {
+        Player.instance.GetComponent<PlayerEXP>().ConsumeLevelThisWave();
         GameManager.instance.WaveCompletedCallback();
     }
 

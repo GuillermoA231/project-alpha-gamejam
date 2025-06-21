@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.Localization.Settings;
 using System.Collections.Generic;
+using UnityEngine.Events;
 
 public class ChestObjectContainer : MonoBehaviour
 {
@@ -13,11 +14,17 @@ public class ChestObjectContainer : MonoBehaviour
     [SerializeField] private TextMeshProUGUI nameText;
     [Header("Stats")]
     [SerializeField] private Transform statsContainerParent;
+    [SerializeField] private TextMeshProUGUI recyclePriceText;
     [field: SerializeField] public Button InstallButton { get; private set; }
     [field: SerializeField] public Button MeltButton { get; private set; }
 
     [Header("Color")]
     [SerializeField] private Image[] containerImage;
+
+    
+    [Header("Audio (UI)")]
+    [SerializeField] private AudioClip installClip;
+    [SerializeField] private AudioClip meltClip;
     
 
     private string objectKey;
@@ -62,6 +69,7 @@ public class ChestObjectContainer : MonoBehaviour
         icon.sprite = objectDataSO.Icon;
         objectLevel = level;
         objectKey = objectDataSO.name;
+        recyclePriceText.text = objectDataSO.MeltPrice.ToString();
 
         Color imageColor = ColorHolder.GetColor(objectDataSO.Rarity);
         Color outlineColor = ColorHolder.GetOutlineColor(objectDataSO.Rarity);
@@ -79,6 +87,33 @@ public class ChestObjectContainer : MonoBehaviour
     private void GenerateStatContainers(Dictionary<Stat,float> stats)
     {
         StatContainerManager.GenerateStatContainers(stats, statsContainerParent);
+    }
+
+     public void SetupButtonCallbacks(UnityAction installAction, UnityAction meltAction)
+    {
+        InstallButton.onClick.RemoveAllListeners();
+        MeltButton.onClick.RemoveAllListeners();
+
+        // INSTALL
+        InstallButton.onClick.AddListener(() =>
+        {
+            // pick override or AudioManager.default
+            var clip = installClip != null
+                ? installClip
+                : AudioManager.Instance.buyClip;
+            AudioManager.Instance.PlaySFX2D(clip);
+            installAction?.Invoke();
+        });
+
+        // MELT
+        MeltButton.onClick.AddListener(() =>
+        {
+            var clip = meltClip != null
+                ? meltClip
+                : AudioManager.Instance.sellClip;
+            AudioManager.Instance.PlaySFX2D(clip);
+            meltAction?.Invoke();
+        });
     }
 
     public void Select()

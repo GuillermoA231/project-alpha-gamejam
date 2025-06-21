@@ -15,9 +15,12 @@ MonoBehaviour:
   <Name>k__BackingField: Heart
   <Icon>k__BackingField: {fileID: 21300000, guid: 4217838d18d06c04fbb38361be7b975f, type: 3}
   <Price>k__BackingField: 100
-  <Rarity>k__BackingField: 1
+  <MeltPrice>k__BackingField: 50
+  <Rarity>k__BackingField: 0
   statDatas:
   - stat: 5
     value: 3
   - stat: 1
     value: -100
+  - stat: 8
+    value: 6

@@ -75,7 +75,7 @@ public class PlayerEXP : MonoBehaviour
     }
     public bool HasLeveledUp()
     {
-        if(debugMode)
+        if (debugMode)
             return true;
 
         if (levelsEarnedThisWave > 0)
@@ -84,6 +84,27 @@ public class PlayerEXP : MonoBehaviour
             return true;
         }
         return false;
+    }
+    public bool CanLevelUpThisWave()
+    {
+        if (debugMode)
+            return true;
+
+        return levelsEarnedThisWave > 0;
+    }
+
+    public void ConsumeLevelThisWave()
+    {
+        if (levelsEarnedThisWave > 0)
+            levelsEarnedThisWave--;
+    }
+    public bool TryUseLevelThisWave()
+    {
+        if (!CanLevelUpThisWave())
+            return false;
+
+        ConsumeLevelThisWave();
+        return true;
     }
 
 }
