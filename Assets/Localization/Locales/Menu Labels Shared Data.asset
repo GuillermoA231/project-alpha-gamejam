@@ -71,6 +71,10 @@ MonoBehaviour:
     m_Key: UI.Canvas.Menu.LanguageTitle
     m_Metadata:
       m_Items: []
+  - m_Id: 3301195047632896
+    m_Key: UI.Canvas.WaveTransition.Chest.Install
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

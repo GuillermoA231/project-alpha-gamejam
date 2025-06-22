@@ -70,6 +70,10 @@ MonoBehaviour:
     m_Localized: LENGUAJE
     m_Metadata:
       m_Items: []
+  - m_Id: 3301195047632896
+    m_Localized: Instalar
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
