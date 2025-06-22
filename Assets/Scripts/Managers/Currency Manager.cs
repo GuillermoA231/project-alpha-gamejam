@@ -16,7 +16,7 @@ public class CurrencyManager : MonoBehaviour
     }
     void Start()
     {
-
+        UpdateCurrencyText();
     }
 
     // Update is called once per frame
@@ -28,5 +28,13 @@ public class CurrencyManager : MonoBehaviour
     public void AddCurrency(int amount)
     {
         Currency += amount;
+        UpdateCurrencyText();
+    }
+
+    private void UpdateCurrencyText()
+    {
+        CurrencyText[] currencyTexts = FindObjectsByType<CurrencyText>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+        foreach (CurrencyText text in currencyTexts)
+        text.UpdateText(Currency.ToString());
     }
 }
