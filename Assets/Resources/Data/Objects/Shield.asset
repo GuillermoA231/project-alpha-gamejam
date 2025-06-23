@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Battery
   <Icon>k__BackingField: {fileID: -750977821, guid: a6a9c44c21b93f44bac06ed0a5f64b25, type: 3}
-  <Price>k__BackingField: 100
-  <MeltPrice>k__BackingField: 50
+  <Price>k__BackingField: 50
+  <MeltPrice>k__BackingField: 25
   <Rarity>k__BackingField: 1
   statDatas:
   - stat: 0
