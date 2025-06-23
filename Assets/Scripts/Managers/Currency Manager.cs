@@ -19,7 +19,6 @@ public class CurrencyManager : MonoBehaviour
         UpdateCurrencyText();
     }
 
-    // Update is called once per frame
     void Update()
     {
 

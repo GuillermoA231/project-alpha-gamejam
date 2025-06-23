@@ -75,6 +75,14 @@ MonoBehaviour:
     m_Key: UI.Canvas.WaveTransition.Chest.Install
     m_Metadata:
       m_Items: []
+  - m_Id: 3596927067619328
+    m_Key: UI.Canvas.PlayerStatsDisplay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3610336525942784
+    m_Key: UI.Canvas.WaveTransition.SkipButton
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
