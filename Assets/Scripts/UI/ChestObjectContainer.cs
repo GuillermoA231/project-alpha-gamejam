@@ -21,7 +21,6 @@ public class ChestObjectContainer : MonoBehaviour
     [Header("Color")]
     [SerializeField] private Image[] containerImage;
 
-    
     [Header("Audio (UI)")]
     [SerializeField] private AudioClip installClip;
     [SerializeField] private AudioClip meltClip;
@@ -97,7 +96,6 @@ public class ChestObjectContainer : MonoBehaviour
         // INSTALL
         InstallButton.onClick.AddListener(() =>
         {
-            // pick override or AudioManager.default
             var clip = installClip != null
                 ? installClip
                 : AudioManager.Instance.buyClip;

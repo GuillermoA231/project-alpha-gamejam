@@ -9,6 +9,11 @@ public class ShopManager : MonoBehaviour, IGameStateListener
     [SerializeField] private Transform containersParent;
     [SerializeField] private ShopObjectContainer shopItemContainerPrefab;
 
+    
+    [Header("Player Elements")]
+    [SerializeField] private PlayerWeapons playerWeapons;
+    [SerializeField] private PlayerObjects playerObjects;
+
     [Header("Reroll Settings (temporary, no wave)")]
     [SerializeField] private int baseRerollPrice = 5;
     [SerializeField] private int rerollPriceIncrement = 2;
@@ -18,17 +23,23 @@ public class ShopManager : MonoBehaviour, IGameStateListener
     [SerializeField] private Image rerollPriceContainerImage;
     [SerializeField] private Image rerollPriceOutlineImage;
     [SerializeField] private TextMeshProUGUI rerollPriceText;
+    
+    [Header("Audio (UI)")]
+    [SerializeField] private AudioClip installClip;
+    [SerializeField] private AudioClip meltClip;
 
     private int rerollCount;
     private int freeRerolls;
 
     private void Awake()
     {
+        ShopObjectContainer.onPurchased += ObjectPurchasedCallback;
         CurrencyManager.onUpdated += CurrencyUpdatedCallback;
     }
 
     private void OnDestroy()
     {
+        ShopObjectContainer.onPurchased -= ObjectPurchasedCallback;
         CurrencyManager.onUpdated -= CurrencyUpdatedCallback;
     }
 
@@ -108,7 +119,7 @@ public class ShopManager : MonoBehaviour, IGameStateListener
     {
         return baseRerollPrice + rerollCount * rerollPriceIncrement;
     }
-    
+
     private bool CanReroll()
     {
         int cost = GetCurrentRerollPrice();
@@ -162,5 +173,34 @@ public class ShopManager : MonoBehaviour, IGameStateListener
             rerollPriceOutlineImage.color = outlineColor;
         if (rerollPriceText != null)
             rerollPriceText.color = textColor;
+    }
+
+    private void ObjectPurchasedCallback(ShopObjectContainer objectContainer, int weaponLevel)
+    {
+        if (objectContainer.WeaponData != null)
+        {
+            TryPurchaseWeapon(objectContainer, weaponLevel);
+        }
+        if (objectContainer.ObjectData != null)
+        {
+            TryPurchaseObject(objectContainer);
+        }
+    }
+
+    private void TryPurchaseWeapon(ShopObjectContainer container, int weaponLevel)
+    {
+        if (playerWeapons.TryAddWeapon(container.WeaponData, weaponLevel))
+        {
+            int price = WeaponStatsCalculator.getPurchasePrice(container.WeaponData, weaponLevel);
+            CurrencyManager.instance.UseCoins(price);
+
+            Destroy(container.gameObject);
+        }
+    }
+    private void TryPurchaseObject(ShopObjectContainer container)
+    {
+        playerObjects.AddObject(container.ObjectData);
+        CurrencyManager.instance.UseCoins(container.ObjectData.Price);
+        Destroy(container.gameObject);
     }
 }

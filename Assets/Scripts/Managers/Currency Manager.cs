@@ -43,6 +43,8 @@ public class CurrencyManager : MonoBehaviour
         onUpdated?.Invoke();
     }
 
+    public void UseCurrency(int price) => AddCurrency(price);
+
     private void UpdateCurrencyText()
     {
         CurrencyText[] currencyTexts = FindObjectsByType<CurrencyText>(FindObjectsInactive.Include, FindObjectsSortMode.None);

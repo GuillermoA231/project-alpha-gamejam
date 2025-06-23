@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class PlayerWeapons : MonoBehaviour
 {
-[Header(" Elements")]
-[SerializeField] private WeaponPosition[] weaponPositions;
+    [Header(" Elements")]
+    [SerializeField] private WeaponPosition[] weaponPositions;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -15,8 +15,19 @@ public class PlayerWeapons : MonoBehaviour
     {
 
     }
-    public void TryAddWeapon(WeaponDataSO selectedWeapon, int selectedWeaponLevel)
+
+    public bool TryAddWeapon(WeaponDataSO weapon, int weaponLevel)
     {
-        weaponPositions[2].AssignWeapon(selectedWeapon.Prefab, selectedWeaponLevel);
+        for (int i = 0; i < weaponPositions.Length; i++)
+        {
+            if (weaponPositions[i].Weapon != null)
+                continue;
+
+            weaponPositions[i].AssignWeapon(weapon.Prefab, weaponLevel);
+            return true;
+        }
+
+        return false;
     }
+    
 }
