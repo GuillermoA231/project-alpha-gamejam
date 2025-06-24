@@ -83,6 +83,10 @@ MonoBehaviour:
     m_Key: UI.Canvas.WaveTransition.SkipButton
     m_Metadata:
       m_Items: []
+  - m_Id: 4273002147872768
+    m_Key: UI.Canvas.Shop.InventoryDisplay
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -82,6 +82,10 @@ MonoBehaviour:
     m_Localized: SALTEAR
     m_Metadata:
       m_Items: []
+  - m_Id: 4273002147872768
+    m_Localized: INVENTARIO
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
