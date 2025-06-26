@@ -185,6 +185,8 @@ public class ShopManager : MonoBehaviour, IGameStateListener
         {
             TryPurchaseObject(objectContainer);
         }
+        
+        InventoryManager.instance.Configure();
     }
 
     private void TryPurchaseWeapon(ShopObjectContainer container, int weaponLevel)

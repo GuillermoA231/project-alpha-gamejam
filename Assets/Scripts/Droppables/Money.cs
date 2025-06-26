@@ -21,6 +21,7 @@ public class Money : DroppableCurrency
     protected override void Collected()
     { 
         ScoreManager.Instance.RegisterCoin(1);
+        CurrencyManager.instance.OnCollectedCurrency(1);
         onCollected?.Invoke(this);
     }
 }

@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Knife
   <Sprite>k__BackingField: {fileID: -5243008058539326800, guid: e371a87b2665f824eb6376b1c2546c50, type: 3}
-  <PurchasePrice>k__BackingField: 50
+  <PurchasePrice>k__BackingField: 40
   <AttackSound>k__BackingField: {fileID: 8300000, guid: 2974f8b480858134681e6b6a658327bd, type: 3}
   <Prefab>k__BackingField: {fileID: 3737537163647032576, guid: 04db8218c07640f4aa9f97c69e32e6a3, type: 3}
-  attack: 4
+  attack: 5
   attackSpeed: 1.5
   criticalChance: 5
   criticalDamage: 1.2

@@ -10,6 +10,7 @@ public class CurrencyManager : MonoBehaviour
 
     [Header(" Actions")]
     public static Action onUpdated;
+    private bool inShop = false;
 
 
     public void Awake()
@@ -24,10 +25,7 @@ public class CurrencyManager : MonoBehaviour
         UpdateCurrencyText();
     }
 
-    void Update()
-    {
 
-    }
 
     [Button]
     private void DebugAdd500Currency()
@@ -35,9 +33,14 @@ public class CurrencyManager : MonoBehaviour
         AddCurrency(500);
     }
 
+    public void OnCollectedCurrency(int amount)
+    {
+        Currency += amount;
+    }
     public void AddCurrency(int amount)
     {
         Currency += amount;
+
         UpdateCurrencyText();
 
         onUpdated?.Invoke();
@@ -45,11 +48,11 @@ public class CurrencyManager : MonoBehaviour
 
     public void UseCurrency(int price) => AddCurrency(price);
 
-    private void UpdateCurrencyText()
+    public void UpdateCurrencyText()
     {
-        CurrencyText[] currencyTexts = FindObjectsByType<CurrencyText>(FindObjectsInactive.Include, FindObjectsSortMode.None);
-        foreach (CurrencyText text in currencyTexts)
-            text.UpdateText(Currency.ToString());
+            CurrencyText[] currencyTexts = FindObjectsByType<CurrencyText>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+            foreach (CurrencyText text in currencyTexts)
+                text.UpdateText(Currency.ToString());
     }
     public bool HasEnoughCurrency(int price)
     {
@@ -59,4 +62,5 @@ public class CurrencyManager : MonoBehaviour
     {
         AddCurrency(-price);
     }
+
 }

@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerWeapons : MonoBehaviour
@@ -28,6 +31,22 @@ public class PlayerWeapons : MonoBehaviour
         }
 
         return false;
+    }
+
+    public Weapon[] GetWeapons()
+    {
+        List<Weapon> weaponsHolding = new List<Weapon>();
+
+
+        foreach (WeaponPosition weaponPosition in weaponPositions)
+        {
+            if (weaponPosition.Weapon == null)
+                continue;
+
+            weaponsHolding.Add(weaponPosition.Weapon);
+        }
+
+        return weaponsHolding.ToArray();
     }
     
 }

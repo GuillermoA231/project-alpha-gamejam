@@ -161,7 +161,7 @@ public class ShopManagerUI : MonoBehaviour
         LeanTween.alpha(inventoryClosedButton, 0, .5f).setRecursive(false)
         .setOnComplete(() => inventoryClosedButton.gameObject.SetActive(false));
 
-        if(hideItemInfo)
+        if (hideItemInfo)
             HideItemInfo();
     }
 
@@ -184,14 +184,20 @@ public class ShopManagerUI : MonoBehaviour
     [Button]
     public void ShowItemInfo()
     {
+        itemInfoSlidePanel.gameObject.SetActive(true);
+
         itemInfoSlidePanel.LeanCancel();
-        itemInfoSlidePanel.LeanMove((Vector3)itemInfoOpenPos, .3f).setEase(LeanTweenType.easeOutCirc);
+        itemInfoSlidePanel
+        .LeanMove((Vector3)itemInfoOpenPos, .3f).setEase(LeanTweenType.easeOutCirc);
     }
-    
+
     [Button]
     public void HideItemInfo()
     {
         itemInfoSlidePanel.LeanCancel();
-        itemInfoSlidePanel.LeanMove((Vector3)itemInfoClosedPos, .3f).setEase(LeanTweenType.easeInCirc);
+        itemInfoSlidePanel
+        .LeanMove((Vector3)itemInfoClosedPos, .3f).setEase(LeanTweenType.easeInCirc)
+
+        .setOnComplete(() => itemInfoSlidePanel.gameObject.SetActive(false));
     }
 }

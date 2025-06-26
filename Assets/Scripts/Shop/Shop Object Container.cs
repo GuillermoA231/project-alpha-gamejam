@@ -55,6 +55,10 @@ public class ShopObjectContainer : MonoBehaviour
 
     private void CurrencyUpdatedCallback()
     {
+        if (WeaponData == null && ObjectData == null)
+        return;
+
+        
         int itemPrice;
 
         if (WeaponData != null)
@@ -187,6 +191,7 @@ public class ShopObjectContainer : MonoBehaviour
 
         purchaseButton.onClick.AddListener(Purchase);
         
+        //CurrencyManager.instance.UseCoins(ObjectData.Price);
 
         purchaseButton.interactable = CurrencyManager.instance.HasEnoughCurrency(objectData.Price);
     }

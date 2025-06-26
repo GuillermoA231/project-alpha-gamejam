@@ -26,6 +26,10 @@ MonoBehaviour:
     m_Localized: CUCHILLO
     m_Metadata:
       m_Items: []
+  - m_Id: 4550508109234176
+    m_Localized: SMG
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

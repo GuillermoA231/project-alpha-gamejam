@@ -18,9 +18,9 @@ MonoBehaviour:
   <MeltPrice>k__BackingField: 25
   <Rarity>k__BackingField: 1
   statDatas:
-  - stat: 0
-    value: -1
+  - stat: 1
+    value: -3
   - stat: 8
     value: 5
   - stat: 5
-    value: 10
+    value: 2

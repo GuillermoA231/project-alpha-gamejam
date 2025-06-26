@@ -5,6 +5,7 @@ using NaughtyAttributes;
 using Random = UnityEngine.Random;
 using Unity.VisualScripting;
 using Object = UnityEngine.Object;
+using System.Linq;
 
 public class WaveTransitionManager : MonoBehaviour, IGameStateListener
 {
@@ -25,6 +26,8 @@ public class WaveTransitionManager : MonoBehaviour, IGameStateListener
     [Header("Chest Related Stuff")]
     [SerializeField] private ChestObjectContainer chestContainerPrefab;
     [SerializeField] private Transform chestContainerParent;
+
+    [SerializeField] private float[] chestRarityWeights = new float[] { 50f, 24f, 15f, 11f };
 
     public void Awake()
     {
@@ -48,6 +51,7 @@ public class WaveTransitionManager : MonoBehaviour, IGameStateListener
 
             case GameState.WAVETRANSITION:
                 TryOpenChest();
+                CurrencyManager.instance.UpdateCurrencyText();
                 break;
         }
     }
@@ -77,24 +81,56 @@ public class WaveTransitionManager : MonoBehaviour, IGameStateListener
 
     private void ShowObject()
     {
+        // Old version, no weighted random
+        // chestsCollected--;
+
+        // upgradeContainersParent.SetActive(false);
+
+        // ObjectDataSO[] objectDatas = ResourcesManager.Objects;
+
+        // ObjectDataSO randomObjectData = objectDatas[Random.Range(0, objectDatas.Length)];
+
+        // ChestObjectContainer containerInstance = Instantiate(chestContainerPrefab, chestContainerParent);
+        // containerInstance.Configure(randomObjectData, randomObjectData.Rarity);
+
+        // containerInstance.SetupButtonCallbacks(
+        // () => InstallButtonCallback(randomObjectData),
+        // () => MeltButtonCallback(randomObjectData)
+        // );
+        // ---------
+
+        // new Version with Weighted Randoms
 
         chestsCollected--;
-
         upgradeContainersParent.SetActive(false);
 
+        // Retrieve all possible objectDatas
         ObjectDataSO[] objectDatas = ResourcesManager.Objects;
-        ObjectDataSO randomObjectData = objectDatas[Random.Range(0, objectDatas.Length)];
 
+        // 1) Determine rarity index via weights
+        int rarityIndex = WeightedRandom.GetIndexByWeight(chestRarityWeights);
+        int targetRarity = rarityIndex;
+
+        // 2) Filter objects by that rarity
+        var objectCandidates = objectDatas.Where(o => o.Rarity == targetRarity).ToArray();
+        if (objectCandidates.Length == 0)
+        {
+            Debug.LogWarning($"No objects found for rarity {targetRarity}, falling back to random pick.");
+            objectCandidates = objectDatas;
+        }
+
+        // 3) Pick one at random from objectCandidates
+        ObjectDataSO chosenData = objectCandidates[Random.Range(0, objectCandidates.Length)];
+
+        // 4) Instantiate and configure container
         ChestObjectContainer containerInstance = Instantiate(chestContainerPrefab, chestContainerParent);
-        containerInstance.Configure(randomObjectData, randomObjectData.Rarity);
-
+        containerInstance.Configure(chosenData, rarityIndex);
         containerInstance.SetupButtonCallbacks(
-        () => InstallButtonCallback(randomObjectData),
-        () => MeltButtonCallback(randomObjectData)
+            () => InstallButtonCallback(chosenData),
+            () => MeltButtonCallback(chosenData)
         );
 
-        // containerInstance.InstallButton.onClick.AddListener(() => InstallButtonCallback(randomObjectData));
-        // containerInstance.MeltButton.onClick.AddListener(() => MeltButtonCallback(randomObjectData));
+
     }
 
 
@@ -182,7 +218,7 @@ public class WaveTransitionManager : MonoBehaviour, IGameStateListener
                 break;
             case Stat.Luck:
                 value = UnityEngine.Random.Range(1, 20);
-                buttonString = "[DONT TOUCH] +" + value.ToString("F0");
+                buttonString = "+" + value.ToString("F0");
                 break;
             case Stat.Dodge:
                 value = UnityEngine.Random.Range(1, 15);
