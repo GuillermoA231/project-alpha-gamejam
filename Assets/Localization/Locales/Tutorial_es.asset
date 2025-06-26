@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Tutorial_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: dd5d0655076a091489e22a7a8f9bc211, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 153790840832
+    m_Localized: TUTORIAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 165706858496
+    m_Localized: "C\xF3mo jugar:\r\nMovete con W A S D. Sobreviv\xED el mayor tiempo
+      posible.\r\nAtac\xE1s autom\xE1ticamente. Sub\xED de nivel para mejorar tus
+      estad\xEDsticas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 194492366848
+    m_Localized: EXPLICACION ESTADISTICAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 216541822976
+    m_Localized: "Da\xF1o: Da\xF1o base que hac\xE9s.\r\n    Velocidad de Ataque:
+      Qu\xE9 tan r\xE1pido atac\xE1s.\r\n    Prob. de Cr\xEDtico: Probabilidad de
+      hacer un golpe cr\xEDtico.\r\n    Da\xF1o Cr\xEDtico: Da\xF1o extra cuando
+      hac\xE9s un cr\xEDtico.\r\n    Velocidad de Movimiento: Qu\xE9 tan r\xE1pido
+      te mov\xE9s."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235164532736
+    m_Localized: "  Vida M\xE1xima: Cantidad total de vida que ten\xE9s.\r\n    Alcance:
+      Distancia de tus ataques (Solo ataques de rango).\r\n    Regeneraci\xF3n: Velocidad
+      a la que recuper\xE1s vida con el tiempo.\r\n    Armadura: Reduce el da\xF1o
+      que recib\xEDs.\r\n    Suerte: Mejora las probabilidades de conseguir mejoras
+      o drops.\r\n    Esquiva: Probabilidad de evitar el da\xF1o por completo.\r\n   
+      Robo de Vida: Recuper\xE1s vida al hacer da\xF1o."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278613327872
+    m_Localized: VOLVER AL MENU
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
