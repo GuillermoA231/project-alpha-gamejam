@@ -14,9 +14,13 @@ public class AudioManager : MonoBehaviour
     [Header("UI Sounds")]
     [Tooltip("Click-to-purchase sound")]
     public AudioClip buyClip;
+    [Tooltip("Click sound")]
+    public AudioClip clickClip;
     [Tooltip("Click-to-sell sound")]
     public AudioClip sellClip;
 
+    [Tooltip("Click-to-upgrade sound")]
+    public AudioClip upgradeClip;
     private void Awake()
     {
         if (Instance == null)

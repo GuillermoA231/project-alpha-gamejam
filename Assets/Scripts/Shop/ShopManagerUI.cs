@@ -169,7 +169,7 @@ public class ShopManagerUI : MonoBehaviour
 
     private void ConfigureItemInfoPanel()
     {
-        float height = Screen.height / (2 * itemInfoSlidePanel.lossyScale.x);
+        float height = Screen.height / (1.5f * itemInfoSlidePanel.lossyScale.x);
 
         itemInfoSlidePanel.offsetMax = itemInfoSlidePanel.offsetMax.With(y: height);
 
@@ -199,4 +199,5 @@ public class ShopManagerUI : MonoBehaviour
 
         .setOnComplete(() => itemInfoSlidePanel.gameObject.SetActive(false));
     }
+
 }

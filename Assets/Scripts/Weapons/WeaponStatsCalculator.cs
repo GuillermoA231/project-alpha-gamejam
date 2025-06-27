@@ -27,4 +27,13 @@ public static class WeaponStatsCalculator
         float multiplier = 1 + (float)level / 3;
         return  (int)(weapondata.PurchasePrice * multiplier);
     }
+    public static int getMeltPrice(WeaponDataSO weapondata, int level)
+    {
+        float multiplier = 1 + (float)level / 3;
+
+        if (weapondata.MeltPrice != 0)
+            return (int)(weapondata.MeltPrice * multiplier);
+        else
+           return getPurchasePrice(weapondata, level) / 3;
+    }
 }

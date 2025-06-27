@@ -1,6 +1,7 @@
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class InventoryItemContainer : MonoBehaviour
 {
@@ -8,6 +9,10 @@ public class InventoryItemContainer : MonoBehaviour
     [SerializeField] private Image container;
     [SerializeField] private Image outline;
     [SerializeField] private Image icon;
+    [SerializeField] private Button button;
+
+    public Weapon Weapon{ get; private set; }
+    public ObjectDataSO ObjectData{ get; private set; }
 
     public void Configure(Color containerColor, Color outlineColor, Sprite spriteIcon)
     {
@@ -15,22 +20,43 @@ public class InventoryItemContainer : MonoBehaviour
         outline.color = outlineColor;
         icon.sprite = spriteIcon;
     }
-    public void Configure(Weapon weapon)
+    public void Configure(Weapon weapon, Action clickedCallback)
     {
+        Weapon = weapon;
+        
         Color color = ColorHolder.GetColor(weapon.Level);
         Color outlineColor = ColorHolder.GetOutlineColor(weapon.Level);
 
         Sprite icon = weapon.WeaponData.Sprite;
 
         Configure(color, outlineColor, icon);
+
+        button.onClick.RemoveAllListeners();
+        button.onClick.AddListener(() => clickedCallback?.Invoke());
+        button.onClick.AddListener(() => 
+        {
+            LeanTween.scale(button.gameObject, new Vector3(1.2f, 1.2f, 1f), 0.2f)
+                     .setEasePunch();
+        });
     }
-    public void Configure(ObjectDataSO objectData)
+    public void Configure(ObjectDataSO objectData, Action clickedCallback)
     {
+        ObjectData = objectData;
+
         Color color = ColorHolder.GetColor(objectData.Rarity);
         Color outlineColor = ColorHolder.GetOutlineColor(objectData.Rarity);
 
         Sprite icon = objectData.Icon;
 
         Configure(color, outlineColor, icon);
+
+        
+        button.onClick.RemoveAllListeners();
+        button.onClick.AddListener(() => clickedCallback?.Invoke());
+        button.onClick.AddListener(() => 
+        {
+            LeanTween.scale(button.gameObject, new Vector3(1.2f, 1.2f, 1f), 0.2f)
+                     .setEasePunch();
+        });
     }
 }
