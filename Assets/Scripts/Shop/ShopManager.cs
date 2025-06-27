@@ -1,7 +1,9 @@
+using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class ShopManager : MonoBehaviour, IGameStateListener
 {
@@ -23,6 +25,10 @@ public class ShopManager : MonoBehaviour, IGameStateListener
     [SerializeField] private Image rerollPriceContainerImage;
     [SerializeField] private Image rerollPriceOutlineImage;
     [SerializeField] private TextMeshProUGUI rerollPriceText;
+
+
+    [Header("Actions")]
+    public static Action onItemPurchased;
 
 
     private int rerollCount;
@@ -209,6 +215,7 @@ public class ShopManager : MonoBehaviour, IGameStateListener
         {
             AudioManager.instance.PlayDenySound();
         }
+        onItemPurchased?.Invoke();
     }
     private void TryPurchaseObject(ShopObjectContainer container)
     {
@@ -218,6 +225,7 @@ public class ShopManager : MonoBehaviour, IGameStateListener
         AudioManager.instance.PlayBuySound();
 
         Destroy(container.gameObject);
+        onItemPurchased?.Invoke();
     }
     
 }

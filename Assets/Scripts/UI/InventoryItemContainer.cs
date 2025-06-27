@@ -11,32 +11,36 @@ public class InventoryItemContainer : MonoBehaviour
     [SerializeField] private Image icon;
     [SerializeField] private Button button;
 
-    public Weapon Weapon{ get; private set; }
+    public int Index { get; private set; }
+
+    public Weapon Weapon { get; private set; }
     public ObjectDataSO ObjectData{ get; private set; }
 
-    public void Configure(Color containerColor, Color outlineColor, Sprite spriteIcon)
+    private void ConfigureGraphics(Color containerColor, Color outlineColor, Sprite spriteIcon)
     {
         container.color = containerColor;
         outline.color = outlineColor;
         icon.sprite = spriteIcon;
     }
-    public void Configure(Weapon weapon, Action clickedCallback)
+    public void Configure(Weapon weapon, int index, Action clickedCallback)
     {
         Weapon = weapon;
+        Index = index;
         
         Color color = ColorHolder.GetColor(weapon.Level);
         Color outlineColor = ColorHolder.GetOutlineColor(weapon.Level);
 
         Sprite icon = weapon.WeaponData.Sprite;
 
-        Configure(color, outlineColor, icon);
+        ConfigureGraphics(color, outlineColor, icon);
 
         button.onClick.RemoveAllListeners();
         button.onClick.AddListener(() => clickedCallback?.Invoke());
-        button.onClick.AddListener(() => 
+        button.onClick.AddListener(() =>
         {
             LeanTween.scale(button.gameObject, new Vector3(1.2f, 1.2f, 1f), 0.2f)
                      .setEasePunch();
+            AudioManager.instance.PlayClickSound();
         });
     }
     public void Configure(ObjectDataSO objectData, Action clickedCallback)
@@ -48,7 +52,7 @@ public class InventoryItemContainer : MonoBehaviour
 
         Sprite icon = objectData.Icon;
 
-        Configure(color, outlineColor, icon);
+        ConfigureGraphics(color, outlineColor, icon);
 
         
         button.onClick.RemoveAllListeners();
@@ -57,6 +61,7 @@ public class InventoryItemContainer : MonoBehaviour
         {
             LeanTween.scale(button.gameObject, new Vector3(1.2f, 1.2f, 1f), 0.2f)
                      .setEasePunch();
+            AudioManager.instance.PlayClickSound();
         });
     }
 }

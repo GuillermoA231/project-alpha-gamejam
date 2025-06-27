@@ -1,3 +1,4 @@
+using System;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
@@ -18,22 +19,19 @@ public class InventoryManager : MonoBehaviour, IGameStateListener
 
     public void Awake()
     {
+        ShopManager.onItemPurchased += ItemPurchasedCallback;
 
         if (instance == null)
             instance = this;
         else
             Destroy(gameObject);
     }
-    void Start()
+    public void OnDestroy()
     {
-
+        ShopManager.onItemPurchased -= ItemPurchasedCallback;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+    private void ItemPurchasedCallback() => Configure();
     public void GameStateChangedCallback(GameState gameState)
     {
         if (gameState == GameState.SHOP)
@@ -46,16 +44,16 @@ public class InventoryManager : MonoBehaviour, IGameStateListener
 
         // Player Weapons / Objects
         //Weapons
-        Weapon[] weaponDatas = playerWeapons.GetWeapons();
+        Weapon[] weapons = playerWeapons.GetWeapons();
 
-        for (int i = 0; i < weaponDatas.Length; i++)
+        for (int i = 0; i < weapons.Length; i++)
         {
             InventoryItemContainer container = Instantiate(inventoryItemsContainer, inventoryItemsParent);
 
             // Color containerColor = ColorHolder.GetColor(weaponDatas[i].Level);
             // Color outlineColor = ColorHolder.GetOutlineColor(weaponDatas[i].Level);
             // Sprite icon = weaponDatas[i].WeaponData.Sprite;
-            container.Configure(weaponDatas[i], () => ShowItemInfo(container));
+            container.Configure(weapons[i],i, () => ShowItemInfo(container));
         }
 
         //Objects
@@ -76,20 +74,40 @@ public class InventoryManager : MonoBehaviour, IGameStateListener
     private void ShowItemInfo(InventoryItemContainer container)
     {
         if (container.Weapon != null)
-            ShowWeaponInfo(container.Weapon);
+            ShowWeaponInfo(container.Weapon, container.Index);
         else
             ShowObjectInfo(container.ObjectData);
 
     }
 
-    private void ShowWeaponInfo(Weapon weapon)
+    private void ShowWeaponInfo(Weapon weapon, int index)
     {
         itemInfo.ConfigureWeapon(weapon);
+
+        
+        itemInfo.MeltButton.onClick.RemoveAllListeners();
+        itemInfo.MeltButton.onClick.AddListener(() => MeltWeapon(index));
+        
         shopManagerUI.ShowItemInfo();
     }
     private void ShowObjectInfo(ObjectDataSO objectData)
     {
         itemInfo.ConfigureObject(objectData);
+        itemInfo.MeltButton.onClick.RemoveAllListeners();
+        itemInfo.MeltButton.onClick.AddListener(() => MeltObject(objectData));
         shopManagerUI.ShowItemInfo();
+    }
+
+    private void MeltObject(ObjectDataSO objectToRecycle)
+    {
+        playerObjects.MeltObject(objectToRecycle);
+
+        Configure();
+
+        shopManagerUI.HideItemInfo();
+    }
+    private void MeltWeapon(int index)
+    {
+        Debug.Log(index);
     }
 }

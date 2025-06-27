@@ -67,7 +67,6 @@ public class AudioManager : MonoBehaviour
     {
         if (clip == null) return;
 
-        // Create a temporary GameObject to host the AudioSource
         GameObject go = new GameObject($"SFX_{clip.name}");
         go.transform.position = position;
 
@@ -76,22 +75,12 @@ public class AudioManager : MonoBehaviour
         src.volume = Mathf.Clamp01(sfxVolume * volume);
         src.pitch = Random.Range(pitchMin, pitchMax);
         src.spatialBlend = Mathf.Clamp01(spatialBlend);
-        // Optional: configure rolloff / minDistance / maxDistance here if desired:
-        // src.rolloffMode = AudioRolloffMode.Linear;
-        // src.minDistance = 1f;
-        // src.maxDistance = 50f;
 
         src.Play();
-        // Destroy after clip finishes playing (accounting for pitch)
         float adjustedLength = clip.length / Mathf.Abs(src.pitch);
         Destroy(go, adjustedLength + 0.1f);
     }
 
-    /// <summary>
-    /// Overload: play a 2D (non-spatial) SFX globally.
-    /// This can be useful for UI sounds or if you want sound not tied to world position.
-    /// Internally, we'll place at AudioListener position and spatialBlend=0.
-    /// </summary>
     public void PlaySFX2D(
         AudioClip clip,
         float volume = 1f,
@@ -120,6 +109,10 @@ public class AudioManager : MonoBehaviour
     public void PlayBuySound()
     {
         PlaySFX2D(buyClip);
+    }
+    public void PlayUpgradeSound()
+    {
+        PlaySFX2D(upgradeClip);
     }
     
     public void PlayDenySound()

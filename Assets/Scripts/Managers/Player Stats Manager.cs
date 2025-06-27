@@ -35,26 +35,31 @@ public class PlayerStatsManager : MonoBehaviour
 
     public void AddObject(Dictionary<Stat, float> objectStats)
     {
-        Debug.Log("Dictionary Count: " + objectStats.Count);
         foreach (KeyValuePair<Stat, float> kvp in objectStats)
         {
             objectAddends[kvp.Key] += kvp.Value;
-            Debug.Log($"Added {kvp.Value} to stat {kvp.Key}");
         }
 
         UpdatePlayerStats();
     }
 
     public float GetStatValue(Stat stat) => playerStats[stat] + addends[stat] + objectAddends[stat];
-    
+
     private void UpdatePlayerStats()
     {
         IEnumerable<IPlayerStatsDependency> playerStatsDependencies =
-        FindObjectsByType<MonoBehaviour>(FindObjectsInactive.Include,FindObjectsSortMode.None)
+        FindObjectsByType<MonoBehaviour>(FindObjectsInactive.Include, FindObjectsSortMode.None)
         .OfType<IPlayerStatsDependency>();
 
         foreach (IPlayerStatsDependency dependency in playerStatsDependencies)
             dependency.UpdateStats(this);
     }
 
+    public void RemoveObjectStats(Dictionary<Stat, float> objectStats)
+    {
+        foreach (KeyValuePair<Stat, float> kvp in objectStats)
+        {
+            objectAddends[kvp.Key] -= kvp.Value;
+        }
+    }
 }

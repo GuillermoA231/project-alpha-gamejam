@@ -25,4 +25,13 @@ public class PlayerObjects : MonoBehaviour
         playerStatsManager.AddObject(objectToAdd.baseStats);
     }
 
+    public void MeltObject(ObjectDataSO objectData)
+    {
+        Objects.Remove(objectData);
+
+        CurrencyManager.instance.AddCurrency(objectData.MeltPrice);
+
+        playerStatsManager.RemoveObjectStats(objectData.baseStats);
+    }
+
 }

@@ -21,7 +21,7 @@ public class InventoryItemInfo : MonoBehaviour
     [SerializeField] private Transform statsParent;
     [Header("Buttons")]
     [SerializeField] private Button upgradeButton;
-    [SerializeField] private Button meltButton;
+    [field: SerializeField]public Button MeltButton { get; private set; }
     [SerializeField] private Button closeButton;
 
     private void Awake()
@@ -29,8 +29,8 @@ public class InventoryItemInfo : MonoBehaviour
         if (upgradeButton != null)
             upgradeButton.onClick.AddListener(() => PlayUpgradeSound());
 
-        if (meltButton != null)
-            meltButton.onClick.AddListener(() => PlayMeltSound());
+        if (MeltButton != null)
+            MeltButton.onClick.AddListener(() => PlayMeltSound());
 
         if (closeButton != null)
             closeButton.onClick.AddListener(() => PlayClickSound());
@@ -110,6 +110,10 @@ public class InventoryItemInfo : MonoBehaviour
             WeaponStatsCalculator.GetStats(weapon.WeaponData, weapon.Level)
 
         );
+        
+        if(weapon.Level != 3)
+            upgradeButton.gameObject.SetActive(true);
+        //MeltButton.gameObject.SetActive(true);
     }
 
 
@@ -131,6 +135,8 @@ public class InventoryItemInfo : MonoBehaviour
             objectData.baseStats
 
         );
+        upgradeButton.gameObject.SetActive(false);
+        //MeltButton.gameObject.SetActive(false);
     }
 
     private void Configure(Sprite itemIcon, string name, int recylcePrice, Color mainColor, Color secondColor, Dictionary<Stat, float> stats)
