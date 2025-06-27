@@ -9,7 +9,7 @@ public class ShopManager : MonoBehaviour, IGameStateListener
     [SerializeField] private Transform containersParent;
     [SerializeField] private ShopObjectContainer shopItemContainerPrefab;
 
-    
+
     [Header("Player Elements")]
     [SerializeField] private PlayerWeapons playerWeapons;
     [SerializeField] private PlayerObjects playerObjects;
@@ -23,10 +23,7 @@ public class ShopManager : MonoBehaviour, IGameStateListener
     [SerializeField] private Image rerollPriceContainerImage;
     [SerializeField] private Image rerollPriceOutlineImage;
     [SerializeField] private TextMeshProUGUI rerollPriceText;
-    
-    [Header("Audio (UI)")]
-    [SerializeField] private AudioClip installClip;
-    [SerializeField] private AudioClip meltClip;
+
 
     private int rerollCount;
     private int freeRerolls;
@@ -41,6 +38,12 @@ public class ShopManager : MonoBehaviour, IGameStateListener
     {
         ShopObjectContainer.onPurchased -= ObjectPurchasedCallback;
         CurrencyManager.onUpdated -= CurrencyUpdatedCallback;
+    }
+
+
+    public void PlayRerollSound()
+    {
+        AudioManager.instance?.PlaySFX2D(AudioManager.instance.rerollClip);
     }
 
     public void GameStateChangedCallback(GameState gameState)
@@ -103,10 +106,12 @@ public class ShopManager : MonoBehaviour, IGameStateListener
         }
         else if (CurrencyManager.instance.HasEnoughCurrency(cost))
         {
+            AudioManager.instance.PlayRerollSound();
             CurrencyManager.instance.UseCoins(cost);
         }
         else
         {
+            AudioManager.instance.PlayDenySound();
             return;
         }
 
@@ -185,7 +190,7 @@ public class ShopManager : MonoBehaviour, IGameStateListener
         {
             TryPurchaseObject(objectContainer);
         }
-        
+
         InventoryManager.instance.Configure();
     }
 
@@ -196,13 +201,23 @@ public class ShopManager : MonoBehaviour, IGameStateListener
             int price = WeaponStatsCalculator.getPurchasePrice(container.WeaponData, weaponLevel);
             CurrencyManager.instance.UseCoins(price);
 
+            AudioManager.instance.PlayBuySound();
+
             Destroy(container.gameObject);
+        }
+        else
+        {
+            AudioManager.instance.PlayDenySound();
         }
     }
     private void TryPurchaseObject(ShopObjectContainer container)
     {
         playerObjects.AddObject(container.ObjectData);
         CurrencyManager.instance.UseCoins(container.ObjectData.Price);
+
+        AudioManager.instance.PlayBuySound();
+
         Destroy(container.gameObject);
     }
+    
 }

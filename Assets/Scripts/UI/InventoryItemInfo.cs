@@ -38,17 +38,17 @@ public class InventoryItemInfo : MonoBehaviour
 
     private void PlayClickSound()
     {
-        AudioManager.Instance?.PlaySFX2D(AudioManager.Instance.clickClip);
+        AudioManager.instance?.PlaySFX2D(AudioManager.instance.clickClip);
     }
 
     private void PlayMeltSound()
     {
-        AudioManager.Instance?.PlaySFX2D(AudioManager.Instance.sellClip);
+        AudioManager.instance?.PlaySFX2D(AudioManager.instance.sellClip);
     }
 
     private void PlayUpgradeSound()
     {
-        AudioManager.Instance?.PlaySFX2D(AudioManager.Instance.upgradeClip);
+        AudioManager.instance?.PlaySFX2D(AudioManager.instance.upgradeClip);
     }
 
     private string UpdateWeaponName(string weaponName, int weaponLevel)

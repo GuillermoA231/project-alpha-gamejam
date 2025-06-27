@@ -168,7 +168,7 @@ public abstract class Enemy : MonoBehaviour
     private void PlayDeathSound()
     {
         if (deathClip == null) return;
-        AudioManager.Instance.PlaySFX(
+        AudioManager.instance.PlaySFX(
             deathClip,
             transform.position,
             deathVolume,

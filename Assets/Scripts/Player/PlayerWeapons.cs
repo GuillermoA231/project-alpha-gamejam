@@ -29,7 +29,7 @@ public class PlayerWeapons : MonoBehaviour
             weaponPositions[i].AssignWeapon(weapon.Prefab, weaponLevel);
             return true;
         }
-
+        AudioManager.instance.PlayDenySound();
         return false;
     }
 
