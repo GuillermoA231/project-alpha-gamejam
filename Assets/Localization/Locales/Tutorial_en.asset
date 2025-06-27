@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Tutorial_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: dd5d0655076a091489e22a7a8f9bc211, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 153790840832
+    m_Localized: TUTORIAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 165706858496
+    m_Localized: 'How to Play:
+
+      Move with W A S D. Survive as long as possible.
+
+      You
+      attack automatically. Level up to improve your stats.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 194492366848
+    m_Localized: STAT EXPLANATION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 216541822976
+    m_Localized: 'Damage: Base damage you deal.
+
+      Attack Speed: How fast you
+      attack.
+
+      Crit Chance: Chance to land a critical hit.
+
+      Crit Damage:
+      Extra damage when you land a critical hit.
+
+      Movement Speed: How fast
+      you move.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235164532736
+    m_Localized: 'Max Health: Total amount of health you have.
+
+      Range: Distance
+      of your attacks (Ranged attacks only).
+
+      Regeneration: Rate at which
+      you recover health over time.
+
+      Armor: Reduces the damage you take.
+
+      Luck:
+      Increases chances of finding upgrades or drops.
+
+      Dodge: Chance to completely
+      avoid damage.
+
+      Life Steal: Recover health when dealing damage.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278613327872
+    m_Localized: BACK TO MENU
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

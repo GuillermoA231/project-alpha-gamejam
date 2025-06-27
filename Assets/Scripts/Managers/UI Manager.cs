@@ -5,6 +5,7 @@ public class UIManager : MonoBehaviour, IGameStateListener
 {
 
     [Header("Panels")]
+    [SerializeField] private GameObject introPanel;
     [SerializeField] private GameObject menuPanel;
     [SerializeField] private GameObject tutorialPanel;
     [SerializeField] private GameObject weaponSelectionPanel;
@@ -20,6 +21,7 @@ public class UIManager : MonoBehaviour, IGameStateListener
     {
         panels.AddRange(new GameObject[]
         {
+            introPanel,
             menuPanel,
             tutorialPanel,
             weaponSelectionPanel,
@@ -47,6 +49,9 @@ public class UIManager : MonoBehaviour, IGameStateListener
     {
         switch (gameState)
         {
+            case GameState.INTRO:
+                ShowPanel(introPanel);
+                break;
             case GameState.MENU:
                 ShowPanel(menuPanel);
                 break;
@@ -67,7 +72,7 @@ public class UIManager : MonoBehaviour, IGameStateListener
                 break;
             case GameState.SHOP:
                 ShowPanel(shopPanel);
-                break;
+                    break;
             case GameState.GAMEOVER:
                 ShowPanel(gameOverPanel);
                 break;

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b4d057d6b566db4cb105ca39328d396, type: 3}
+  m_Name: SMG Data
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: SMG
+  <Sprite>k__BackingField: {fileID: 7591463974754732465, guid: f5ed8f260f5d08d48944c102eb421a5c, type: 3}
+  <PurchasePrice>k__BackingField: 60
+  <AttackSound>k__BackingField: {fileID: 8300000, guid: 7759a020c895da444a2cdeacae435b3b, type: 3}
+  <Prefab>k__BackingField: {fileID: 7173406367774937504, guid: bb3da5b11876f3b488e25bd2d738c013, type: 3}
+  attack: 2
+  attackSpeed: 8
+  criticalChance: 2
+  criticalDamage: 1.2
+  range: 5

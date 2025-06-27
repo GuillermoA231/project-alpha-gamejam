@@ -23,6 +23,10 @@ MonoBehaviour:
     m_Key: Knife Data
     m_Metadata:
       m_Items: []
+  - m_Id: 4550508109234176
+    m_Key: SMG Data
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

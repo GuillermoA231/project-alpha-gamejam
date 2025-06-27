@@ -22,6 +22,12 @@ MonoBehaviour:
     - Locale-en
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e036ec7d27f42c4eb4c296586227055
+    m_Address: Tutorial_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 54424571e01491943a4ff0dac52ea7c0
     m_Address: Menu Labels_en
     m_ReadOnly: 1
@@ -34,6 +40,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed0d89efd6d9d7c49a7d68322ec8da23
+    m_Address: Objects_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fc5efee5e691ef14788541ecb6213f87
     m_Address: LeaderBoard_en

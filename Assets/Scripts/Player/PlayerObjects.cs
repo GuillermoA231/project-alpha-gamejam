@@ -15,13 +15,14 @@ public class PlayerObjects : MonoBehaviour
     {
         foreach (ObjectDataSO objectData in Objects)
         {
-            //playerStatsManager.AddObject(objectData);
+            playerStatsManager.AddObject(objectData.baseStats);
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void AddObject(ObjectDataSO objectToAdd)
     {
-
+        Objects.Add(objectToAdd);
+        playerStatsManager.AddObject(objectToAdd.baseStats);
     }
+
 }

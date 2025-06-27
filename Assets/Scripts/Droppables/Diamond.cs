@@ -26,6 +26,7 @@ public class Diamond : DroppableCurrency
     {
         
         ScoreManager.Instance.RegisterCoin(5);
+        CurrencyManager.instance.OnCollectedCurrency(5);
         onCollected?.Invoke(this);
     }
 }
