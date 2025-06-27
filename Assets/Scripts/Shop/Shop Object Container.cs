@@ -73,6 +73,8 @@ public class ShopObjectContainer : MonoBehaviour
         purchaseButton.interactable = CurrencyManager.instance.HasEnoughCurrency(itemPrice);
     }
 
+    
+
     void Start()
     {
 
@@ -98,6 +100,7 @@ public class ShopObjectContainer : MonoBehaviour
     {
         UpdateWeaponName();
     }
+
     private void UpdateWeaponName()
     {
         string localizationTable = "Weapons";

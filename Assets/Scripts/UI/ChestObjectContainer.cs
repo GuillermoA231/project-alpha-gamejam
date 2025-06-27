@@ -98,8 +98,8 @@ public class ChestObjectContainer : MonoBehaviour
         {
             var clip = installClip != null
                 ? installClip
-                : AudioManager.Instance.buyClip;
-            AudioManager.Instance.PlaySFX2D(clip);
+                : AudioManager.instance.buyClip;
+            AudioManager.instance.PlaySFX2D(clip);
             installAction?.Invoke();
         });
 
@@ -108,8 +108,8 @@ public class ChestObjectContainer : MonoBehaviour
         {
             var clip = meltClip != null
                 ? meltClip
-                : AudioManager.Instance.sellClip;
-            AudioManager.Instance.PlaySFX2D(clip);
+                : AudioManager.instance.sellClip;
+            AudioManager.instance.PlaySFX2D(clip);
             meltAction?.Invoke();
         });
     }

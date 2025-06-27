@@ -23,7 +23,7 @@ public class WeaponSelectionContainer : MonoBehaviour
     private string weaponKey;
     private int weaponLevel;
 
-    private void OnEnable()
+        private void OnEnable()
     {
         LocalizationSettings.SelectedLocaleChanged += OnLocaleChanged;
     }
@@ -36,6 +36,17 @@ public class WeaponSelectionContainer : MonoBehaviour
     private void OnLocaleChanged(UnityEngine.Localization.Locale _)
     {
         UpdateWeaponName();
+    }
+
+    
+    public void PlayClickSound()
+    {
+        AudioManager.instance?.PlaySFX2D(AudioManager.instance.useClip);
+    }
+    
+    public void HoverSound()
+    {
+        AudioManager.instance?.PlaySFX2D(AudioManager.instance.hoverClip);
     }
 
     private void UpdateWeaponName()

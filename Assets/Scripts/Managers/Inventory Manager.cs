@@ -13,10 +13,12 @@ public class InventoryManager : MonoBehaviour, IGameStateListener
     [Header("Elements")]
     [SerializeField] private Transform inventoryItemsParent;
     [SerializeField] private InventoryItemContainer inventoryItemsContainer;
+    [SerializeField] private ShopManagerUI shopManagerUI;
+    [SerializeField] private InventoryItemInfo itemInfo;
 
     public void Awake()
     {
-        
+
         if (instance == null)
             instance = this;
         else
@@ -53,7 +55,7 @@ public class InventoryManager : MonoBehaviour, IGameStateListener
             // Color containerColor = ColorHolder.GetColor(weaponDatas[i].Level);
             // Color outlineColor = ColorHolder.GetOutlineColor(weaponDatas[i].Level);
             // Sprite icon = weaponDatas[i].WeaponData.Sprite;
-            container.Configure(weaponDatas[i]);
+            container.Configure(weaponDatas[i], () => ShowItemInfo(container));
         }
 
         //Objects
@@ -66,8 +68,28 @@ public class InventoryManager : MonoBehaviour, IGameStateListener
             // Color containerColor = ColorHolder.GetColor(objectDatas[i].Rarity);
             // Color outlineColor = ColorHolder.GetOutlineColor(objectDatas[i].Rarity);
             // Sprite icon = objectDatas[i].Icon;
-            container.Configure(objectDatas[i]);
+            container.Configure(objectDatas[i], () => ShowItemInfo(container));
         }
-        
+
+    }
+
+    private void ShowItemInfo(InventoryItemContainer container)
+    {
+        if (container.Weapon != null)
+            ShowWeaponInfo(container.Weapon);
+        else
+            ShowObjectInfo(container.ObjectData);
+
+    }
+
+    private void ShowWeaponInfo(Weapon weapon)
+    {
+        itemInfo.ConfigureWeapon(weapon);
+        shopManagerUI.ShowItemInfo();
+    }
+    private void ShowObjectInfo(ObjectDataSO objectData)
+    {
+        itemInfo.ConfigureObject(objectData);
+        shopManagerUI.ShowItemInfo();
     }
 }

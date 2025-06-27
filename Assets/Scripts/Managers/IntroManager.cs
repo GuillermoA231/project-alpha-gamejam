@@ -79,16 +79,17 @@ public class IntroManager : MonoBehaviour, IPointerClickHandler, IGameStateListe
         currentIndex++;
         ShowSlide(currentIndex);
     }
- 
+
     void EndIntro()
     {
         canvasGroup.alpha = 0;
         canvasGroup.interactable = false;
         canvasGroup.blocksRaycasts = false;
- 
+
         var controller = Object.FindFirstObjectByType<GameManager>();
         if (controller != null)
-            controller.SetState(GameState.MENU);
+            //controller.SetState(GameState.MENU);
+            Debug.Log("ENRIQUEEE");
     }
  
     // IPointerClickHandler

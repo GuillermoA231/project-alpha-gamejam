@@ -2,26 +2,38 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    public static AudioManager Instance { get; private set; }
+    public static AudioManager instance;
 
     [Header("Global Settings")]
     [Tooltip("Master volume multiplier for SFX (0 to 1).")]
     [Range(0f, 1f)]
-    
+
     public float sfxVolume = 1f;
 
 
     [Header("UI Sounds")]
-    [Tooltip("Click-to-purchase sound")]
+    [Tooltip("purchase sound")]
     public AudioClip buyClip;
-    [Tooltip("Click-to-sell sound")]
+    [Tooltip("Click sound")]
+    public AudioClip clickClip;
+    [Tooltip("sell sound")]
     public AudioClip sellClip;
 
+    [Tooltip("upgrade sound")]
+    public AudioClip upgradeClip;
+    [Tooltip("use sound")]
+    public AudioClip useClip;
+    [Tooltip("hover sound")]
+    public AudioClip hoverClip;
+    [Tooltip("negative/deny sound")]
+    public AudioClip denyClip;
+    [Tooltip("reroll sound")]
+    public AudioClip rerollClip;
     private void Awake()
     {
-        if (Instance == null)
+        if (instance == null)
         {
-            Instance = this;
+            instance = this;
             DontDestroyOnLoad(gameObject);
         }
         else
@@ -48,8 +60,8 @@ public class AudioManager : MonoBehaviour
         AudioClip clip,
         Vector3 position,
         float volume = 1f,
-        float pitchMin = 1f,
-        float pitchMax = 1f,
+        float pitchMin = 0.8f,
+        float pitchMax = 1.2f,
         float spatialBlend = 1f
     )
     {
@@ -83,8 +95,8 @@ public class AudioManager : MonoBehaviour
     public void PlaySFX2D(
         AudioClip clip,
         float volume = 1f,
-        float pitchMin = 1f,
-        float pitchMax = 1f
+        float pitchMin = 0.9f,
+        float pitchMax = 1.1f
     )
     {
         if (clip == null) return;
@@ -93,4 +105,30 @@ public class AudioManager : MonoBehaviour
             : Vector3.zero;
         PlaySFX(clip, listenerPos, volume, pitchMin, pitchMax, spatialBlend: 0f);
     }
+    
+    
+    
+    public void PlayClickSound()
+    {
+        PlaySFX2D(useClip);
+    }
+    
+    public void HoverSound()
+    {
+        PlaySFX2D(hoverClip);
+    }
+    public void PlayBuySound()
+    {
+        PlaySFX2D(buyClip);
+    }
+    
+    public void PlayDenySound()
+    {
+        PlaySFX2D(denyClip);
+    }
+    public void PlayRerollSound()
+    {
+        PlaySFX2D(rerollClip);
+    }
+
 }
