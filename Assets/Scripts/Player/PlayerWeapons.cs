@@ -29,8 +29,24 @@ public class PlayerWeapons : MonoBehaviour
             weaponPositions[i].AssignWeapon(weapon.Prefab, weaponLevel);
             return true;
         }
-        AudioManager.instance.PlayDenySound();
         return false;
+    }
+
+    public void MeltWeapon(int index)
+    {
+
+        for (int i = 0; i < weaponPositions.Length; i++)
+        {
+            if (i != index)
+                continue;
+
+            int meltPrice = weaponPositions[i].Weapon.GetMeltPrice();
+            CurrencyManager.instance.AddCurrency(meltPrice);
+
+            weaponPositions[i].RemoveWeapon();
+
+            return;
+        }
     }
 
     public Weapon[] GetWeapons()
@@ -41,9 +57,9 @@ public class PlayerWeapons : MonoBehaviour
         foreach (WeaponPosition weaponPosition in weaponPositions)
         {
             if (weaponPosition.Weapon == null)
-                continue;
-
-            weaponsHolding.Add(weaponPosition.Weapon);
+                weaponsHolding.Add(null);
+            else
+                weaponsHolding.Add(weaponPosition.Weapon);
         }
 
         return weaponsHolding.ToArray();

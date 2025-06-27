@@ -113,15 +113,20 @@ public abstract class Weapon : MonoBehaviour, IPlayerStatsDependency
     {
         Dictionary<Stat, float> calculatedStats = WeaponStatsCalculator.GetStats(WeaponData, Level);
 
-        damage                  = Mathf.RoundToInt(calculatedStats[Stat.Attack]);
-        attackDelay             = Mathf.Max(0.08f, 1f/ calculatedStats[Stat.AttackSpeed]);
-        criticalChance          = Mathf.RoundToInt(calculatedStats[Stat.CriticalChance]);
-        criticalDamage          = calculatedStats[Stat.CriticalDamage];
-        range                   = calculatedStats[Stat.Range];
+        damage = Mathf.RoundToInt(calculatedStats[Stat.Attack]);
+        attackDelay = Mathf.Max(0.08f, 1f / calculatedStats[Stat.AttackSpeed]);
+        criticalChance = Mathf.RoundToInt(calculatedStats[Stat.CriticalChance]);
+        criticalDamage = calculatedStats[Stat.CriticalDamage];
+        range = calculatedStats[Stat.Range];
     }
     public void UpgradeTo(int level)
     {
         Level = level;
         ConfigureStats();
+    }
+
+    public int GetMeltPrice()
+    {
+        return WeaponStatsCalculator.getMeltPrice(WeaponData, Level);
     }
 }

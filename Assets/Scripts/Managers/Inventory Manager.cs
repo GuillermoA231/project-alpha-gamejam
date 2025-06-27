@@ -48,6 +48,8 @@ public class InventoryManager : MonoBehaviour, IGameStateListener
 
         for (int i = 0; i < weapons.Length; i++)
         {
+            if (weapons[i] == null)
+                continue;
             InventoryItemContainer container = Instantiate(inventoryItemsContainer, inventoryItemsParent);
 
             // Color containerColor = ColorHolder.GetColor(weaponDatas[i].Level);
@@ -108,6 +110,10 @@ public class InventoryManager : MonoBehaviour, IGameStateListener
     }
     private void MeltWeapon(int index)
     {
-        Debug.Log(index);
+        playerWeapons.MeltWeapon(index);
+
+        Configure();
+
+        shopManagerUI.HideItemInfo();
     }
 }
