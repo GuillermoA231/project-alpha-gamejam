@@ -87,6 +87,18 @@ MonoBehaviour:
     m_Key: UI.Canvas.Shop.InventoryDisplay
     m_Metadata:
       m_Items: []
+  - m_Id: 5781040272900096
+    m_Key: UI.Canvas.Pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5781497129074688
+    m_Key: UI.Canvas.Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5783580691529728
+    m_Key: Settings
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
