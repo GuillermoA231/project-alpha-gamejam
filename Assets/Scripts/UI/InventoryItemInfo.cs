@@ -24,31 +24,20 @@ public class InventoryItemInfo : MonoBehaviour
     [field: SerializeField]public Button MeltButton { get; private set; }
     [SerializeField] private Button closeButton;
 
-    private void Awake()
-    {
-        if (upgradeButton != null)
-            upgradeButton.onClick.AddListener(() => PlayUpgradeSound());
-
-        if (MeltButton != null)
-            MeltButton.onClick.AddListener(() => PlayMeltSound());
-
-        if (closeButton != null)
-            closeButton.onClick.AddListener(() => PlayClickSound());
-    }
 
     private void PlayClickSound()
     {
-        AudioManager.instance?.PlaySFX2D(AudioManager.instance.clickClip);
+        AudioManager.instance.PlayClickSound();
     }
 
     private void PlayMeltSound()
     {
-        AudioManager.instance?.PlaySFX2D(AudioManager.instance.sellClip);
+        AudioManager.instance.PlayMeltSound();
     }
 
     private void PlayUpgradeSound()
     {
-        AudioManager.instance?.PlaySFX2D(AudioManager.instance.upgradeClip);
+        AudioManager.instance.PlayUpgradeSound();
     }
 
     private string UpdateWeaponName(string weaponName, int weaponLevel)
@@ -110,10 +99,16 @@ public class InventoryItemInfo : MonoBehaviour
             WeaponStatsCalculator.GetStats(weapon.WeaponData, weapon.Level)
 
         );
-        
-        if(weapon.Level != 3)
+        if (weapon.Level == 3)
+            upgradeButton.gameObject.SetActive(false);
+        else
             upgradeButton.gameObject.SetActive(true);
-        //MeltButton.gameObject.SetActive(true);
+        MeltButton.gameObject.SetActive(true);
+
+        upgradeButton.interactable = WeaponUpgrader.instance.CanUpgrade(weapon);
+
+        upgradeButton.onClick.RemoveAllListeners();
+        upgradeButton.onClick.AddListener(WeaponUpgrader.instance.Upgrade);
     }
 
 
@@ -136,7 +131,7 @@ public class InventoryItemInfo : MonoBehaviour
 
         );
         upgradeButton.gameObject.SetActive(false);
-        //MeltButton.gameObject.SetActive(false);
+        MeltButton.gameObject.SetActive(false);
     }
 
     private void Configure(Sprite itemIcon, string name, int recylcePrice, Color mainColor, Color secondColor, Dictionary<Stat, float> stats)
@@ -149,7 +144,7 @@ public class InventoryItemInfo : MonoBehaviour
 
         containerColor.color = mainColor;
         outlineColor.color = secondColor;
-        itemNameText.color = secondColor;
+        itemNameText.color = mainColor;
 
         StatContainerManager.GenerateStatContainers(stats, statsParent);
     }

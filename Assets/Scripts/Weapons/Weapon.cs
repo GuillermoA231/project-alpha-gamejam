@@ -119,11 +119,13 @@ public abstract class Weapon : MonoBehaviour, IPlayerStatsDependency
         criticalDamage = calculatedStats[Stat.CriticalDamage];
         range = calculatedStats[Stat.Range];
     }
-    public void UpgradeTo(int level)
+    public void IncreaseLevelTo(int targetLevel)
     {
-        Level = level;
+        Level = targetLevel;
         ConfigureStats();
     }
+    public void IncreaseLevel() => IncreaseLevelTo(Level + 1);
+    
 
     public int GetMeltPrice()
     {

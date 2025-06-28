@@ -16,8 +16,8 @@ public class AudioManager : MonoBehaviour
     public AudioClip buyClip;
     [Tooltip("Click sound")]
     public AudioClip clickClip;
-    [Tooltip("sell sound")]
-    public AudioClip sellClip;
+    [Tooltip("sell/melt sound")]
+    public AudioClip meltClip;
 
     [Tooltip("upgrade sound")]
     public AudioClip upgradeClip;
@@ -25,6 +25,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip useClip;
     [Tooltip("hover sound")]
     public AudioClip hoverClip;
+
     [Tooltip("negative/deny sound")]
     public AudioClip denyClip;
     [Tooltip("reroll sound")]
@@ -109,6 +110,10 @@ public class AudioManager : MonoBehaviour
     public void PlayBuySound()
     {
         PlaySFX2D(buyClip);
+    }
+    public void PlayMeltSound()
+    {
+        PlaySFX2D(meltClip);
     }
     public void PlayUpgradeSound()
     {

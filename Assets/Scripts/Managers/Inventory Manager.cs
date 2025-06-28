@@ -20,15 +20,24 @@ public class InventoryManager : MonoBehaviour, IGameStateListener
     public void Awake()
     {
         ShopManager.onItemPurchased += ItemPurchasedCallback;
+        WeaponUpgrader.onUpgrade += WeaponUpgradeCallback;
 
         if (instance == null)
             instance = this;
         else
             Destroy(gameObject);
     }
+
+    private void WeaponUpgradeCallback(Weapon upgradedWeapon)
+    {
+        Configure();
+        itemInfo.ConfigureWeapon(upgradedWeapon);
+    }
+
     public void OnDestroy()
     {
         ShopManager.onItemPurchased -= ItemPurchasedCallback;
+        WeaponUpgrader.onUpgrade -= WeaponUpgradeCallback;
     }
 
     private void ItemPurchasedCallback() => Configure();
@@ -103,6 +112,8 @@ public class InventoryManager : MonoBehaviour, IGameStateListener
     private void MeltObject(ObjectDataSO objectToRecycle)
     {
         playerObjects.MeltObject(objectToRecycle);
+        
+        AudioManager.instance.PlayMeltSound();
 
         Configure();
 
@@ -111,6 +122,8 @@ public class InventoryManager : MonoBehaviour, IGameStateListener
     private void MeltWeapon(int index)
     {
         playerWeapons.MeltWeapon(index);
+
+        AudioManager.instance.PlayMeltSound();
 
         Configure();
 

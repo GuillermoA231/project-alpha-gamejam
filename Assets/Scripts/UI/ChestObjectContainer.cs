@@ -108,7 +108,7 @@ public class ChestObjectContainer : MonoBehaviour
         {
             var clip = meltClip != null
                 ? meltClip
-                : AudioManager.instance.sellClip;
+                : AudioManager.instance.meltClip;
             AudioManager.instance.PlaySFX2D(clip);
             meltAction?.Invoke();
         });

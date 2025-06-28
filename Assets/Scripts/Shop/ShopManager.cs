@@ -92,7 +92,7 @@ public class ShopManager : MonoBehaviour, IGameStateListener
             var weaponContainerInstance = Instantiate(shopItemContainerPrefab, containersParent);
             WeaponDataSO randomWeapon = ResourcesManager.getRandomWeapon();
             weaponContainerInstance.name = "Weapon Container " + i;
-            weaponContainerInstance.Configure(randomWeapon, Random.Range(0, 3));
+            weaponContainerInstance.Configure(randomWeapon, Random.Range(0, 4));
         }
         for (int i = 0; i < objectContainerCount; i++)
         {
