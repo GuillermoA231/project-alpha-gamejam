@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,6 +7,7 @@ public class UIManager : MonoBehaviour, IGameStateListener
 
     [Header("Panels")]
     [SerializeField] private GameObject introPanel;
+    [SerializeField] private GameObject pausePanel;
     [SerializeField] private GameObject menuPanel;
     [SerializeField] private GameObject tutorialPanel;
     [SerializeField] private GameObject weaponSelectionPanel;
@@ -22,6 +24,7 @@ public class UIManager : MonoBehaviour, IGameStateListener
         panels.AddRange(new GameObject[]
         {
             introPanel,
+            pausePanel,
             menuPanel,
             tutorialPanel,
             weaponSelectionPanel,
@@ -31,18 +34,39 @@ public class UIManager : MonoBehaviour, IGameStateListener
             shopPanel,
             gameOverPanel,
         });
+
+        GameManager.onGamePaused += GamePausedCallback;
+        GameManager.onGameResumed += GameResumedCallback;
+    }
+    private void OnDestroy() {
+        
+        GameManager.onGamePaused -= GamePausedCallback;
+        GameManager.onGameResumed -= GameResumedCallback;
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    
+    private void ShowPanel(GameObject panel, bool hidePreviousPanels = true)
     {
+        if (hidePreviousPanels)
+        {
+            foreach (GameObject p in panels)
+                p.SetActive(p == panel);
+        }
+        else
+        {
+            panel.SetActive(true);
+        }
 
     }
 
-    // Update is called once per frame
-    void Update()
+    //Use if I don't want to hide the other panels
+    public void GamePausedCallback()
     {
-
+        pausePanel.SetActive(true);
+    }
+    public void GameResumedCallback()
+    {
+        pausePanel.SetActive(false);
     }
 
     public void GameStateChangedCallback(GameState gameState)
@@ -51,6 +75,9 @@ public class UIManager : MonoBehaviour, IGameStateListener
         {
             case GameState.INTRO:
                 ShowPanel(introPanel);
+                break;
+            case GameState.PAUSE:
+                ShowPanel(pausePanel);
                 break;
             case GameState.MENU:
                 ShowPanel(menuPanel);
@@ -72,24 +99,11 @@ public class UIManager : MonoBehaviour, IGameStateListener
                 break;
             case GameState.SHOP:
                 ShowPanel(shopPanel);
-                    break;
+                break;
             case GameState.GAMEOVER:
                 ShowPanel(gameOverPanel);
                 break;
         }
     }
 
-    private void ShowPanel(GameObject panel, bool hidePreviousPanels = true)
-    {
-        if (hidePreviousPanels)
-        {
-            foreach (GameObject p in panels)
-                p.SetActive(p == panel);
-        }
-        else
-        {
-            panel.SetActive(true);
-        }
-
-    }
 }

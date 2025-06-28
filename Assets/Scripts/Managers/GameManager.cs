@@ -5,10 +5,16 @@ using System.Threading;
 using UnityEngine;
 using UnityEngine.Localization.Settings;
 using UnityEngine.SceneManagement;
+using System;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
-    
+
+    [Header("Actions")]
+    public static Action onGamePaused;
+    public static Action onGameResumed;
+    public static GameState CurrentGameState { get; private set; }
+
     private ScoreManager scoreManagerInstance;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
@@ -30,7 +36,7 @@ public class GameManager : MonoBehaviour
     {
         Application.targetFrameRate = 60;
         SetGameState(GameState.MENU);
-        
+
         scoreManagerInstance = ScoreManager.Instance;
     }
 
@@ -52,6 +58,8 @@ public class GameManager : MonoBehaviour
     public void OpenShop() => SetGameState(GameState.SHOP);
     public void SetGameState(GameState gameState)
     {
+        CurrentGameState = gameState;
+        
         IEnumerable<IGameStateListener> gameStateListeners =
         FindObjectsByType<MonoBehaviour>(FindObjectsSortMode.None)
         .OfType<IGameStateListener>();
@@ -64,7 +72,7 @@ public class GameManager : MonoBehaviour
     public void WaveCompletedCallback()
     {
         bool canLevelUp = Player.instance.GetComponent<PlayerEXP>().CanLevelUpThisWave();
-        bool hasChest  = WaveTransitionManager.instance.HasCollectedChest();
+        bool hasChest = WaveTransitionManager.instance.HasCollectedChest();
 
         if (canLevelUp || hasChest)
         {
@@ -80,6 +88,18 @@ public class GameManager : MonoBehaviour
         scoreManagerInstance.SetWin(false);
         scoreManagerInstance.ResetStats();
         SceneManager.LoadScene("BasicArena", LoadSceneMode.Single);
+    }
+
+    public void PauseButtonCallback()
+    {
+        // Time.timeScale = 0;
+        onGamePaused?.Invoke();
+    }
+    public void ResumeButtonCallback()
+    {
+        
+        // Time.timeScale = 1;
+        onGameResumed?.Invoke();
     }
 }
 
