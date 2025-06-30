@@ -35,13 +35,13 @@ public class UIManager : MonoBehaviour, IGameStateListener
             gameOverPanel,
         });
 
-        GameManager.onGamePaused += GamePausedCallback;
-        GameManager.onGameResumed += GameResumedCallback;
+        PauseManager.onGamePaused += GamePausedCallback;
+        PauseManager.onGameResumed += GameResumedCallback;
     }
     private void OnDestroy() {
         
-        GameManager.onGamePaused -= GamePausedCallback;
-        GameManager.onGameResumed -= GameResumedCallback;
+        PauseManager.onGamePaused -= GamePausedCallback;
+        PauseManager.onGameResumed -= GameResumedCallback;
     }
 
     

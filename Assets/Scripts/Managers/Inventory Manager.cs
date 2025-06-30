@@ -13,6 +13,7 @@ public class InventoryManager : MonoBehaviour, IGameStateListener
 
     [Header("Elements")]
     [SerializeField] private Transform inventoryItemsParent;
+    [SerializeField] private Transform pauseInventoryItemsParent;
     [SerializeField] private InventoryItemContainer inventoryItemsContainer;
     [SerializeField] private ShopManagerUI shopManagerUI;
     [SerializeField] private InventoryItemInfo itemInfo;
@@ -21,6 +22,7 @@ public class InventoryManager : MonoBehaviour, IGameStateListener
     {
         ShopManager.onItemPurchased += ItemPurchasedCallback;
         WeaponUpgrader.onUpgrade += WeaponUpgradeCallback;
+        PauseManager.onGamePaused += Configure;
 
         if (instance == null)
             instance = this;
@@ -28,18 +30,19 @@ public class InventoryManager : MonoBehaviour, IGameStateListener
             Destroy(gameObject);
     }
 
-    private void WeaponUpgradeCallback(Weapon upgradedWeapon)
-    {
-        Configure();
-        itemInfo.ConfigureWeapon(upgradedWeapon);
-    }
 
     public void OnDestroy()
     {
         ShopManager.onItemPurchased -= ItemPurchasedCallback;
         WeaponUpgrader.onUpgrade -= WeaponUpgradeCallback;
+        PauseManager.onGamePaused -= Configure;
     }
 
+    private void WeaponUpgradeCallback(Weapon upgradedWeapon)
+    {
+        Configure();
+        itemInfo.ConfigureWeapon(upgradedWeapon);
+    }
     private void ItemPurchasedCallback() => Configure();
     public void GameStateChangedCallback(GameState gameState)
     {
@@ -50,6 +53,7 @@ public class InventoryManager : MonoBehaviour, IGameStateListener
     public void Configure()
     {
         inventoryItemsParent.Clear();
+        pauseInventoryItemsParent.Clear();
 
         // Player Weapons / Objects
         //Weapons
@@ -60,11 +64,10 @@ public class InventoryManager : MonoBehaviour, IGameStateListener
             if (weapons[i] == null)
                 continue;
             InventoryItemContainer container = Instantiate(inventoryItemsContainer, inventoryItemsParent);
+            InventoryItemContainer pauseContainer = Instantiate(inventoryItemsContainer, pauseInventoryItemsParent);
 
-            // Color containerColor = ColorHolder.GetColor(weaponDatas[i].Level);
-            // Color outlineColor = ColorHolder.GetOutlineColor(weaponDatas[i].Level);
-            // Sprite icon = weaponDatas[i].WeaponData.Sprite;
-            container.Configure(weapons[i],i, () => ShowItemInfo(container));
+            container.Configure(weapons[i], i, () => ShowItemInfo(container));
+            pauseContainer.Configure(weapons[i], i, () => ShowItemInfo(pauseContainer));
         }
 
         //Objects
@@ -73,11 +76,10 @@ public class InventoryManager : MonoBehaviour, IGameStateListener
         for (int i = 0; i < objectDatas.Length; i++)
         {
             InventoryItemContainer container = Instantiate(inventoryItemsContainer, inventoryItemsParent);
-
-            // Color containerColor = ColorHolder.GetColor(objectDatas[i].Rarity);
-            // Color outlineColor = ColorHolder.GetOutlineColor(objectDatas[i].Rarity);
-            // Sprite icon = objectDatas[i].Icon;
             container.Configure(objectDatas[i], () => ShowItemInfo(container));
+
+            InventoryItemContainer pauseContainer = Instantiate(inventoryItemsContainer, pauseInventoryItemsParent);
+            pauseContainer.Configure(objectDatas[i], () => ShowItemInfo(pauseContainer));
         }
 
     }
@@ -95,10 +97,10 @@ public class InventoryManager : MonoBehaviour, IGameStateListener
     {
         itemInfo.ConfigureWeapon(weapon);
 
-        
+
         itemInfo.MeltButton.onClick.RemoveAllListeners();
         itemInfo.MeltButton.onClick.AddListener(() => MeltWeapon(index));
-        
+
         shopManagerUI.ShowItemInfo();
     }
     private void ShowObjectInfo(ObjectDataSO objectData)
@@ -112,7 +114,7 @@ public class InventoryManager : MonoBehaviour, IGameStateListener
     private void MeltObject(ObjectDataSO objectToRecycle)
     {
         playerObjects.MeltObject(objectToRecycle);
-        
+
         AudioManager.instance.PlayMeltSound();
 
         Configure();

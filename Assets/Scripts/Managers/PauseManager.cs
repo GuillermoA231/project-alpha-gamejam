@@ -1,8 +1,11 @@
 using UnityEngine;
-
+using System;
 public class PauseManager : MonoBehaviour
 {
     [SerializeField] private UIManager uIManager;
+    
+    public static Action onGamePaused;
+    public static Action onGameResumed;
     private bool isPaused;
     private bool canPause = false;
     void Update()
@@ -16,16 +19,19 @@ public class PauseManager : MonoBehaviour
     public void togglePause()
     {
         isPaused = !isPaused;
-            if (isPaused)
-            {
-                Time.timeScale = 0;
-                uIManager.GamePausedCallback();
-            }
-            else
-            {
-                Time.timeScale = 1;
-                uIManager.GameResumedCallback();
-            }
+        if (isPaused)
+        {
+            Time.timeScale = 0;
+            uIManager.GamePausedCallback();
+            PauseButtonCallback();
+
+        }
+        else
+        {
+            Time.timeScale = 1;
+            uIManager.GameResumedCallback();
+            ResumeButtonCallback();
+        }
     }
 
     public bool IsPaused()
@@ -35,5 +41,18 @@ public class PauseManager : MonoBehaviour
     public void CanPause(bool check)
     {
         canPause = check;
+    }
+    
+    
+    public void PauseButtonCallback()
+    {
+        // Time.timeScale = 0;
+        onGamePaused?.Invoke();
+    }
+    public void ResumeButtonCallback()
+    {
+        
+        // Time.timeScale = 1;
+        onGameResumed?.Invoke();
     }
 }

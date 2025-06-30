@@ -11,8 +11,6 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     [Header("Actions")]
-    public static Action onGamePaused;
-    public static Action onGameResumed;
     public static GameState CurrentGameState { get; private set; }
 
     private ScoreManager scoreManagerInstance;
@@ -90,17 +88,6 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("BasicArena", LoadSceneMode.Single);
     }
 
-    public void PauseButtonCallback()
-    {
-        // Time.timeScale = 0;
-        onGamePaused?.Invoke();
-    }
-    public void ResumeButtonCallback()
-    {
-        
-        // Time.timeScale = 1;
-        onGameResumed?.Invoke();
-    }
 }
 
 public interface IGameStateListener

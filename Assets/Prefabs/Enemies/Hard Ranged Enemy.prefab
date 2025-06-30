@@ -5178,8 +5178,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shootingPoint: {fileID: 4620310782206947580}
   bulletPrefab: {fileID: 8611747159438742491, guid: 4e3c828f4eeb1dc438213891ea99c9a6, type: 3}
-  damage: 15
-  attackFrequency: 0.2
+  damage: 30
+  attackFrequency: 0.3
 --- !u!1 &8746754879460243020
 GameObject:
   m_ObjectHideFlags: 0
