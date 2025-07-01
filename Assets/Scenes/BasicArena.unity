@@ -10874,7 +10874,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68.5
+  m_fontSize: 54.25
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -16053,6 +16053,7 @@ MonoBehaviour:
   playerWeapons: {fileID: 627204103}
   playerObjects: {fileID: 627204104}
   inventoryItemsParent: {fileID: 2390762922615325248}
+  pauseInventoryItemsParent: {fileID: 1006858779}
   inventoryItemsContainer: {fileID: 2227199234727247364, guid: 6bf9961bb57d8f34ea957b38f4c2f586, type: 3}
   shopManagerUI: {fileID: 1948055443}
   itemInfo: {fileID: 1858231228}
