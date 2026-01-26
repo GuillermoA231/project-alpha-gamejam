@@ -42,11 +42,26 @@ public class PlayerHealth : MonoBehaviour, IPlayerStatsDependency
         {
             return;
         }
+        
+        //alternative lifesteal method, donottouch.
+        //float lifeStealValue = damage * lifeSteal;
+        //float healthToAdd = Mathf.Min(lifeStealValue, (maxHealth - health));
+        //health += healthToAdd;
 
-        float lifeStealValue = damage * lifeSteal;
-        float healthToAdd = Mathf.Min(lifeStealValue, (maxHealth - health));
+        float guaranteedLifeSteal = Mathf.FloorToInt(lifeSteal);
+        float lifeStealRemainder = lifeSteal - guaranteedLifeSteal;
+        bool lifeStealChance = Random.Range(0f,1.2f) < lifeStealRemainder;
 
-        health += healthToAdd;
+        if(lifeStealChance)
+        {
+            guaranteedLifeSteal +=  1;
+        }
+
+        
+        float healthToAdd = Mathf.Min(guaranteedLifeSteal, maxHealth - health);
+
+        health += Mathf.Min(healthToAdd);
+        
         UpdateHealthUI();
     }
 
